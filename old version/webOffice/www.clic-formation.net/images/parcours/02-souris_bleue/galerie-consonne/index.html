@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<!-- Mirrored from www.clic-formation.net/images/parcours/02-souris_bleue/galerie-consonne/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:26 GMT -->
+<head>
+	<title>Floating image gallery with drag &amp; drop</title>
+	<style type="text/css">
+	body{
+		
+
+		height:100%;
+		width:800px;
+		margin:10px;
+		padding-left:0px;
+	}
+
+	form{
+		display:inline;
+	}
+	.imageBox,.imageBoxHighlighted{
+		width:140px;	/* Total width of each image box */
+		height:140px;	/* Total height of each image box */
+		float:left;
+	}
+	.imageBox_theImage{
+		width:116px;	/* Width of image */
+		height:131px;	/* Height of image */
+
+		/*
+		Don't change these values *
+		*/
+		background-position: center center;
+		background-repeat: no-repeat;
+		margin: 0 auto;
+		margin-bottom:2px;
+	}
+
+	.imageBox .imageBox_theImage{
+		border:1px solid #DDD;	/* Border color for not selected images */
+		padding:2px;
+	}
+	.imageBoxHighlighted .imageBox_theImage{
+		border:3px solid #316AC5;	/* Border color for selected image */
+		padding:0px;
+
+	}
+	.imageBoxHighlighted span{	/* Title of selected image */
+		background-color: #316AC5;
+		color:#FFFFFF;
+		padding:2px;
+	}
+
+	.imageBox_label{	/* Title of images - both selected and not selected */
+		text-align:center;
+		font-family: arial;
+		font-size:11px;
+		padding-top:2px;
+		margin: 0 auto;
+	}
+
+	/*
+	DIV that indicates where the dragged image will be placed
+	*/
+	#insertionMarker{
+		height:150px;
+		width:6px;
+		position:absolute;
+		display:none;
+
+	}
+
+	#insertionMarkerLine{
+		width:6px;	/* No need to change this value */
+		height:145px;	/* To adjust the height of the div that indicates where the dragged image will be dropped */
+
+	}
+
+	#insertionMarker img{
+		float:left;
+	}
+
+	/*
+	DIV that shows the image as you drag it
+	*/
+	#dragDropContent{
+
+		opacity:0.4;	/* 40 % opacity */
+		filter:alpha(opacity=40);	/* 40 % opacity */
+
+		/*
+		No need to change these three values
+		*/
+		position:absolute;
+		z-index:10;
+		display:none;
+
+	}
+
+
+	</style>
+	<script type="text/javascript" src="js/floating-gallery.js" ></script>
+</head>
+<body>
+
+
+<div id="GalleryContainer">
+	<div class="imageBox" id="imageBox0">
+		<div class="imageBox_theImage" style="background-image:url('example_images/h.jpg')"></div>
+			</div>
+		<div class="imageBox" id="imageBox2">
+		<div class="imageBox_theImage" style="background-image:url('example_images/v.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox3">
+		<div class="imageBox_theImage" style="background-image:url('example_images/x.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox4">
+		<div class="imageBox_theImage" style="background-image:url('example_images/f.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox5">
+		<div class="imageBox_theImage" style="background-image:url('example_images/k.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox6">
+		<div class="imageBox_theImage" style="background-image:url('example_images/g.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox7">
+		<div class="imageBox_theImage" style="background-image:url('example_images/z.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox8">
+		<div class="imageBox_theImage" style="background-image:url('example_images/t.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox9">
+		<div class="imageBox_theImage" style="background-image:url('example_images/m.jpg')"></div>
+	
+	</div>
+		<div class="imageBox" id="imageBox10">
+		<div class="imageBox_theImage" style="background-image:url('example_images/s.jpg')"></div>
+	</div>
+			
+	<div class="imageBox" id="imageBox1">
+		<div class="imageBox_theImage" style="background-image:url('example_images/w.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox11">
+		<div class="imageBox_theImage" style="background-image:url('example_images/j.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox12">
+		<div class="imageBox_theImage" style="background-image:url('example_images/r.jpg')"></div>
+	</div>
+		<div class="imageBox" id="imageBox13">
+		<div class="imageBox_theImage" style="background-image:url('example_images/c.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox14">
+		<div class="imageBox_theImage" style="background-image:url('example_images/d.jpg')"></div>
+		
+	</div>
+		<div class="imageBox" id="imageBox15">
+		<div class="imageBox_theImage" style="background-image:url('example_images/n.jpg')"></div>
+	</div>
+	
+		<div class="imageBox" id="imageBox16">
+		<div class="imageBox_theImage" style="background-image:url('example_images/p.jpg')"></div>
+	</div>
+	
+		<div class="imageBox" id="imageBox17">
+		<div class="imageBox_theImage" style="background-image:url('example_images/b.jpg')"></div>
+	</div>
+</div>
+		<div class="imageBox" id="imageBox18">
+		<div class="imageBox_theImage" style="background-image:url('example_images/l.jpg')"></div>
+		</div>
+		<div class="imageBox" id="imageBox95">
+		<div class="imageBox_theImage" style="background-image:url('example_images/q.jpg')"></div>
+			</div>
+			</div>
+</div>
+<div id="insertionMarker">
+	<img src="images/marker_top.gif">
+	<img src="images/marker_middle.gif" id="insertionMarkerLine">
+	<img src="images/marker_bottom.gif">
+</div>
+<div id="dragDropContent">
+</div>
+<div id="debug" style="clear:both">
+</div>
+</body>
+
+<!-- Mirrored from www.clic-formation.net/images/parcours/02-souris_bleue/galerie-consonne/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:31 GMT -->
+</html>

@@ -1,0 +1,175 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* ===================================================
+   CLIC-FORMATION — Design System
+   =================================================== */
+
+/* ─── Root Variables (from original :root) ─── */
+:root {
+  --blue: hsl(240, 98%, 17%);
+  --gray-100: hsl(210, 17%, 98%);
+  --gray-200: hsl(210, 16%, 93%);
+  --gray-300: hsl(210, 14%, 89%);
+  --gray-400: hsl(210, 14%, 83%);
+  --gray-500: hsl(210, 11%, 71%);
+  --gray-600: hsl(210, 7%, 46%);
+  --gray-700: hsl(210, 9%, 31%);
+  --gray-800: hsl(210, 10%, 23%);
+  --gray-900: hsl(210, 11%, 15%);
+  --navy: #0B365C;
+  --navy-light: #0e4575;
+  --navy-hover: #1a5276;
+  --badge-bg: #09345A;
+  --yellow-btn: #F9D759;
+  --orange-hover: #B85E3B;
+  --vert: #5E9041;
+  --rouge: #CA112F;
+  --bleu: #1496CF;
+  --card-bg: #efefef;
+  --card-border: #ffffff;
+  --card-shadow: rgba(173,173,173,0.5);
+  --content-color: #2b2b2b;
+  --link-color: #0B365C;
+  --link-hover: #0e67b5;
+  
+  /* ─── Light Theme Design Tokens ─── */
+  --sidebar-width: 300px;
+  --color-bg-page: #f1f5f9;      /* slate-100 */
+  --color-bg-surface: #ffffff;   /* white */
+  --color-bg-elevated: #f8fafc;  /* slate-50 */
+  --color-text-primary: #0f172a; /* slate-900 */
+  --color-text-secondary: #334155; /* slate-700 */
+  --color-text-muted: #94a3b8;    /* slate-400 */
+  --color-border-default: #e2e8f0; /* slate-200 */
+  --color-accent: #0B365C;        /* Brand Navy */
+  --color-accent-light: rgba(11, 54, 92, 0.08);
+  --color-accent-hover: #1a5276;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-page: #020617;      /* slate-950 */
+    --color-bg-surface: #0f172a;   /* slate-900 */
+    --color-bg-elevated: #1e293b;  /* slate-800 */
+    --color-text-primary: #f8fafc; /* slate-50 */
+    --color-text-secondary: #cbd5e1; /* slate-300 */
+    --color-text-muted: #64748b;    /* slate-500 */
+    --color-border-default: #1e293b; /* slate-800 */
+    --color-accent: #3b82f6;        /* blue-500 */
+    --color-accent-light: rgba(59, 130, 246, 0.1);
+    --color-accent-hover: #1e293b;  /* slate-800 */
+    
+    --gray-100: #020617;
+    --content-color: #cbd5e1;
+    --badge-bg: #1e293b;
+    --link-color: #3b82f6;
+    --link-hover: #60a5fa;
+  }
+}
+
+@layer base {
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: var(--gray-100);
+    color: var(--content-color);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+  }
+}
+
+/* ─── Badge ─── */
+.badge {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 10.998px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #fff;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: var(--badge-bg);
+}
+
+.vert { color: var(--vert); }
+.rouge { color: var(--rouge); }
+.bleu { color: var(--bleu); }
+
+/* ═══════════════════════════════════════
+   UTILITIES
+   ═══════════════════════════════════════ */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.panel-title {
+  font-size: 16px;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* ═══════════════════════════════════════
+   SIDEBAR SCROLL & FOCUS RING
+   ═══════════════════════════════════════ */
+
+.sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-border-default);
+  border-radius: 999px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* ═══════════════════════════════════════
+   KEYFRAME ANIMATIONS
+   ═══════════════════════════════════════ */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

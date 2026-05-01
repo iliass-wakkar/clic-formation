@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from www.clic-formation.net/images/06-windows/bases/clic_rapide.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:31 GMT -->
+<head>
+<script language="JavaScript">
+
+<!-- Original: Tomer Shiran
+
+<!-- Begin
+
+// Script trouvé sur Le Webmestre www.le-webmestre.net info@le-webmestre.net
+// Retrouvez des centaines de scripts et bien plus...
+
+var total = 0
+var play = false
+function display(element) { var now = new Date()
+if (!play) {
+play = true
+startTime = now.getTime()}
+if (now.getTime() - startTime > 20000) // Temps en millisecondes 
+{
+element.checked = !element.checked
+return
+}
+if (element.checked)
+total++
+else
+total-- //lwf
+element.form.num.value = total
+}
+function restart(form) {
+total = 0
+play = false
+for (var i = 1; i <= 100; ++i) {
+form.elements[i].checked = false
+}
+}
+// End -->
+</script> 
+
+<title>Apprendre &agrave; cliquer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<style type="text/css">
+<!--
+.Style1 {	font-size: 12px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+<table width="99%" border="0"><br>
+  <tr> 
+    <td width="94%" height="68"> <p align="center"><span class="Style1" style="font-family: Verdana;">Combien de clic pouvez-vous faire en 20 secondes ?<br>
+    <center>
+        <script language="JavaScript">
+<!-- Begin
+document.write("<form><center>")
+document.write('<input type="text" value="0" ');
+document.write('name="num" size=10 onFocus="this.blur()"><br>')
+document.write("<hr size=1 width=40%>")
+for (var i = 0; i < 10; ++i) {
+for (var j = 0; j < 10; ++j) {
+document.write('<input type="checkbox" ');
+document.write('onClick="display(this)">')}
+document.write("<br>")}
+document.write("<hr size=1 width=40%>")
+document.write('<input type="button" value="Je recommence !" ');
+document.write('onClick="restart(this.form)">')
+document.write("</center></form>")
+// End -->
+</script></center>
+    &nbsp;</p></td>
+  </tr>
+</table>
+
+<center>
+</body>
+
+<!-- Mirrored from www.clic-formation.net/images/06-windows/bases/clic_rapide.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:31 GMT -->
+</html>
+
+ 
+ 
+

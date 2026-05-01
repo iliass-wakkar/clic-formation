@@ -1,0 +1,12 @@
+# Root gitignore
+clic-formation/node_modules/
+clic-formation/.next/
+clic-formation/.env*
+clic-formation/out/
+clic-formation/build/
+clic-formation/npm-debug.log*
+
+# Other ignores
+.DS_Store
+*.pem
+scratch/

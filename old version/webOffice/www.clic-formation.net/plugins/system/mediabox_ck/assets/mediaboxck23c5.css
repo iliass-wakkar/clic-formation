@@ -1,0 +1,998 @@
+/*	mediaboxAdvanced Black theme	*/
+/*	version 2.1 - August 2010		*/
+/*	for mediaboxAdvanced v.1.3.1	*/
+
+/*	Overlay background styling	*/
+
+#mbOverlay, .mbOverlay {
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background-color: #000;*/
+	cursor: pointer;
+}
+
+.mbOverlay {
+	cursor: auto;
+	background: rgba(0,0,0, 0.7);
+}
+
+		/*	Legacy fix for older browsers	*/
+
+#mbOverlay.mbOverlayFF {
+	background: transparent;
+}
+
+#mbOverlay.mbOverlayIE {
+	position: absolute;
+}
+
+#mbContainer {
+	overflow: hidden;
+}
+		/*	Overlay panel styling	*/
+
+#mbCenter {
+	position: absolute;
+	z-index: 9999;
+	left: 50%;
+	overflow: hidden;
+	max-height: 100vh; /* for fullwidth responsive */
+	/*background-color: #1a1a1a;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	-khtml-box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	/* For IE 8 */
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=180, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	/*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=180, Color='#000000');
+        behavior: url(plugins/system/mediabox_CK/PIE.htc);*/
+}
+
+#mbCenter.mbLoading {
+	background: url(images/loading.gif) no-repeat center;
+		/*	This style is applied only during animation.	*/
+		/*	For example, the next lines turn off shadows	*/
+		/*	improving browser performance on slow systems.	*/
+		/*	To leave shadows on, just remove the following:	*/
+	-webkit-box-shadow: none;
+	-khtml-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#mbImage, #mbMedia {
+	position: relative;
+	left: 0;
+	top: 0;
+	box-sizing : content-box !important;
+	/*height: 100%;*/
+		/*	Inline content styling	*/
+
+	font-family: Myriad, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+	text-align: left;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 10px; 
+}
+
+		/* for iframe and object to be responsive */
+#mbMedia > iframe, #mbMedia > object, #mbMedia > img, #mbMedia > video, #mbMedia > audio {
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+}
+
+#mbMedia > img:focus {
+	outline: none;
+}
+		/*	Title, Caption and Button styling	*/
+
+#mbBottom {
+	min-height: 20px;
+	font-family: Myriad, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	font-size: 12px;
+	/*color: #999;*/
+	text-align: left;
+	padding: 0 10px 10px;
+	z-index: 1;
+	position: relative;
+}
+
+#mbBottom.mbBottomBig,
+#mbToolbar.mbToolbarBig {
+	min-height: 40px;
+	font-size: 15px;
+}
+
+#mbBottom.mbBottomBig svg,
+#mbToolbar.mbToolbarBig svg {
+	height: 24px;
+	width: 24px;
+}
+
+#mbBottom.mbBottomBig #mbZoomBar big,
+#mbToolbar.mbToolbarBig #mbZoomBar big {
+	line-height: 28px;
+}
+
+#mbTitle, #mbPrevLink, #mbNextLink, #mbCloseLink, #mbPlayLink, #mbPauseLink, #mbZoomMinus, #mbZoomPlus {
+	display: inline;
+	/*color: #fff;*/
+	font-weight: bold;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+#mbToolbar #mbShareLink {
+	order: 0;
+}
+
+#mbToolbar #mbCloseLink {
+	order: 5;
+}
+
+#mbToolbar #mbPrevLink {
+	order: 1;
+}
+
+#mbToolbar #mbNextLink {
+	order: 3;
+}
+
+#mbToolbar #mbPlayLink, #mbToolbar #mbPauseLink {
+	order: 2;
+}
+
+#mbToolbar #mbZoomBar {
+	order: 4;
+}
+
+#mbNumber {
+	display: inline;
+	/*color: #999;*/
+	line-height: 14px;
+	font-size: 10px;
+	margin: auto 10px;
+}
+
+#mbCaption {
+	display: block;
+	/*color: #999;*/
+	line-height: 14px;
+	font-size: 10px;
+}
+
+#mbControls {
+	float: right;
+}
+
+#mbPrevLink, #mbNextLink, #mbCloseLink, #mbPlayLink, #mbPauseLink, #mbZoomBar, #mbShareLink, #mbDownloadLink {
+	float: left;
+	/*outline: none;*/
+	margin: 0 0 0 10px;
+	font-weight: normal;
+}
+
+#mbPrevLink b, #mbNextLink b, #mbCloseLink b, #mbPlayLink b, #mbPauseLink b, #mbZoomMinus b, #mbZoomPlus b {
+	/*color: #eee;*/
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#mbPrevLink big, #mbNextLink big, #mbCloseLink big, #mbPlayLink big, #mbPauseLink big, #mbZoomMinus big, #mbZoomPlus big {
+	font-size: 16px;
+	line-height: 14px;
+	font-weight: bold;
+}
+
+#mbBottom.mbBottomBig #mbPrevLink big, 
+#mbBottom.mbBottomBig #mbNextLink big, 
+#mbBottom.mbBottomBig #mbCloseLink big, 
+#mbBottom.mbBottomBig #mbPlayLink big, 
+#mbBottom.mbBottomBig #mbPauseLink big, 
+#mbBottom.mbBottomBig #mbZoomMinus big, 
+#mbBottom.mbBottomBig #mbZoomPlus big {
+	font-size: 24px;
+	line-height: 25px;
+}
+
+
+#mbBottom a, #mbBottom a:link, #mbBottom a:visited {	/* Thanks to Danny Jung for feedback and corrections */
+	text-decoration: none;
+	/*color: #ddd;*/
+}
+
+#mbBottom a:hover, #mbBottom a:active {
+	text-decoration: underline;
+	/*color: #fff;*/
+}
+
+/*#mbBottom a:focus {
+	outline: 2px solid red !important;
+}*/
+
+		/*	Error message styling	*/
+
+#mbError {
+	position: relative;
+	font-family: Myriad, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	border: 10px solid #700;
+	padding: 10px 10px 10px;
+	margin: 20px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#mbError a, #mbError a:link, #mbError a:visited, #mbError a:hover, #mbError a:active {
+	color: #d00;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/**
+*  Mobile behavior for touch device
+*/
+
+#mbCenter.mediaboxckmobile {
+	width: auto !important;
+	height: 100% !important;
+	bottom: 0 !important;
+	height: auto !important;
+	left: 0 !important;
+	margin-left: 0 !important;
+	margin-top: 0  !important;
+	padding: 0 !important;
+	position: fixed !important;
+	right: 0 !important;
+	top: 0 !important;
+	border-radius: 0 !important;
+}
+#mbCenter.mediaboxckmobile iframe {
+	height: 100% !important;
+	position: absolute;
+	width: 100% !important;
+	left: 0;
+	top: 0;
+}
+
+#mbCenter.mediaboxckmobile #mbContainer {
+	height: calc(100% - 51px) !important;
+}
+
+#mbCenter.mediaboxckmobile #mbMedia {
+	width: 100% !important;
+	height: 100% !important;
+	padding: 0 !important;
+	text-align: left; /* important for mobile touch behavior */
+	/*position: fixed !important;*/
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: auto;
+}
+
+#mbCenter.mediaboxckmobile #mbMedia > img {
+	/*position: fixed !important;*/
+}
+#mbCenter.mediaboxckmobile #mbMedia > img {
+	/*position: fixed !important;*/
+}
+
+#mbCenter #mbMedia img.zoomingck {
+	max-width: none !important;
+	max-height: none !important;
+}
+
+#mbCenter.mediaboxckmobile #mbBottom {
+	background: rgba(0,0,0, 0.8);
+	box-shadow: #000 0 0 10px;
+	border-top: 1px solid #666;
+	bottom: 0 !important;
+	min-height: 50px !important;
+	left: 0 !important;
+	position: absolute !important;
+	right: 0 !important;
+	width: auto !important;
+	padding-top: 0  !important;
+	padding-bottom: 0  !important;
+}
+
+#mbCenter.mediaboxckmobile #mbBottom:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#mbCenter.mediaboxckmobile #mbCloseLink, #mbCenter.mediaboxckmobile #mbNextLink, #mbCenter.mediaboxckmobile #mbPrevLink, #mbCenter.mediaboxckmobile #mbPlayLink, #mbCenter.mediaboxckmobile #mbPauseLink {
+	text-align: center;
+	height: 50px;
+	width: 50px;
+}
+
+#mbCenter.mediaboxckmobile #mbPrevLink big, #mbCenter.mediaboxckmobile #mbNextLink big, #mbCenter.mediaboxckmobile #mbCloseLink big, #mbCenter.mediaboxckmobile #mbPlayLink big, #mbCenter.mediaboxckmobile #mbPauseLink big,
+#mbCenter.mediaboxckmobil #mbZoomMinus big, #mbCenter.mediaboxckmobil #mbZoomPlus big {
+	font-size: 2.5em;
+	line-height: 1.5em;
+}
+
+#mbCenter.mediaboxckmobile #mbTitle {
+
+}
+
+#mbCenter.mediaboxckmobile #mbNumber {
+	display: block;
+}
+
+#mbCenter.mediaboxckmobile #mbCaption {
+	display: none;
+}
+
+/** gallery effect **/
+a.mediaboxck_link figure.mediaboxck {
+	display: block;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%;
+}
+
+a.mediaboxck_link {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: bottom;
+	min-width: 120px;
+}
+
+.mediaboxck img, .mediaboxck video {
+	object-fit: cover;
+	width:100%;
+	min-height:100%;
+}
+
+figure.mediaboxck {
+	margin: 0;
+}
+
+a.mediaboxck_link figure.mediaboxck:not(.imageeffectck):after {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	content: "";
+	transition: all ease 0.4s;
+	background: rgba(0,0,0, 0.7) center center no-repeat;
+	opacity: 0;
+	margin-left: 0;
+	top: 0;
+	left: 0;
+}
+
+a.mediaboxck_link figure.mediaboxck:not(.imageeffectck):hover:after {
+	opacity: 1;
+	margin-left: 0;
+	background: rgba(0,0,0, 0.7) url(images/icon_zoom.png) center center no-repeat;
+}
+
+/** Toolbar styles **/
+#mbToolbar {
+	height: 30px;
+	position: absolute;
+	z-index: 9999;
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	font-size: 16px;
+	transform: translate(-50%,5px);
+	display: flex;
+	justify-content: center;
+}
+
+#mbToolbar a {
+	display: inline-block;
+	margin: 0;
+	height: 20px;
+	text-align: center;
+	font-size: 1em;
+	min-width: 30px;
+}
+
+#mbToolbar svg,
+#mbBottom svg {
+	fill: #fff;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: 2px auto;
+}
+
+#mbToolbar big {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+#mbToolbar.mediaboxckmobile {
+	font-size: 30px;
+	height: 35px;
+	width: 250px;
+	/*margin-left: -135px;*/
+	position: fixed;
+	top: 0 !important;
+}
+
+#mbPieLoader {
+	background: transparent;
+	bottom: 2px;
+	left: 5%;
+	height: 5px;
+	position: absolute;
+	width: 90%;
+}
+
+#mbPieLoaderBar {
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	width: 0%;
+	box-shadow: rgba(255,255,255,0.3) 0 0 10px inset;
+}
+
+/* IE compatibility for the gallery */
+.mediaboxckie {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mediaboxckie > div {
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+#mbZoomBar {
+	/*background: rgba(0,0,0, 0.8);*/
+	border-radius: 2px;
+	display: flex;
+}
+
+#mbZoomBar big {
+	display: block;
+	line-height: 18px;
+}
+
+#mbZoomBar a, #mbZoomBar a:hover {
+	text-decoration: none;
+}
+
+#mbZoomMinus big, #mbZoomPlus big {
+	display: inline-block;
+	padding: 0 10px;
+	height: 20px;
+	background: rgba(255,255,255, 0.015);
+	box-sizing: border-box;
+	border-right: 1px solid rgba(255,255,255,0.1);
+	margin: 1px;
+	line-height: 18px;
+	display: block;
+	line-height: 14px;
+}
+
+#mbBottom.mbBottomBig #mbZoomMinus big, #mbBottom.mbBottomBig #mbZoomPlus big {
+	height: 30px;
+	line-height: 25px;
+}
+
+#mbZoomPlus big {
+	border-right: none;
+	border-left: 1px solid rgba(255,255,255,0.1);
+}
+
+#mbZoomMinus big:hover, #mbZoomPlus big:hover {
+	background: rgba(255,255,255, 0.15);
+}
+
+#mbZoomValue {
+	padding: 0 5px;
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+}
+
+#mbMedia.mbZooming {
+	overflow: hidden;
+}
+
+.mediaboxckmobile #mbZoomBar {
+	display: none !important;
+}
+
+
+/**
+*  Fullwith behavior
+*/
+
+#mbCenter.mediaboxckfullwidth {
+	left: 30px !important;
+	top: 30px !important;
+	right: 30px !important;
+	bottom: 30px !important;
+	width: auto !important;
+	height: auto !important;
+	margin-left: 0 !important;
+	margin-top: 0  !important;
+	padding: 0 !important;
+	position: fixed !important;
+	display: flex;
+	flex-direction: column;
+}
+#mbCenter.mediaboxckfullwidth iframe {
+	height: 100% !important;
+	/* position: absolute; */
+	width: 100% !important;
+	/* left: 0; */
+	/* top: 0; */
+}
+
+#mbCenter.mediaboxckfullwidth #mbContainer {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+}
+
+#mbCenter.mediaboxckfullwidth #mbMedia {
+	/* width: 100% !important; */
+	/* height: 100% !important; */
+	-webkit-overflow-scrolling: touch;
+	overflow-y: auto;
+	flex: 1 1 auto;
+	width: auto !important;
+	display: flex;
+	justify-content: center;
+}
+
+#mbCenter.mediaboxckfullwidth #mbBottom {
+	/*background: rgba(0,0,0, 0.8);
+	box-shadow: #000 0 0 10px;
+	border-top: 1px solid #666;
+	bottom: 0 !important;
+	min-height: 50px !important;
+	left: 0 !important;
+	position: absolute !important;
+	right: 0 !important;
+	width: auto !important;
+	padding-top: 0  !important;
+	padding-bottom: 0  !important;*/
+	width: auto !important;
+}
+
+#mbCenter.mediaboxckfullwidth #mbBottom:after {
+	/*content: "";
+	display: block;
+	clear: both;*/
+}
+
+#mbCenter.mediaboxckfullwidth #mbCloseLink, #mbCenter.mediaboxckfullwidth #mbNextLink, #mbCenter.mediaboxckfullwidth #mbPrevLink, #mbCenter.mediaboxckfullwidth #mbPlayLink, #mbCenter.mediaboxckfullwidth #mbPauseLink {
+	/*text-align: center;
+	height: 50px;
+	width: 50px;*/
+}
+
+#mbCenter.mediaboxckfullwidth #mbPrevLink big, #mbCenter.mediaboxckfullwidth #mbNextLink big, #mbCenter.mediaboxckfullwidth #mbCloseLink big, #mbCenter.mediaboxckfullwidth #mbPlayLink big, #mbCenter.mediaboxckfullwidth #mbPauseLink big,
+#mbCenter.mediaboxckmobil #mbZoomMinus big, #mbCenter.mediaboxckmobil #mbZoomPlus big {
+	/*font-size: 2.5em;
+	line-height: 1.5em;*/
+}
+
+#mbCenter.mediaboxckfullwidth #mbTitle {
+
+}
+
+#mbCenter.mediaboxckfullwidth #mbNumber {
+	/*display: block;*/
+}
+
+#mbCenter.mediaboxckfullwidth #mbCaption {
+	/*display: none;*/
+}
+
+.mediaboxck_cont[data-align="center"] {
+	text-align: center;
+}
+
+#mbBottom a[data-state="0"] {
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+/** for navigation **/
+.mediaboxck_cont_inner {
+	position: relative;
+}
+
+.mediaboxck-navigation-prev,
+.mediaboxck-navigation-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.mediaboxck-navigation-prev {
+	left: 0;
+}
+
+.mediaboxck-navigation-next {
+	right: 0;
+}
+
+.mediaboxck-navigation-prev:after,
+.mediaboxck-navigation-next:after {
+	display: block;
+	content: "❯";
+	padding: 15px 20px;
+	border-radius: 3px;
+	background: rgba(0,0,0, 0.1);
+	color: #000;
+	cursor: pointer;
+	opacity: 0;
+	transition: all 0.2s ease;
+}
+
+.mediaboxck-navigation-prev:after {
+	content: "❮";
+}
+
+.mediaboxck-navigation-prev:hover:after,
+.mediaboxck-navigation-next:hover:after {
+	background: rgba(0,0,0, 0.2);
+}
+
+.mediaboxck_cont_inner:hover .mediaboxck-navigation-prev:after,
+.mediaboxck_cont_inner:hover .mediaboxck-navigation-next:after {
+	opacity: 1;
+}
+
+
+/*-----------------------------------*/
+
+.mediaboxck-pagination {
+	margin: 10px;
+}
+
+.mediaboxck-pagination ul {
+	display: inline-block;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding: 0;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.mediaboxck-pagination ul > li {
+	display: inline;
+}
+
+.mediaboxck-pagination ul > li > a:hover, 
+.mediaboxck-pagination ul > li > a:focus, 
+.mediaboxck-pagination ul > .active > a, 
+.mediaboxck-pagination ul > .active > span {
+	background-color: #f5f5f5;
+}
+
+.mediaboxck-pagination ul > li > a, .mediaboxck-pagination ul > li > span {
+	float: left;
+	padding: 4px 12px;
+	line-height: 18px;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-left-width: 0;
+}
+
+.mediaboxck-pagination ul > li:first-child > a, .mediaboxck-pagination ul > li:first-child > span {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.mediaboxck-pagination ul > li:first-child > a, .mediaboxck-pagination ul > li:first-child > span {
+	border-left-width: 1px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.mediaboxck-pagination ul > li:last-child > a, .mediaboxck-pagination ul > li:last-child > span {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.mediaboxck-pagination ul > .active > a, .mediaboxck-pagination ul > .active > span {
+	color: #999;
+	cursor: default;
+}
+
+/*---------------- Theme 1 ----------------*/
+
+#mbCenter.theme1 {
+	background: none !important;
+	box-shadow: none !important;
+}
+
+#mbCenter.theme1 *,
+#mbToolbar.theme1 * {
+	box-sizing: border-box;
+}
+
+.theme1 #mbCloseLink {
+	
+}
+
+.theme1 #mbNextLink, .theme1 #mbPrevLink {
+	position: fixed;
+	right: 10px;
+	padding: 20px;
+	background: rgba(0,0,0,0.3);
+	top: 50%;
+	transform: translateY(-50%);
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.theme1 #mbNextLink:hover, .theme1 #mbPrevLink:hover,
+.theme1 #mbCloseLink:hover, .theme1 #mbPlayLink:hover, .theme1 #mbPauseLink:hover,
+.theme1 #mbShareLink:hover,
+.theme1 #mbDownloadLink:hover {
+	background: rgba(0,0,0,0.5);
+}
+
+.theme1 #mbPrevLink {
+	right: auto;
+	left: 10px;
+}
+
+.theme1 #mbZoomBar:not(:empty) {
+	background: rgba(0,0,0,0.2);
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	height: 60px;
+	width: 300px;
+	margin: 0 0 0 -150px;
+}
+
+@media screen and (max-width: 680px) {
+	.theme1 #mbZoomBar {
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.theme1 #mbZoomBar {
+		top: 60px;
+		width: 100%;
+	}
+}
+
+.theme1 #mbBottom a[data-state="0"] {
+	display: none;
+}
+
+.theme1 #mbZoomMinus big, .theme1 #mbZoomPlus big {
+	background: rgba(0,0,0,0.3);
+	width: 60px;
+	height: 60px;
+	padding: 20px;
+}
+
+.theme1 #mbCloseLink,
+.theme1 #mbPlayLink,
+.theme1 #mbPauseLink,
+.theme1 #mbShareLink,
+.theme1 #mbDownloadLink {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding: 20px;
+	background: rgba(0,0,0,0.2);
+	text-decoration: none;
+}
+
+.theme1 #mbBottom a:hover, .theme1 #mbBottom a:active {
+	text-decoration: none;
+}
+
+.theme1 #mbPlayLink,
+.theme1 #mbPauseLink,
+.theme1 #mbShareLink,
+.theme1 #mbDownloadLink {
+	right: 60px;
+}
+
+.theme1 #mbShareLink ~ #mbPlayLink,
+.theme1 #mbShareLink ~ #mbPauseLink {
+	right: 120px;
+}
+
+.theme1 #mbDownloadLink ~ #mbShareLink {
+	right: 120px;
+}
+
+.theme1 #mbDownloadLink ~ #mbShareLink ~ #mbPlayLink,
+.theme1 #mbDownloadLink ~ #mbShareLink ~ #mbPauseLink {
+	right: 180px;
+}
+
+#mbShareLink big {
+	vertical-align: top;
+}
+
+#mbToolbar.theme1 {
+	background: none;
+	box-shadow: none;
+	margin: 0 0 0 -150px;
+	height: 60px;
+	width: 300px;
+	padding: 0;
+	transform: none;
+}
+
+.theme1 #mbPieLoaderBar {
+	background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+}
+
+.theme1 #mbZoomMinus big, .theme1 #mbZoomPlus big {
+	background: rgba(0,0,0,0.1);
+	width: 60px;
+	height: 60px;
+	padding: 20px;
+	margin: 0;
+	border: none;
+	line-height: 1;
+	text-align: center;
+}
+
+.theme1 #mbZoomMinus big:hover, .theme1 #mbZoomPlus big:hover {
+	background: rgba(0,0,0,0.5);
+}
+
+.theme1 #mbZoomBar a {
+	width: auto;
+}
+
+.theme1 #mbZoomValue big {
+	line-height: 35px;
+}
+
+.theme1 a#mbZoomValue {
+	width: calc(100% - 120px);
+	padding: 10px;
+}
+
+.theme1 #mbZoomValue {
+	text-decoration: none;
+}
+
+.theme1 #mbZoomValue:hover {
+	text-decoration: underline;
+}
+
+.theme1 #mbNumber {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#mediaboxckShareBox {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 10000;
+	width: 600px;
+	min-height: 300px;
+	background: #fff;
+	transform: translate(-50%,-50%);
+	border-radius: 4px;
+	padding: 40px 20px;
+	max-width: 90%;
+}
+
+#mediaboxckShareBox p {
+	text-align: center;
+}
+
+#mediaboxckShareBox input {
+	margin: 10px;
+	width: calc(100% - 20px);
+	border: 1px solid #eee;
+	padding: 5px;
+	box-shadow: none;
+}
+
+#mediaboxckShareBox .mbShareButton {
+	width: 100px;
+	background: cadetblue;
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-family: Helvetica,Arial;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#mediaboxckShareBox .mbShareButton:hover {
+	opacity: 0.8;
+}
+
+#mediaboxckShareBox .mbShareButton * {
+	display: block;
+}
+
+#mediaboxckShareBox .mbShareButton svg {
+	width: 25px;
+	margin: auto;
+	fill: #fff;
+}
+
+#mediaboxckShareBox-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.mbOpened {
+	overflow: hidden !important;
+}
+
+[data-mediaboxck-alignment*="float"][data-mediaboxck-alignment*="left"] {
+	float: left;
+}
+
+[data-mediaboxck-alignment*="float"][data-mediaboxck-alignment*="right"] {
+	float: right;
+}
+
+/* For captions in galleries */
+.mediaboxck_cont figcaption.mediaboxck_caption {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 2px 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+}
+
+.mediaboxck_cont figcaption.mediaboxck_caption .mediaboxck_caption_desc {
+	display: none;
+}

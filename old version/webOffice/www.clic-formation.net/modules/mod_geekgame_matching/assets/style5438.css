@@ -1,0 +1,153 @@
+/**
+ * @package    mod_geekgame_matching
+ * @version    1.2.0
+ *
+ * @copyright  Copyright (C) 2015 - 2026 JoomlaGeek. All Rights Reserved.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @author     JoomlaGeek <admin@joomlageek.com>
+ * @link       https://www.joomlageek.com
+ */
+
+.geek-matching-pairs { }
+.gmp-game-area {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	/* Ensure the SVG can overlay correctly */
+}
+
+.gmp-game-area .column {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	position: relative;
+	z-index: 2; /* Above SVG */
+}
+
+.gmp-game-area .item {
+	background: var(--game-item-background);
+	border: 2px solid var(--game-item-border);
+	padding: 5px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	font-weight: 500;
+	color: var(--game-item-text);
+	user-select: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+	overflow: hidden;
+}
+
+.gmp-game-area .item:hover {
+	background: var(--game-item-background-hover);
+}
+
+.gmp-game-area .item.selected {
+	background: var(--game-item-background-selected);
+	border-color: var(--game-item-border-selected);
+	transform: scale(1.02);
+}
+
+.gmp-game-area .item.correct {
+	background: var(--game-item-background-success);
+	border-color: #386641;
+	cursor: default;
+}
+
+.gmp-game-area .item.incorrect {
+	animation: shake 0.5s;
+	border-color: var(--game-item-border-error);
+}
+
+.gmp-game-area .item .span-img {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+	background: #fff;
+	border-radius: 4px;
+	flex-shrink: 0;
+	border: 1px solid var(--game-item-border);
+	overflow: hidden;
+}
+
+.gmp-game-area .item .span-img img {
+	max-width: 100%;
+	height: auto;
+}
+
+.gmp-game-area .item .span-text {
+	flex-grow: 1;
+	text-align: left;
+	padding: 0 10px;
+	font-size: 1.0em;
+}
+
+.gmp-game-area .item .span-audio {
+	width: 28px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	cursor: pointer;
+	flex-shrink: 0;
+	font-size: 1.2em;
+	transition: background 0.2s;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	background-color: #fff;
+	background-image: url("data:image/svg+xml,<svg width='14' height='14' viewBox='0 0 26 27' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill='%23A7C957' fill-rule='evenodd' clip-rule='evenodd' d='M3.44653 0.0204163C2.7395 0.0204163 2.052 0.567291 2.052 1.50089V25.0009C2.052 25.8293 2.72357 26.2698 3.552 26.2698C3.83357 26.2698 4.17512 26.0643 4.17512 26.0643C4.17512 26.0643 12.1531 21.4552 12.9984 20.9694V20.9696L14.552 20.0751L23.552 14.8798C23.6331 14.8326 23.7119 14.7874 23.7883 14.7436C24.6165 14.2684 25.1536 13.9603 25.1536 13.1806V13.1415C25.1536 12.3172 24.5847 11.9951 23.7339 11.5132C23.6709 11.4775 23.6063 11.441 23.5403 11.4032L14.5403 6.20792C14.3049 6.07236 14.0875 5.94692 13.893 5.83465C13.5142 5.61609 13.222 5.44746 13.052 5.35135V5.34854C12.4114 4.96964 5.052 0.650885 4.052 0.150885C4.052 0.150885 3.75513 0.0204163 3.44653 0.0204163Z'></path></svg>");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.item .span-audio:hover {
+	transform: scale(1.1);
+}
+
+@keyframes shake {
+	0%, 100% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-5px);
+	}
+	75% {
+		transform: translateX(5px);
+	}
+}
+
+.gmp-game-area svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.gmp-game-area line {
+	stroke: var(--game-item-border);
+	stroke-width: 3;
+	stroke-linecap: round;
+}
+
+
+@media (max-width: 768px) {
+	.gmp-game-area .item .span-img {
+		width: 30px;
+		height: 30px;
+	}
+	.gmp-game-area .item .span-audio {
+		width: 24px;
+		height: 24px;
+	}
+	.gmp-game-area .item .span-text {
+		font-size: 0.5em;
+	}
+}

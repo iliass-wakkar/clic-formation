@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Clic-Formation - Windows - Généralités informatiques</title>
+		<description><![CDATA[]]></description>
+		<link>https://www.clic-formation.net/liste-quizz/generalites-informatiques.html</link>
+		<lastBuildDate>Sun, 26 Apr 2026 10:26:08 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://www.clic-formation.net/liste-quizz/generalites-informatiques.feed?type=rss"/>
+		<language>fr-fr</language>
+		<managingEditor>info@clic-formation.net (Clic-formation.net)</managingEditor>
+		<item>
+			<title>Periphériques</title>
+			<link>https://www.clic-formation.net/liste-quizz/generalites-informatiques.html</link>
+			<guid isPermaLink="true">https://www.clic-formation.net/liste-quizz/generalites-informatiques.html</guid>
+			<description><![CDATA[]]></description>
+			<author>thierry.didoli@gmail.com (thjabaqu)</author>
+			<category>Windows</category>
+		</item>
+		<item>
+			<title>Extension</title>
+			<link>https://www.clic-formation.net/liste-quizz/generalites-informatiques.html</link>
+			<guid isPermaLink="true">https://www.clic-formation.net/liste-quizz/generalites-informatiques.html</guid>
+			<description><![CDATA[]]></description>
+			<author>thierry.didoli@gmail.com (thjabaqu)</author>
+			<category>Windows</category>
+		</item>
+		<item>
+			<title>Réseau &amp; Réseau local</title>
+			<link>https://www.clic-formation.net/liste-quizz/generalites-informatiques.html</link>
+			<guid isPermaLink="true">https://www.clic-formation.net/liste-quizz/generalites-informatiques.html</guid>
+			<description><![CDATA[<p>C'est pas simple</p>]]></description>
+			<author>thierry.didoli@gmail.com (thjabaqu)</author>
+			<category>Windows</category>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,116 @@
+/**
+ * @package    mod_geekgame_wordfind
+ * @version    1.2.0
+ *
+ * @copyright  Copyright (C) 2015 - 2026 JoomlaGeek. All Rights Reserved.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @author     JoomlaGeek <admin@joomlageek.com>
+ * @link       https://www.joomlageek.com
+ */
+
+.geek-word-find {
+
+}
+
+.gwf-puzzle {
+	display: inline-block;
+	border: 1px solid var(--game-container-border);
+	background-color: var(--game-container-background);
+	padding: 3vw;
+}
+
+.gwf-puzzle > div { /* rows */
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* style for each square in the puzzle */
+.puzzleSquare {
+	height: 6vw;
+	width: 6vw;
+	text-transform: uppercase;
+	background-color: var(--game-container-background);
+	border: 0;
+	font: 3vw sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+	.gwf-puzzle {
+		float: left;
+		padding: 1rem;
+	}
+
+	.puzzleSquare {
+		height: 2.5rem;
+		width: 2.5rem;
+		font: 1.5rem sans-serif;
+	}
+}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+
+/* indicates when a square has been selected */
+.puzzleSquare.selected {
+	background-color: var(--game-item-background);
+}
+
+/* indicates that the square is part of a word that has been found */
+.puzzleSquare.found {
+	background-color: var(--game-color-primary);
+	color: white;
+}
+
+/* indicates that all words have been found */
+.puzzleSquare.complete {
+	background-color: var(--game-color-secondary);
+}
+
+.puzzleSquare.solved {
+	background-color: var(--game-color-error);
+	color: white;
+}
+
+/**
+* Styles for the word list
+*/
+.gwf-words {
+	display: inline-block;
+	margin: 0;
+	padding: 1em 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+@media only screen and (min-width: 600px) {
+	.gwf-words {
+		/*-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+		column-gap: 20px;*/
+	}
+}
+
+.gwf-words li {
+	padding: 0 5px 5px 0;
+	display: inline-block;
+}
+
+/* indicates that the word has been found */
+
+.geek-word-find span.word {
+	padding: 2px 10px;
+	border-radius: 4px;
+	font-weight: normal;
+	text-align: center;
+	background: var(--game-item-background);
+	color: var(--game-item-text);
+	box-shadow: 1px 1px 1px #eee;
+}
+
+.geek-word-find span.wordFound {
+	text-decoration: line-through;
+	color: var(--game-item-text-disabled);
+}
+

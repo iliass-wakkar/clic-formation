@@ -1,0 +1,113 @@
+/**
+ * @copyright	Copyright (C) 2015 Cédric KEIFLIN alias ced1870
+ * http://www.joomlack.fr
+ * http://www.template-creator.com
+ * @license		GNU/GPL
+ * */
+
+.icon-imageeffectckbutton {
+	width: 16px;
+	height: 16px;
+	background: url(images/icon_button_imageeffectck.png) center center no-repeat !important;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.tooltip, .tooltip * {
+	z-index: 99999999 !important;
+}
+
+.imageeffectckbuttondemo {
+	margin-left: 10px;
+}
+
+.imageeffectckbuttontitle {
+	color: #08c;
+	font-weight: bold;
+	margin: 5px 10px;
+	padding: 0 5px;
+}
+
+.imageeffectckmodal {
+	border: #666 1px solid;
+	box-shadow: #000 0px 0px 5px;
+	-moz-box-shadow: #000 0px 0px 5px;
+	background: #fff;
+	padding: 0;
+	left: 50%;
+	top: 10px;
+	padding-bottom: 50px;
+	z-index: 100000;
+	height: 400px;
+	margin-left: -40%;
+	margin-top: -200px;
+	width: 80%;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.imageeffectckmodal * {
+	box-sizing: content-box;
+}
+
+.imageeffectckmodal-back {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	z-index: 99999;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	background: #000;
+	opacity: 0.6;
+}
+
+.imageeffectckmodal-footer {
+	height: 50px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #e1e1e1;
+	color: #aaa;
+	border-top: 1px solid #ccc;
+	/*box-shadow: #ccc 0px 0px 5px;
+	-moz-box-shadow: #ccc 0px 0px 5px;*/
+}
+
+.imageeffectckmodal-header {
+	border-bottom: 1px solid #eee;
+	padding: 9px 15px;
+}
+
+.imageeffectckmodal-footer .imageeffectckmodal-button {
+	display: inline-block !important;
+	float: right !important;
+	height: 50px !important;
+	min-width: 50px !important;
+	box-sizing: border-box !important;
+	line-height: 50px !important;
+	padding: 0 14px !important;
+	background: #cfcfcf !important;
+	color: #555 !important;
+	font-size: 1.3em !important;
+	border: none;
+	border-left: 1px solid #aaa !important;
+	box-shadow: 0 0 15px #b5b5b5 inset !important;
+	text-align: center !important;
+	cursor: pointer !important;
+	font-weight: normal  !important;
+	border-radius: 0;
+}
+.ckboxmodal-footer .ckboxmodal-button:hover {
+	text-decoration: underline;
+	background: #bbb;
+}
+
+#imageeffectckbuttoneffectslist {
+	text-transform: capitalize;
+}

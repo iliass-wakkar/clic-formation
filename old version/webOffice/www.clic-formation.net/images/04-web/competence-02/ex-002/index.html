@@ -1,0 +1,80 @@
+<html>
+
+<!-- Mirrored from www.clic-formation.net/images/04-web/competence-02/ex-002/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:41 GMT -->
+<head>
+<style type="text/css">
+
+.drag{
+position:relative;
+cursor:hand;
+z-index: 100;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Drag and Drop Script: (c) Dynamic Drive (http://www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+var dragobject={
+z: 0, x: 0, y: 0, offsetx : null, offsety : null, targetobj : null, dragapproved : 0,
+initialize:function(){
+document.onmousedown=this.drag
+document.onmouseup=function(){this.dragapproved=0}
+},
+drag:function(e){
+var evtobj=window.event? window.event : e
+this.targetobj=window.event? event.srcElement : e.target
+if (this.targetobj.className=="drag"){
+this.dragapproved=1
+if (isNaN(parseInt(this.targetobj.style.left))){this.targetobj.style.left=0}
+if (isNaN(parseInt(this.targetobj.style.top))){this.targetobj.style.top=0}
+this.offsetx=parseInt(this.targetobj.style.left)
+this.offsety=parseInt(this.targetobj.style.top)
+this.x=evtobj.clientX
+this.y=evtobj.clientY
+if (evtobj.preventDefault)
+evtobj.preventDefault()
+document.onmousemove=dragobject.moveit
+}
+},
+moveit:function(e){
+var evtobj=window.event? window.event : e
+if (this.dragapproved==1){
+this.targetobj.style.left=this.offsetx+evtobj.clientX-this.x+"px"
+this.targetobj.style.top=this.offsety+evtobj.clientY-this.y+"px"
+return false
+}
+}
+}
+
+dragobject.initialize()
+
+</script>
+</head>
+<body>
+
+<h2><b>Classez les étiquettes ( à l'horizontale) qui représente des poids informatique, par ordre croissant.
+La solution est en fin de page.</b></h2>
+<img src="1.png" class="drag">
+<img src="2.png" class="drag"><br>
+<img src="3.png" class="drag">
+<img src="4.png" class="drag"><br>
+<img src="5.png" class="drag">
+<img src="6.png" class="drag"><br>
+<img src="7.png" class="drag">
+<img src="8.png" class="drag"><br>
+<img src="9.png" class="drag">
+<img src="10.png" class="drag"><br>
+<img src="11.png" class="drag">
+<img src="12.png" class="drag"><br>
+
+</body>
+
+<!-- Mirrored from www.clic-formation.net/images/04-web/competence-02/ex-002/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:41 GMT -->
+</html>
+

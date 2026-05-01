@@ -1,0 +1,142 @@
+<html>
+  
+<!-- Mirrored from www.clic-formation.net/images/06-windows/exercice-012/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:34 GMT -->
+<head> <meta charset="UTF-8"/> </head>
+   <h1>Dessin</h1>
+  <body>
+
+<table>
+<tr>
+<td>
+    <!-- the range elements (R, G, B and radius) -->
+    <p> R (rouge)<input type="range" min="0" max="255" value="0" id="input_r"> </input>
+        <span id="span_r">  </span> </p>
+    <p> G (vert)<input type="range" min="0" max="255" value="0" id="input_g"> </input>
+        <span id="span_g">  </span> </p>
+    <p> B (bleu)<input type="range" min="0" max="255" value="0" id="input_b"> </input>
+        <span id="span_b">  </span> </p>
+    <p> Diamètre pinceau <input type="range" min="2" max="50" value="10" id="input_radius"> </input>
+        <span id="span_radius"> </span> </p>
+
+		
+    <!-- the canvas for previewing the brush -->
+    <p> <canvas id="canvas_brush" width="100" height="100"> </canvas> </p> 
+	
+	</td>
+	
+	<td>
+	<img src="1.gif"></br>
+	<!-- the button for clearing canvas_draw -->
+    <p><button id="button_clear"> Remise à zéro </button></p>
+	</td> 
+	</tr>
+</table>
+
+
+
+    <!-- the canvas for drawing -->
+    <p> <canvas id="canvas_draw" width="500" height="500" style="border:1px solid black"> </canvas> </p>
+
+    
+	<script>
+        // find position in canvas, from mouse event
+        function getXY(canvas, evt) {
+            const rect = canvas.getBoundingClientRect();
+            const x = evt.clientX - rect.left;
+            const y = evt.clientY - rect.top;
+            return {x, y};
+        }
+
+        // convert color from RGB triplet to hex code
+        // for example: 255, 0, 255 -> '#FF00FF'
+        function componentToHex(c) {
+            const hex = Number(c).toString(16);
+            return hex.length == 1 ? "0" + hex : hex;
+        }
+        function rgbToHex(r, g, b) {
+            return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+        }
+    </script>
+	<script>
+        // start drawing
+        canvas_draw.onmousedown = function(evt0) {
+            // get brush parameters from range elements
+            const r = Number(input_r.value);
+            const g = Number(input_g.value);
+            const b = Number(input_b.value);
+            const color = rgbToHex(r, g, b);
+            const radius = Number(input_radius.value);
+
+            // get canvas context and initial position
+            const ctx = canvas_draw.getContext("2d");
+            let p0 = getXY(canvas_draw, evt0);
+
+            // set callback function for mousemove event
+            canvas_draw.onmousemove = function(evt1) {
+                // draw a line from previous position to current position
+                const p1 = getXY(canvas_draw, evt1);
+                ctx.beginPath();
+                ctx.strokeStyle = color
+                ctx.fillStyle = color;
+                ctx.lineWidth = 2 * radius;
+                ctx.lineCap = "round";
+                ctx.moveTo(p0.x, p0.y);
+                ctx.lineTo(p1.x, p1.y);
+                ctx.fill();
+                ctx.stroke();
+                // update position 
+                p0 = p1;
+            };
+        };
+
+        // remove callback function when mouse up
+        canvas_draw.onmouseup = function(evt) {
+            canvas_draw.onmousemove = {};
+        };
+        // clear canvas_draw when clicking on button_clear
+        button_clear.onclick = function() {
+            const width = canvas_draw.clientWidth;
+            const height = canvas_draw.clientHeight;
+            const ctx = canvas_draw.getContext("2d");
+            ctx.beginPath();
+            ctx.clearRect(0, 0, width, height);
+            ctx.stroke();
+        }
+		 // update HTML elements (RGB span, canvas_brush)
+        function updateDom() {
+            // get values from range inputs 
+            const r = input_r.value;
+            const g = input_g.value;
+            const b = input_b.value;
+            const radius = input_radius.value;
+            const color = rgbToHex(r, g, b);
+
+            // update span texts
+            span_r.innerHTML = r;
+            span_g.innerHTML = g;
+            span_b.innerHTML = b;
+            span_radius.innerHTML = radius;
+
+            // draw brush in canvas_brush
+            const ctx = canvas_brush.getContext("2d");
+            ctx.beginPath();
+            ctx.strokeStyle = color
+            ctx.fillStyle = color;
+            ctx.clearRect(0, 0, 100, 100);
+            ctx.arc(50, 50, radius, 0, 2*Math.PI);
+            ctx.fill();
+            ctx.stroke();
+        }
+        updateDom();
+
+        // set callback functions on HTML elements
+        input_r.oninput = updateDom;
+        input_g.oninput = updateDom;
+        input_b.oninput = updateDom;
+        input_radius.oninput = updateDom;
+    </script>
+
+  </body>
+
+<!-- Mirrored from www.clic-formation.net/images/06-windows/exercice-012/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:35 GMT -->
+</html>

@@ -1,0 +1,54 @@
+.titre {
+	COLOR: #00a0e0; FONT-FAMILY: arial, verdana; FONT-SIZE: 110%; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.stitre {
+	COLOR: #5f9ea0; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold
+}
+.normal {
+	FONT-FAMILY: arial, verdana; FONT-SIZE: 90%
+}
+.info {
+	FONT-FAMILY: arial, verdana; FONT-SIZE: 90%; FONT-STYLE: italic
+}
+.info1 {
+	FONT-FAMILY: arial, verdana; FONT-SIZE: 80%; FONT-STYLE: italic
+}
+.titrescore {
+	COLOR: #aa805a; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.tetescore {
+	BACKGROUND-COLOR: #aa805a; COLOR: #ffffff; FONT-FAMILY: arial, verdana; FONT-SIZE: 90%; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.score {
+	BACKGROUND-COLOR: #d8e8f0; FONT-FAMILY: arial, verdana; FONT-SIZE: 90%; TEXT-ALIGN: center
+}
+.comment {
+	FONT-FAMILY: arial, verdana; FONT-SIZE: 90%; TEXT-ALIGN: justify
+}
+.alpha0 {
+	COLOR: #000000; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.alpha1 {
+	COLOR: #ff0000; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.alpha2 {
+	COLOR: #c0c0c0; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; FONT-FAMILY: arial, verdana; FONT-SIZE: 100%; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.alayer0 {
+	COLOR: #000000; POSITION: absolute; TEXT-ALIGN: center; TOP: 270px; Z-INDEX: 2
+}
+.alayer1 {
+	COLOR: #ff0000; POSITION: absolute; TEXT-ALIGN: center; TOP: 270px; Z-INDEX: 1
+}
+.alayer2 {
+	COLOR: #c0c0c0; POSITION: absolute; TEXT-ALIGN: center; TOP: 270px
+}

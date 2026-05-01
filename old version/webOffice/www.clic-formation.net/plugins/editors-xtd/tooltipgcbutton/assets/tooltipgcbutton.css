@@ -1,0 +1,28 @@
+/**
+ * @copyright	Copyright (C) 2017 Cédric KEIFLIN alias ced1870
+ * http://www.joomlack.fr
+ * http://www.template-creator.com
+ * @license		GNU/GPL
+ * */
+ 
+.icon-tooltipgcbutton {
+	width: 14px;
+	height: 14px;
+	background: url(images/icon_button_tooltipgc.png) center center no-repeat !important;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle !important;
+}
+
+#tooltipck_button_form label {
+	display: block;
+}
+
+#tooltipck_button_form fielset div {
+	clear: both
+}
+
+#tooltipck_button_form fielset input {
+	width: calc(100% - 100px);
+	float: left;
+}

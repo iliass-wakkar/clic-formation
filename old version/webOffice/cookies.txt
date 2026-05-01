@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.clic-formation.net	TRUE	/	FALSE	1999999999	81f30cf708470b974874c8a96a6bcdb2	c935b6f27710f5a4ff40f8318bd0c333
+www.clic-formation.net	TRUE	/	FALSE	1999999999	lsc_private	fc6a46e52d8bb3fbc4ae22d202aca347
+www.cdformation.com	TRUE	/	FALSE	1999999999	47f4550cef0fe082c5a606effa9858c7	eio22pis6he7l03flqm687uasm
+www.clic-formation.net	TRUE	/	FALSE	1999999999	quiz_id_last_visited	164
+

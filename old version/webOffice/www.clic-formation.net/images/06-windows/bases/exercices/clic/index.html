@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.clic-formation.net/images/06-windows/bases/exercices/clic/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:29 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>Start</title>
+    <link rel="stylesheet" href="../exos.css">
+</head>
+<body BGCOLOR="#EDE6DA"><div align="center"><h4>-Pour vous chronométrer-</h4>
+  <script language='JavaScript'>
+ss=0;
+s=00;
+m='0'+0;
+h='0'+0;
+j=0;
+ window.status = "Chrono "+j+" jour(s) et " +h + ' : '  + m + ' : ' + s ; 
+
+function Chrono() {
+if (m==0) {m='00'}
+if(h==0) {h='00'}
+if (ss<10){ss='0'+ss;}
+if (s<10){s='0'+s;}
+ window.status = "Chrono "+j+" jour(s) et " +h + ' : '  + m + ' : ' + s ; 
+document.formu.heure.value =j+" jour(s) et "+h + ' : ' + m + ' : ' + s ;
+
+document.formu.seco.value =ss;
+s++;
+ss++;
+if (h==24){h='0'+0;j++;}
+if (s==60){s=0;s=0; m++;if(m<10){m='0'+m;}}
+if (m==60){m='0'+0;h++;if(h<10){h='0'+h;}}
+chrono=window.setTimeout("Chrono();",1000);
+}
+
+
+
+</script>
+</div>
+
+<form action="#" method="post" name="formu" id="formu">
+  <p align="center"> 
+    <input name="heure" type="text" id="heure" value="0 jour(s) et 00 : 00 : 00"> ou    <input name="seco" type="text"  value="00"> seconde(s).
+  </p>
+  <p align="center"> 
+    <input type="button" name="Submit" value="Start!" onClick="Chrono();">
+    <input type="button" name="Submit2" value="Stop!" onClick="window.clearTimeout(chrono);">
+    <input type="button" name="Submit3" value="RAZ"onClick="if (confirm('Souhaitez vous mettre le compteur à zéro?')){s=0;m=0;j=0;h=0;ss=0; window.status = 'Chrono 0 jour(s) et 00 : 00 : 00' ; document.formu.heure.value ='0 jour(s) et 00 : 00 : 00';document.formu.seco.value='0'+0;}">
+  </p>
+  <p align="center"><br>
+    Cliquez sur le bouton Start pour faire partir le chrono, le bouton stop pour 
+    l'arrêter et le bouton RAZ pour remettre à zéro. Un clic à la seconde pendant une minute vous avez  un sacré clic !!</p>
+</form>
+
+    <script src="../xtras/jquery-3.1.1.js"></script>
+    <script>
+    var score = 0 ;
+    $( document ).ready(function() {
+      nextChoice();
+    });
+
+    function nextChoice(){
+      $("#clicarea").off("click").off("dblclick").off("contextmenu");
+      var choice = Math.floor(Math.random()*3);
+      var action = "" ;
+      $(".action").hide();
+      switch (choice) {
+        case 0:
+          $("#clic").show();
+          action = "click";
+          break;
+        case 1:
+          $("#doubleclic").show();
+          action = "dblclick";
+          break;
+        case 2:
+          $("#clicdroit").show();
+          action = "contextmenu";
+          break;
+        default:
+        break;
+      }
+      bgColor = "rgb("+Math.floor(Math.random()*255)+","+Math.floor(Math.random()*255)+","+Math.floor(Math.random()*255)+")";
+      $("#clicarea").on(action, function(e){
+        e.preventDefault();
+        score ++ ;
+        updateScore();
+      }).css("background-color",bgColor);
+
+    }
+
+    function updateScore(){
+      $("#score").html(score);
+      nextChoice();
+    }
+    </script>
+
+<style>
+#clicarea {
+  width : 500px;
+  height : 100px;
+}
+#scorediv , #request {
+  font-size : 40px;
+}
+.action{
+  font-weight: bold;
+  color : #85d500;
+}
+#score{
+  color : #85d500;
+}
+</style>
+    <p>Utilisez les boutons de votre souris pour cliquer sur le pavé coloré comme demandé.
+    ( <a href="javascript:location.reload();">redémarrer</a> )</p>
+    <div id="scorediv">Votre score: <span id="score">0</span> </div>
+    <div id="request">Action demandée : <br>"<span id="clic" class="action">clic</span><span id="doubleclic" class="action">double clic</span><span id="clicdroit" class="action">clic droit</span>"
+    </div>
+    <div id="clicarea"></div>
+</body>
+
+<!-- Mirrored from www.clic-formation.net/images/06-windows/bases/exercices/clic/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:30 GMT -->
+</html>

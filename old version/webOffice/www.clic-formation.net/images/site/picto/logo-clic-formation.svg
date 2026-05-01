@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+  <!-- fond -->
+  <rect x="56" y="56" width="400" height="400" rx="96" fill="#0B365C"/>
+
+  <!-- écran -->
+  <rect x="140" y="150" width="232" height="140" rx="24" fill="#FFFFFF"/>
+
+  <!-- base écran -->
+  <rect x="230" y="310" width="52" height="40" rx="10" fill="#FFFFFF"/>
+  <rect x="200" y="350" width="112" height="24" rx="12" fill="#FFFFFF"/>
+
+ <text x="256"
+        y="245"
+        text-anchor="middle"
+        font-family="Poppins"
+        font-size="110"
+        font-weight="700"
+        fill="#0B365C">
+        CF
+  </text>
+
+
+
+</svg>

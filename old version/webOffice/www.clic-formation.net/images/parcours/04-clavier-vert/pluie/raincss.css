@@ -1,0 +1,45 @@
+h1 {font-size:90%;font-weight:500}
+#d01 {position:absolute;top:70px;left:0px;width:159px;background-color:#006600;layer-background-color:#006600}
+#d1 {position:absolute;top:30px;left:160px;width:330px;height:255px;background-color:white;layer-background-color:white;clip:rect(0px 330px 255px 0px)}
+
+#d10 {position:absolute;top:0px;left:25px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d11 {position:absolute;top:-16px;left:250px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d12 {position:absolute;top:-33px;left:75px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d13 {position:absolute;top:-49px;left:150px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d14 {position:absolute;top:-66px;left:225px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d15 {position:absolute;top:-82px;left:30px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d16 {position:absolute;top:-99px;left:175px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d17 {position:absolute;top:-115px;left:90px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d18 {position:absolute;top:-132px;left:225px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d19 {position:absolute;top:-148px;left:125px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d110 {position:absolute;top:-164px;left:310px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d111 {position:absolute;top:-181px;left:30px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d112 {position:absolute;top:-197px;left:250px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d113 {position:absolute;top:-214px;left:75px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d114 {position:absolute;top:-230px;left:30px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d115 {position:absolute;top:-246px;left:150px;width:20px;font-size:110%;font-weight:800;visibility:hide;visibility:hidden;background-color:white;layer-background-color:white}
+#d116 {position:absolute;top:150px;left:102px;width:150px;height:80px;font-size:110%;font-weight:900;color:lightblue;}
+#d117 {position:absolute;top:152px;left:100px;width:150px;height:80px;font-size:110%;font-weight:900;color:red;}
+#d118 {position:absolute;top:152px;left:100px;width:150px;height:80px;font-size:110%;font-weight:900;color:yellow;visibility:hidden;visibility:hide}
+#d2 {position:absolute;left:161px;top:40px;width:330px;height:45px}
+#d3 {position:absolute;left:161px;top:-10px;width:330px;height:57px}
+#d4 {position:absolute;left:160px;top:263px;width:333px;height:38px}
+#d5 {position:absolute;top:310px;left:240px}
+#d6 {position:absolute;left:550px;top:1px;width:250px;height:50px;text-align:left;font-size:90%;color:lightblue}
+#d7 {position:absolute;left:550px;top:220px;width:100px;height:50px}
+
+#navig {color:lightblue;font-size:90%}
+#levels {color:tomato;font-size:90%;font-weight:600}
+
+P{
+padding-left:2pt;padding-right:6pt;padding-top:2pt;padding-bottom:5pt;
+border-style:inset; 
+border-color:darkgreen; 
+background-color:tomato;
+border-width:3;
+white-space:pre;
+color:yellow;
+
+}
+.nav {color:lightblue;font-size:90%}
+.home {font-size:90%;color:cyan}

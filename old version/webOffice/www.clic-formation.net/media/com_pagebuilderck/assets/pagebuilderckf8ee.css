@@ -1,0 +1,3549 @@
+/**
+ * @name		Page Builder CK
+ * @package		com_pagebuilderck
+ * @copyright	Copyright (C) 2015. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ * @author		Cedric Keiflin - https://www.template-creator.com - https://www.joomlack.fr
+ */
+
+@import url("icons.css");
+
+.clr {
+	clear: both;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.ckwait {
+	background: url(../images/ajax-loader.gif) center center no-repeat;
+	min-height: 16px;
+}
+
+.cktooltipinfo {
+	background: rgba(0,0,0,0.7);
+	padding: 4px;
+	color: #e5e5e5;
+	border-radius: 3px;
+	box-shadow: 0 0 7px rgba(255,255,255,0.4);
+	float: left;
+	font-size: 10px;
+	font-family: Verdana;
+	z-index: 9999;
+	position: absolute !important;
+}
+
+#adminForm .btn-toolbar > div {
+	margin-right: 5px;
+}
+
+#previewarea {
+	border: 1px solid #3399FF;
+	padding: 20px;
+	/*width: 810px;*/
+	margin: 20px 20px 20px 250px;
+}
+
+#previewarea .previewareatitle {
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+	color: #3399FF;
+}
+
+#previewarea > .workspaceck:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+#previewareabloc > .inner {
+	position: relative;
+	overflow: hidden;
+}
+
+#ckoverlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(255,255,255, 0.8) url(../images/ajax-loader-2.html) center center no-repeat !important;
+	left: 0;
+	top: 0;
+	display:none;
+}
+
+#ckmessage {
+	float: left;
+	margin: 10px 10px 0;
+	max-width: 100%;
+	min-height: 60px;
+	overflow: hidden;
+}
+
+#ckmessage > div {
+
+}
+
+/*------------------------------------------
+	For the component layout
+----------------------------------------------*/
+
+#mainck {
+	position: relative;
+}
+
+.ckheader {
+    background: #3d3d3d url(../images/fondheader.html) left bottom repeat-x;
+    min-height: 82px;
+    padding: 0 0 1px 0;
+}
+
+.ckheadertitle {
+    font-size: 18px;
+    color: #777777;
+    margin: 20px 0 0 15px;
+    float: left;
+}
+
+.ckheadersubtitle {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+/*
+.ckheaderlogo {
+    background: url(../images/logo_magicnewsck_large_48.png) left top no-repeat;
+    width: 172px;
+    height: 48px;
+    margin: 7px 5px 0 10px;
+    top: 0px;
+    float: left;
+}*/
+
+.ckheaderoverlay {
+    position: fixed;
+    background: #fff;
+    z-index: -1;
+    width:100%;
+    height: 100%;
+}
+
+/*
+.ckclose {
+    display: block;
+    float: right;
+    width: 60px;
+    height: 45px;
+    color: #c1c1c1;
+    padding-top: 25px;
+    text-align: center;
+    margin: 10px 10px 0 0;
+    background-position: 20px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url(../images/cancel.png);
+}
+
+.ckclose:hover {
+    color: #fff;
+    background-image: url(../images/cancel_hover.png);
+}
+
+.ckclose.cksave {
+    background-image: url(../images/validate.png);
+}
+
+.ckclose.cksave:hover {
+    background-image: url(../images/validate_hover.png);
+}
+
+.ckclose.ckcopy {
+    background-image: url(../images/copy.png);
+}
+
+.ckclose.ckcopy:hover {
+    background-image: url(../images/copy_hover.png);
+}
+
+.ckclose.ckpaste {
+    background-image: url(../images/paste.png);
+}
+
+.ckclose.ckpaste:hover {
+    background-image: url(../images/paste_hover.png);
+}*/
+
+/*** for the main menu ***/
+/*#mainmenuck {
+	top: 0;
+	left: 0;
+	right: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+#mainmenuck div.ck_button {
+    padding: 0 5px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    color: #c1c1c1;
+}
+
+#mainmenuck div.ck_button:hover {
+    box-shadow: none;
+}
+
+#mainmenuck span.infotipdesc {
+    display: block;
+    text-align: left;
+    font-size: 11px;
+    color: #d8d8d8;
+    margin: 5px;
+    padding: 0;
+    height: 25px;
+}
+
+#mainmenuck div.ck_button.expert > a {
+    color: #3DE5DF;
+}
+
+#mainmenuck div.ck_button.noeditor > a {
+    color: red;
+}
+
+#mainmenuck div.ck_button a {
+    display: block;
+    margin: 5px;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #c1c1c1;
+    height: 25px;
+    color: #c1c1c1;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    background-position: 0px 2px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#mainmenuck div.ck_button a:hover {
+    color: #fff;
+}
+
+#mainmenuck div.ck_button.big a {
+    display: block;
+    float: right;
+    width: 60px;
+    height: 45px;
+    color: #c1c1c1;
+    padding-top: 25px;
+    text-align: center;
+    margin: 10px 6px 0 0;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#mainmenuck div.ck_button.big a:hover {
+    color: #fff;
+}
+
+.ck_buttons_right {
+    float: right;
+}
+
+#mainmenuck div.ck_button a.ckcanceltemplate {
+    background-image: url(../images/cancel.png);
+}
+
+#mainmenuck div.ck_button a.ckcanceltemplate:hover {
+    background-image: url(../images/cancel_hover.png);
+}
+
+#mainmenuck div.ck_button a.cksavetemplate {
+    width: 75px;
+    background-image: url(../images/validate.png);
+}
+
+#mainmenuck div.ck_button a.cksavetemplate:hover {
+    background-image: url(../images/validate_hover.png);
+}
+
+#mainmenuck div.ck_button a.ckthemes {
+    background-image: url(../images/themes_button.png);
+}
+
+#mainmenuck div.ck_button.active a.ckthemes {
+    background-image: url(../images/themes_button_active.png);
+}
+
+#mainmenuck div.ck_button a.ckexpert {
+    background-image: url(../images/expert_button.png);
+}
+
+#mainmenuck div.ck_button.expert a.ckexpert {
+    background-image: url(../images/expert_button_active.png);
+}*/
+
+/** for edition area */
+
+#mainck label:not(.btn) {
+	float: left; 
+	width: 180px; 
+	line-height: 28px; 
+}
+
+#mainck input { 
+	max-width: 100%; 
+}
+
+#mainck .ckheading { 
+	color: #2EA2CC; 
+	font-weight: bold; 
+	padding: 10px 0; 
+}
+
+.animate {
+	/*-webkit-transition: -webkit-transform 0.8s ease;
+	-moz-transition: -moz-transform 0.8s ease;
+	-ms-transition: -ms-transform 0.8s ease;
+	-o-transition: -o-transform 0.8s ease;
+	transition: transform 0.8s ease;
+	transition: background-color 0.8s ease;*/
+	transition: all 0.5s ease;
+}
+
+/** workspace **/
+
+#workspaceparentck {
+	position: relative;
+}
+
+.workspaceck {
+	position: relative;
+	max-width: 100%;
+	min-height: 40px;
+}
+
+body:not(.view-frontedition) .workspaceck {
+	/*padding-top: 30px;*/
+}
+
+
+.workspaceck > #system-readmore {
+	min-height: 40px;
+	border: 2px dashed orange;
+}
+
+.workspaceck > #system-readmore::after {
+	color: orange;
+	content: "READMORE";
+	display: block;
+	line-height: 40px;
+	text-align: center;
+}
+
+.addrow {
+	background: rgba(30, 30, 30, 0.3);
+	height: 30px;
+	color: rgba(30, 30, 30, 0.5);
+	font-size: 30px;
+	line-height: 30px;
+    text-align: center;
+	cursor: pointer;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.addrow:hover {
+	background: rgba(30, 30, 30, 0.8);
+	color: #fff;
+}
+
+.rowck {
+	position: relative;
+	/*border-right: 3px solid transparent;*/
+	border: 1px dashed transparent;
+}
+
+.workspaceck .wrapperck {
+	position: relative;
+	border: 1px dashed transparent;
+	padding-top: 35px;
+}
+
+.rowck > .inner, .workspaceck .wrapperck > .inner {
+	min-height: 30px;
+}
+
+.workspaceck .wrapperck > .inner {
+	min-height: 80px;
+}
+
+.workspaceck .rowck .rowck {
+	/*margin-top: 35px;*/
+	margin-left: 40px;
+}
+
+.workspaceck .rowck:hover, .workspaceck .rowck.ckfocus,
+.workspaceck .rowck.ckhighlight {
+	border: 1px dashed #57a2ed;
+}
+
+.workspaceck:not(.ckiscontenttype) .wrapperck:hover, .workspaceck .wrapperck.ckfocus {
+	border: 1px solid violet;
+}
+
+.workspaceck.ckresponsiveactive  .rowck:hover > .editorck {
+	z-index: 999 !important;
+}
+
+.workspaceck.ckresponsiveactive :hover .rowck:not(:hover) > .editorck {
+	opacity: 0.5 !important;
+}
+
+.draggingck > .inner {
+	/*margin-right: -1px;*/
+}
+
+.blockck {
+	float: left;
+	display: block;
+	/*display: table-cell;*/
+	min-height: 50px;
+	position: relative;
+	/*padding-top: 30px;*/
+}
+
+.blockck > .inner {
+	/*background: rgba(200, 200, 200, 0.3);*/
+	/*color: rgba(30, 30, 30, 0.5);*/
+	position: relative;
+	/*min-height: 150px;
+	padding: 5px;*/
+	/*height: 100%;
+	box-sizing: border-box;*/
+}
+
+.workspaceck .blockck:hover .removeblock, .workspaceck .blockck:hover .ui-resizable-handle {
+	display: block !important;
+}
+
+/*
+.blockck:last-child :hover .ui-resizable-handle {
+	display: none !important;
+}*/
+
+.blockck > .editorck {
+	top: -30px;
+}
+
+.innercontent {
+	min-height: 65px;
+	height: 100%;
+	position: relative;
+}
+
+.innercontent:empty:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	border: 1px dashed #ccc;
+	z-index: 0;
+}
+
+.workspaceck .wrapperck > .inner:empty:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	border: 1px dashed rgba(255, 0, 255, 0.5);
+	z-index: 0;
+	height: auto;
+	visibility: visible;
+}
+
+.placeholderck {
+	padding: 10px;
+	min-height: 60px;
+	background: #2EA2CC;
+}
+
+.rowck .placeholderck {
+	background: blueviolet;
+}
+
+#ckelementslist .placeholderck td {
+	padding: 10px;
+	min-height: 60px;
+	background: #2EA2CC !important;
+}
+
+#ckelementslist .uick-sortable-helper {
+	background: white;
+	border: 1px solid #ccc;
+}
+
+.sortable-handler:not(.inactive) {
+	cursor: move;
+}
+
+.placeholderchild {
+	float: left;
+	margin: 0;
+	padding: 0;
+	transition: opacity 0.2s;
+	flex: 1 1 auto;
+	z-index: 99;
+}
+
+.placeholderchild > .inner {
+	/*border: 1px dashed #3399ff;*/
+	background: #2EA2CC;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*
+.removerow, .removeblock {
+	background: rgba(30, 30, 30, 0.3);
+	color: rgba(30, 30, 30, 0.5);
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2) inset;
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	right: -30px;
+	top: 0;
+	text-align: center;
+	line-height: 28px;
+	font-size: 20px;
+}*/
+
+.blockck .ui-resizable-handle {
+	position: absolute;
+	width: 30px;
+	height: 80px;
+	right: 5px;
+	top: 0;
+	width: 10px;
+	/*display: none !important;*/
+	z-index: 999;
+	cursor: e-resize;
+	background: url(../images/bg-handle-resize-h.html) center 50px no-repeat;
+}
+
+.blockck .ui-resizable-handle:hover {
+	/*background: #57A2ED;*/
+	/*color: #fff;
+	box-shadow: 0 0 15px 0 #3174B7 inset;*/
+}
+
+.removeblock {
+	right: 5px;
+	top: 5px;
+	display: none;
+	z-index: 999;
+}
+
+.removerow:hover, .removeblock:hover {
+	background: #E81C19;
+	color: #fff;
+	box-shadow: 0 0 15px 0 #BC201E inset;
+}
+
+
+
+.blockck_width {
+	display: none;
+	background: #57A2ED;
+	border-radius: 3px;
+	bottom: 10px;
+	color: #fff;
+	height: 20px;
+	left: 50%;
+	margin: 0 0 0 -25px;
+	padding: 5px;
+	position: absolute;
+	text-align: center;
+	width: 50px;
+	box-shadow: 0 0 15px 0 #3174B7 inset;
+}
+
+.workspaceck .rowck:hover .blockck_width {
+	display: block;
+}
+
+/*.rowck.highlight_delete {
+	border-right: 3px dashed red;
+}*/
+
+.highlight_delete > *:not(.editorck) {
+	opacity: 0.5;
+}
+
+/*---------- Control bar --------------*/
+
+.ckfields_size {
+	margin-left: 28px;
+	position: absolute;
+	width: 300px;
+}
+
+.ckfields_size .isControl {
+	float: left !important;
+	padding: 0 5px;
+	background-color: #999;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.iscolumnsuggestion {
+	float: left;
+	cursor: pointer;
+}
+
+.iscolumnsuggestion > div {
+	background: #f1f1f1;
+	border-radius: 1px;
+	margin: 5px 1px;
+	height: 20px;
+	border: 1px solid #bbb;
+}
+
+.iscolumnsuggestion.stacked > div {
+	width: 24px;
+	height: 8px;
+	margin: 0 0 1px 0;
+}
+
+.iscolumnsuggestion.aligned > div {
+	width: 10px;
+	margin: 0 1px;
+}
+
+.ckresponsiveoptions {
+	padding: 5px;
+}
+
+.ckresponsiveoptions .columnsuggestion {
+	display: block;
+	height: 20px;
+	text-align: left;
+	text-indent: 5px;
+	line-height: 18px;
+}
+
+
+.ckfields_size .isControl:hover {
+	/*background-color: #999;*/
+}
+
+.ckfields .isControl {
+    width: 27px;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+.ckfields .isControl.controlDown, .ckfields .isControl.controlUp, .ckfields .isControl.controlModules, .ckfields .isControl.controlMaincontent,
+.ckfields .isControl.controlBanner {
+	width: 20px;
+}
+
+.ckfields .isControl.ckhover,
+.ckfields .isControl.active,
+.ckfields .isControl:hover {
+    background-color: rgba(0,0,0,0.1);
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* for main blocks */
+.ckfields {
+    min-height: 30px;
+    font-family: serif !important;
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+    background: #f5f5f5;
+    z-index: 101;
+    position: absolute;
+    /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+	border-radius: 4px 4px 0 0;
+}
+
+.blockck > .editorck  > .ckfields {
+    top: -30px;
+}
+
+.roweditor > .ckfields {
+	font-family: serif !important;
+	margin: 0;
+	padding: 0;
+	left: -5px;
+	top: 0px;
+	background: #f5f5f5;
+	z-index: 101;
+	position: absolute;
+	color: #fff;
+	width: 30px;
+	height: 62px;
+	/*bottom: 30px;*/
+	border: 1px solid #ddd;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.wrappereditor > .ckfields {
+	background: rgba(255, 0, 255, 0.1);
+	height: 32px;
+}
+
+.rowck:hover > .roweditor > .ckfields {
+    /*border: 1px solid #57a2ed;*/
+}
+
+.roweditor > .ckfields .isControl.controlAddRowAfter {
+	background: none repeat scroll 0 0 #57a2ed;
+	bottom: -28px;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	border-radius: 3px 0 0 3px;
+	color: #fff;
+	font-size: 30px;
+	font-family: Helvetica;
+	line-height: 26px;
+	text-align: center;
+}
+
+.roweditor > .ckfields .isControl.controlAddRowAfter:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13px 0 13px 13px;
+	border-color: transparent transparent transparent #57a2ed;
+	position: absolute;
+	right: -13px;
+	top: 0;
+}
+
+.roweditor > .ckfields .isControl{
+	width: 28px;
+	float: none;
+}
+
+.roweditor > .ckfields .controlAdd {
+	color: #000;
+	font-size: 30px;
+	font-family: Helvetica;
+	line-height: 30px;
+	text-align: center;
+}
+
+.cktype > .editorck .ckfields {
+	background: orange;
+	margin: 0px 0 0 25px;
+	border-radius: 0 0 4px 4px;
+}
+
+.cktype[data-type="text"] > .editorck .ckfields,
+.cktype[data-type="vertical_tabs"] > .editorck .ckfields,
+.cktype[data-type="tabs"] > .editorck .ckfields,
+.cktype[data-type="message"] > .editorck .ckfields,
+.cktype[data-type="audio"] > .editorck .ckfields,
+.cktype[data-type="heading"] > .editorck .ckfields,
+.cktype[data-type="flipbox"] > .editorck .ckfields {
+	background: orange;
+	margin: -30px 0 0 25px;
+	border-radius: 4px 4px 0 0;
+}
+
+.cktype[data-type="flipbox"] > .editorck .ckfields {
+	background: chocolate;
+	margin: -30px 0 0 200px;
+}
+
+.blockck > .editorck .ckfields{
+	background: #3AAE8E;
+}
+
+.blockck .blockck > .editorck  > .ckfields {
+	left: 220px;
+	background: #8DCFBD;
+}
+
+.workspaceck:not(.ckiscontenttype) .blockck:hover:after,
+.workspaceck:not(.ckiscontenttype) .blockck.ckhighlight:after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	bottom: -2px;
+	left: -2px;
+	right: -2px;
+	border: 2px solid #3AAE8E;
+	pointer-events: none;
+	border-radius: 4px;
+	z-index: 9;
+}
+
+.workspaceck:not(.ckiscontenttype) .blockck .blockck:hover:after,
+.workspaceck:not(.ckiscontenttype) .blockck .blockck.ckhighlight:after {
+	border-color: #8DCFBD;
+}
+
+.addblock {
+	height: 50px;
+}
+
+.addblock:hover {
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+}
+
+.ckfields .editorcktitle {
+    float: left;
+    min-width: 100px;
+    margin: 1px;
+    padding: 0;
+    line-height: 25px;
+    height: 28px;
+    font-size: 13px !important;
+    color: #fff !important;
+    text-align: center !important;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: none;
+    background: #000 !important;
+}
+
+.ckfields .editorckposition {
+    float: left;
+    min-width: 100px;
+    margin: 1px;
+    padding: 0;
+    line-height: 25px;
+    height: 28px;
+    font-size: 13px !important;
+    color: #000 !important;
+    text-align: center !important;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: none;
+    background: #fff !important;
+}
+
+.editorcktitle:hover, .editorckposition:hover {
+    cursor: pointer;
+    background: #666 url(../images/toolbar/edition.html) center center no-repeat !important;
+    color: #fff !important;
+    text-indent: -999em;
+}
+
+#wrapper > .editorck .editorcktitle:hover {
+    cursor: inherit;
+    background: #000 !important;
+    color: #fff !important;
+    text-indent: 0;
+}
+
+.ckfields .controlDel{
+    background: url(../images/toolbar/delete.svg) center center no-repeat;
+    background-size: 22px 22px;
+}
+
+.ckfields .controlUp {
+    background: url(../images/toolbar/arrow_up.html) center center no-repeat;
+}
+
+.ckfields .controlDown {
+    background: url(../images/toolbar/arrow_down.html) center center no-repeat;
+}
+
+.ckfields .controladdBlock {
+    background: url(../images/toolbar/addblock.html) center center no-repeat;
+}
+
+.ckfields .controladdWrapper {
+    background: url(../images/toolbar/addwrapper.html) center center no-repeat;
+}
+
+.column1 .controlUp, .column2 .controlUp, .maincenter .controlUp, .flexiblemodule .controlUp,
+.main .controlUp, .bannerlogo .controlUp, .banner .controlUp,
+.logobloc .controlUp {
+    background: url(../images/toolbar/arrow_left.html) center center no-repeat;
+}
+
+.column1 .controlDown, .column2 .controlDown, .maincenter .controlDown, .flexiblemodule .controlDown,
+.main .controlDown, .bannerlogo .controlDown, .banner .controlDown,
+.logobloc .controlDown  {
+    background: url(../images/toolbar/arrow_right.html) center center no-repeat;
+}
+
+.ckfields .controlCss, .editorckresponsive .controlCss {
+	background: url(../images/toolbar/edit.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlMaincontent, .ckfields .controlModules, .ckfields .controlBanner {
+	background: url(../images/toolbar/options.html) center center no-repeat;
+}
+
+.ckfields .controlMove, .ckfields .controlMoveItem {
+	background: url(../images/toolbar/move.svg) center center no-repeat;
+	background-size: 22px 22px;
+	cursor: move;
+}
+
+.ckfields .controlFavorite {
+	background: url(../images/toolbar/magic.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlEdit,
+.editorckresponsive .controlEdit {
+	background: url(../images/toolbar/edit.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlCopy {
+	background: url(../images/toolbar/copy.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlSize {
+	background: url(../images/toolbar/edit-column.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlSizeDown {
+	background: url(../images/toolbar/arrow_left.html) center center no-repeat;
+}
+
+.ckfields .controlSizeUp {
+	background: url(../images/toolbar/arrow_right.html) center center no-repeat;
+}
+
+.ckfields .controlFullwidth {
+	background: url(../images/toolbar/fullwidth.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlEditCols {
+	background-image: url(../images/toolbar/cogs.html) center center no-repeat;
+}
+
+.ckfields .controlSave {
+	background: url(../images/toolbar/save.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlValignTop {
+	background: url(../images/toolbar/v_align.svg) center 4px no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlValignCenter {
+	background: url(../images/toolbar/v_align.svg) center 10px no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlValignBottom {
+	background: url(../images/toolbar/v_align.svg) center 16px no-repeat;
+	background-size: 22px 22px;
+}
+
+.ckfields .controlValignDefault {
+	background: url(../images/toolbar/v_aligndefault.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.roweditor > .ckfields .isControl.controlGutter {
+	background-image: url(../images/toolbar/gutter.html);
+	background-position: 5px center;
+	width: 80px;
+	padding-left: 30px;
+}
+
+.blockck .editorckresponsive .isControl {
+	opacity: 0.7;
+}
+
+/*.isControl.controlAcl > .fa {
+	float: left;
+	font-size: 19px;
+	color: #000;
+	margin: 5px;
+}*/
+
+.ckfields .controlAcl {
+	background: url(../images/toolbar/key.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.isControl.controlResponsiveAligned {
+	background: url(../images/toolbar/responsive_aligned.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.isControl.controlResponsiveStacked {
+	background: url(../images/toolbar/responsive_stacked.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.isControl.controlResponsiveShown {
+	background: url(../images/toolbar/eye.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.isControl.controlResponsiveHidden {
+	background: url(../images/toolbar/eye_slash.svg) center center no-repeat;
+	background-size: 22px 22px;
+}
+
+.isControl.controlToggleDetection {
+	background: url(../images/toolbar/toggle-on.svg) center center no-repeat;
+}
+
+[ckresponsiverange$="1"] .controlToggleDetectionOff-phone > [class*="editorckresponsive"] .isControl:not(.controlToggleDetection),
+[ckresponsiverange$="2"] .controlToggleDetectionOff-phone > [class*="editorckresponsive"] .isControl:not(.controlToggleDetection),
+[ckresponsiverange$="1"] .controlToggleDetectionOff-phone > div:not(.editorck) [class*="editorckresponsive"],
+[ckresponsiverange$="2"] .controlToggleDetectionOff-phone > div:not(.editorck) [class*="editorckresponsive"] {
+	display: none !important;
+}
+
+[ckresponsiverange$="1"] .controlToggleDetectionOff-phone > [class*="editorckresponsive"] .isControl.controlToggleDetection,
+[ckresponsiverange$="2"] .controlToggleDetectionOff-phone > [class*="editorckresponsive"] .isControl.controlToggleDetection,
+[ckresponsiverange$="1"] .controlToggleDetectionOff-phone > [class*="roweditor"] .isControl.controlToggleDetection,
+[ckresponsiverange$="2"] .controlToggleDetectionOff-phone > [class*="roweditor"] .isControl.controlToggleDetection {
+	background: url(../images/toolbar/toggle-off.svg) center center no-repeat;
+}
+
+[ckresponsiverange$="3"] .controlToggleDetectionOff-tablet > [class*="editorckresponsive"] .isControl:not(.controlToggleDetection),
+[ckresponsiverange$="4"] .controlToggleDetectionOff-tablet > [class*="editorckresponsive"] .isControl:not(.controlToggleDetection),
+[ckresponsiverange$="3"] .controlToggleDetectionOff-tablet > div:not(.editorck) [class*="editorckresponsive"],
+[ckresponsiverange$="4"] .controlToggleDetectionOff-tablet > div:not(.editorck) [class*="editorckresponsive"] {
+	display: none !important;
+}
+
+[ckresponsiverange$="3"] .controlToggleDetectionOff-tablet > [class*="editorckresponsive"] .isControl.controlToggleDetection,
+[ckresponsiverange$="4"] .controlToggleDetectionOff-tablet > [class*="editorckresponsive"] .isControl.controlToggleDetection,
+[ckresponsiverange$="3"] .controlToggleDetectionOff-tablet > [class*="roweditor"] .isControl.controlToggleDetection,
+[ckresponsiverange$="4"] .controlToggleDetectionOff-tablet > [class*="roweditor"] .isControl.controlToggleDetection {
+	background: url(../images/toolbar/toggle-off.svg) center center no-repeat;
+}
+
+[ckresponsiverange$="5"] .controlToggleDetectionOff-desktop > [class*="editorckresponsive"] .isControl:not(.controlToggleDetection),
+[ckresponsiverange$="5"] .controlToggleDetectionOff-desktop > div:not(.editorck) [class*="editorckresponsive"] {
+	display: none !important;
+}
+
+[ckresponsiverange$="5"] .controlToggleDetectionOff-desktop > [class*="editorckresponsive"] .isControl.controlToggleDetection,
+[ckresponsiverange$="5"] .controlToggleDetectionOff-desktop > [class*="roweditor"] .isControl.controlToggleDetection {
+	background: url(../images/toolbar/toggle-off.svg) center center no-repeat;
+}
+
+[ckresponsiverange$="1"] .controlToggleDetectionOff-phone:before,
+[ckresponsiverange$="2"] .controlToggleDetectionOff-phone:before,
+[ckresponsiverange$="3"] .controlToggleDetectionOff-tablet:before,
+[ckresponsiverange$="4"] .controlToggleDetectionOff-tablet:before,
+[ckresponsiverange$="5"] .controlToggleDetectionOff-desktop:before {
+
+	display: block;
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #d3531a;
+	border-radius: 9px;
+	opacity: 1;
+	left: 0;
+	top: 0;
+	background: url('../images/disable.png') center center repeat;
+	/*background-size: contain;*/
+	z-index: 9;
+}
+
+.rowck .rowck .controlFullwidth {
+	display: none;
+}
+
+.isControl.controlResponsiveHidden,
+.isControl.controlResponsiveShown {
+	text-align: center;
+	line-height: 28px;
+	color: #555;
+	font-size: 16px;
+}
+
+.roweditor > .ckfields .isControl.controlGutter input {
+	height: 25px;
+	margin-top: 2px;
+}
+
+/*.ckfields .controlMore {
+	color: black;
+	font-family: Georgia;
+	font-size: 28px;
+	text-align: center;
+	line-height: 16px;
+}*/
+
+.ckfields .controlMore{
+    background: url(../images/toolbar/more.svg) center center no-repeat;
+	background-size: 22px 22px;
+	color: transparent;
+}
+
+.controlMoreChildren {
+	padding: 0;
+	background: #f5f5f5;
+	position: relative;
+	top: -31px;
+	left: 30px;
+	height: 32px;
+	width: min-content;
+	display: flex;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.rowck .rowck .controlMoreChildren {
+	width: 190px;
+}
+
+.wrappereditor .controlMoreChildren {
+	padding: 0;
+	background: none;
+	position: static;
+	top: 0;
+	left: 0;
+	height: 32px;
+	width: 190px;
+	border: none;
+}
+
+.controlMoreChildren > .isControl {
+	display: inline-block;
+}
+
+.controlMoreChildren .isControl:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.isControl.ckactive {
+	background-color: #999;
+	box-shadow: #444 0 0 5px inset;
+}
+
+/*-------------- content icon --------------*/
+
+.addcontent {
+	border: 1px dashed #aaa;
+	color: #aaa;
+	margin: 15px 10px 50px 0;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+}
+
+.addcontent:hover {
+	border-color: #57A2ED;
+	color: #57A2ED;
+	background: rgba(255,255,255,0.9);
+}
+
+/*--------------- popup ---------------*/
+
+.ckpopup {
+	display: none;
+	position: fixed;
+	background: #fff;
+	box-shadow: 0px 0px 2px #bbb;
+	min-height: 100px;
+	height: 100%;
+	width: 310px;
+	left: 0;
+	top: 0;
+	/*resize: both;*/
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 1040;
+}
+
+#ckcontentslist {
+	z-index: 1100;
+}
+
+.ckpopup_inner {
+	width: 800px;
+	max-width: 90%;
+	min-height: 400px;
+	padding: 20px;
+	margin: 20px auto;
+	background: #fff;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: none;
+	vertical-align: middle;
+	line-height: 20px;
+	border: 4px solid #ccc;
+	border-radius: 4px;
+	box-shadow: #000 0 0 10px;
+	position: relative;
+	z-index: 1100;
+}
+
+.ckclosepopup {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-radius: 0 0 0 4px;
+	/*background: #ccc;*/
+	padding: 5px 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#ck_overlay {
+	position: fixed;
+	background: #000;
+	z-index: 1099;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0.6;
+	display: none;
+	display: none;
+}
+
+.ckpopupheader {
+    background: #3d3d3d url(../images/fondpopup.html) left bottom repeat-x;
+    min-height: 82px;
+    padding: 0 0 1px 0;
+}
+
+#mainmenuck > .ckpopupheader {
+    background: #3d3d3d url(../images/fondpopup_main.html) left bottom repeat-x;
+}
+
+.ckpopuptitle {
+    font-size: 18px;
+    color: #777777;
+    margin: 20px 0 0 15px;
+    float: left;
+}
+
+.cktitle {
+	font-size: 26px;
+	margin: 20px 0 15px 0;
+}
+
+.ckdesc {
+	font-size: 13px;
+	padding: 5px 0;
+}
+
+.ckpopupsubtitle {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.ckpopupobjid {
+	position: absolute;
+	top: 47px;
+	left: 15px;
+	font-size: 11px;
+	color: #777;
+	pointer-events: none;
+}
+
+.ckpopuplogo {
+    background: url(../images/logo_pagebuilderck_large_48.png) left top no-repeat;
+    width: 172px;
+    height: 48px;
+    margin: 10px 5px 0 10px;
+    top: 0px;
+    float: left;
+}
+
+.ckpopupoverlay {
+    position: absolute;
+    background: #fff;
+    z-index: -1;
+    width:100%;
+    height: 100%;
+}
+
+/*
+.ckclose {
+    display: block;
+    float: right;
+    width: 60px;
+    height: 45px;
+    color: #c1c1c1;
+    padding-top: 25px;
+    text-align: center;
+    margin: 10px 10px 0 0;
+    background-position: 20px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url(../images/cancel.png);
+}
+
+.ckclose:hover {
+    color: #fff;
+    background-image: url(../images/cancel_hover.png);
+}
+
+.ckclose.cksave {
+    background-image: url(../images/validate.png);
+}
+
+.ckclose.cksave:hover {
+    background-image: url(../images/validate_hover.png);
+}
+
+.ckclose.ckcopy {
+    background-image: url(../images/copy.png);
+}
+
+.ckclose.ckcopy:hover {
+    background-image: url(../images/copy_hover.png);
+}
+
+.ckclose.ckpaste {
+    background-image: url(../images/paste.png);
+}
+
+.ckclose.ckpaste:hover {
+    background-image: url(../images/paste_hover.png);
+}*/
+
+#ckwaitoverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+	min-width: 220px;
+	min-height: 220px;
+    top: 0;
+    left: 0;
+    background: url(../images/ajax-loader-24.gif) center center no-repeat;
+}
+
+/*------------ contents elements selection -----------------*/
+.ckAddContent_item {
+	width: 175px;
+	height: 60px;
+	float:left;
+	margin: 5px;
+	padding: 5px;
+	background: #f2f2f2;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.ckAddContent_item:hover {
+	border: 1px solid #000;
+}
+
+.ckAddContent_item  > div {
+	float: right;
+	width: 130px;
+}
+
+.ckAddContent_item .content_item_title {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Segoe UI;
+}
+
+.ckAddContent_item .content_item_desc {
+	font-size: 10px;
+	color: #1a1a1a;
+}
+
+.ckAddContent_item img {
+	float: left;
+	width: 32px;
+	margin: 5px 0 0 2px;
+}
+
+/*------------- options interface ----------------*/
+
+#elementscontainer {
+    margin: 0 0 0 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#elementscontainer .expert {
+    color: #3DE5DF !important;
+}
+
+.layoutinfos {
+    float: left;
+    width: 220px;
+    margin: 10px 20px 0 10px;
+    font-size: 12px;
+    font-family: Verdana;
+    text-align: justify;
+    line-height: 14px;
+}
+
+.layoutinfostitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #b2b2b2;
+    font-family: Verdana;
+    padding-bottom: 4px
+}
+
+.layoutinfosdesc {
+    margin: 10px 0 0 0;
+}
+
+/*-------- MENUSTYLES -----------------*/
+.menupaneblock {
+    text-align: left;
+    float: left;
+}
+
+.menustyles {
+    /*background: #fff;*/
+	min-height: auto !important;
+	padding: 1px 0;
+}
+
+.menustyles .inputbox, .menustyles .inputboxfake,
+#elementscontainer .inputbox, #elementsmenu .inputbox, #infos_code .inputbox {
+	padding: 2px;
+	width: 44px;
+	font-size : 13px !important;
+	border-radius: 3px !important;
+	display: inline;
+	float: none;
+	margin: 2px 0px 0px 0px;
+	border-top: 1px solid #ddd !important;
+	border-left: 1px solid #ddd !important;
+	border-right: 1px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+	height: 24px;
+	color: #000;
+	background : #fff;
+	font-weight: normal !important;
+	box-shadow: none !important;
+	box-sizing: border-box;
+}
+
+#elementscontainer .inputbox.invalid,
+#elementscontainer .inputboxfake.invalid {
+    border: 1px solid red !important;
+}
+
+input[disabled ], #elementscontainer .inputbox[disabled ], #elementsmenu .inputbox[disabled ], #infos_code .inputbox[disabled ],
+input[disabled ], #elementscontainer .inputboxfake[disabled ], #elementsmenu .inputboxfake[disabled ], #infos_code .inputboxfake[disabled ] {
+    border: 1px dotted #bcbcbc !important;
+}
+
+
+.menustyles select.inputbox, #elementsmenu select.inputbox, #infos_code select.inputbox, #elementscontainer select.inputbox,
+.menustyles input[type="file"].inputbox, #elementsmenu input[type="file"].inputbox, #infos_code input[type="file"].inputbox, #elementscontainer  input[type="file"].inputbox,
+.menustyles select.inputboxfake, #elementsmenu select.inputboxfake, #infos_code select.inputboxfake, #elementscontainer select.inputboxfake,
+.menustyles input[type="file"].inputboxfake, #elementsmenu input[type="file"].inputboxfake, #infos_code input[type="file"].inputboxfake, #elementscontainer  input[type="file"].inputboxfake {
+    height: 30px;
+	padding: 5px;
+}
+
+#blocselectidcont .inputbox,
+#blocselectidcont .inputboxfake {
+    width: 93px;
+}
+
+#infos_code label {
+    display: inline-block;
+    width: 180px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.menupanetitle {
+    font-weight: bold;
+    color: #000;
+    padding: 3px;
+}
+
+.menustyles input[type="radio"], input[type="checkbox"] {
+    border: none;
+}
+
+.menustyles img, #elementsmenu img {
+    float: none;
+    margin : 0;
+    vertical-align: top;
+}
+
+.menustylesblock {
+    /*float: left;*/
+/*    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;*/
+}
+
+.menustylesblocktitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 27px;
+    padding: 5px 0 5px 10px;
+    height: 38px;
+    background: #fff;
+	color: #666;
+	border-left: 5px solid #ddd;
+	border-bottom: 1px solid #dd;
+    cursor: pointer;
+	margin: 2px
+}
+
+.menustylesblocktitle:before {
+	border-color: transparent transparent transparent #ddd;
+	border-style: solid;
+	border-width: 4px 0 4px 5px;
+    content: " ";
+	display: block;
+	float: left;
+	height: 0;
+	margin: 10px 5px;
+	width: 0;
+}
+
+.menustylesblocktitle.open:before {
+	transform: rotate(90deg);
+}
+
+.menustylesblocktitle.open,
+.menustylesblocktitle:hover {
+    color: #111;
+	border-left: 5px solid #2E5A84;
+}
+
+.menustylesblockaccordion {
+    padding: 5px;
+}
+
+#popup_editionck .menulink,
+.menulink[tab]:not(.mainmenulink){
+    float: none;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #333;
+    cursor: pointer;
+	background: #eee;
+	border-radius: 2px 2px 0 0;
+	border: 1px solid #ddd;
+}
+
+#popup_editionck .menulink:hover, 
+#popup_editionck .menulink.current, 
+#popup_editionck .menulink.open,
+.menulink[tab]:not(.mainmenulink):hover, 
+.menulink[tab]:not(.mainmenulink).current, 
+.menulink[tab]:not(.mainmenulink).open {
+    color: #000;
+}
+
+#popup_editionck::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.menustyleslink, .menulink2, .menulink3 {
+    float: left;
+    padding: 5px 10px;
+    margin: 5px 5px 0 5px;
+    /*border-right: 1px solid #ddd;*/
+    cursor: pointer;
+    color: #a6a6a6;
+	background: #eee;
+	border-radius: 2px 2px 0 0;
+	border: 1px solid #ddd;
+	position: relative;
+	z-index: 1;
+}
+
+.menustyleslinkdesc {
+    text-align: center;
+    font-size: 10px;
+    color: #a6a6a6;
+    line-height: 10px;
+}
+
+.menustyleslink:hover, .menustyleslink.current,
+.menulink2:hover, .menulink2.current,
+.menulink3:hover, .menulink3.current {
+    color: #000;
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.menustyleslink + .clr,
+.menulink2 + .clr,
+.menulink3 + .clr {
+	border-top: 1px solid #ddd;
+	margin-bottom: 5px;
+	position: relative;
+	z-index: 0;
+	top: -1px;
+}
+
+.ckbuttonstyle {
+	display: block;
+	padding: 4px 8px;
+	margin: 2px;
+	background: #3d618f;
+	border-radius: 3px;
+	color: #f1f1f1;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	line-height: 25px;
+	text-align: center;
+	height: 30px;
+	max-width: 283px;
+}
+
+.ckbuttonstyle:hover {
+    background: #2e486b;
+    color: #fff;
+}
+
+#elementscontainer .btn-group label {
+	display: inline-block;
+	margin: 0 -3px 0 0;
+	padding: 5px 8px;
+	border-radius: 0;
+	min-width: 30px;
+}
+
+#elementscontainer .btn-group :checked + label {
+	background-image: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+	outline: 0 none;
+	background-color: #e6e6e6;
+	color: #333;
+}
+
+/*------------- default jquery ui styles ------------------*/
+.cktype .ui-helper-clearfix::before, .cktype .ui-helper-clearfix::after {
+	border-collapse: collapse;
+	content: "";
+	display: table;
+}
+.cktype .ui-helper-clearfix::after {
+	clear: both;
+}
+.cktype .ui-accordion .ui-accordion-header {
+	background: #fff;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+	font-size: 100%;
+	border: 1px solid #ddd;
+	border-radius: 0;
+}
+.cktype .ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.cktype .ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.cktype .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.cktype .ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-radius: 0;
+}
+
+.cktype[data-type="accordion"] .ui-accordion .ui-accordion-content.ui-accordion-content-active {
+	overflow: visible;
+}
+
+.cktype .ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.cktype .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -4px;
+	margin-left: 5px;
+}
+.cktype .ui-icon-triangle-1-e {
+	height: 0;
+	width: 0;
+	border-color: transparent transparent transparent #ddd;
+	border-style: solid;
+	border-width: 4px 0 4px 6px;
+}
+.cktype .ui-icon-triangle-1-s {
+	height: 0;
+	width: 0;
+	border-color: #ddd transparent transparent transparent;
+	border-style: solid;
+	border-width: 6px 4px 0 4px;
+}
+.cktype .ui-tabs {
+	border: none;
+	background: none;
+	border-radius: 0;
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+	padding: .2em;
+}
+.cktype .ui-tabs .ui-tabs-nav {
+	border: none;
+	background: none;
+	border-radius: 0;
+	margin: 0;
+	padding: .2em .2em 0;
+	border-bottom: 1px solid #ddd;
+}
+.cktype .ui-tabs .ui-tabs-nav li {
+	background: #fff;
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 1px .2em 0 0;
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-width: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+.cktype .ui-tabs .ui-tabs-nav li.ui-state-default {
+	background: #eee;
+}
+.cktype .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	background: #fff;
+}
+.cktype .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	/*float: left;*/
+	display: block;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+.cktype .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+}
+.cktype .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.cktype .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.cktype .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+	cursor: text;
+}
+.cktype .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+	cursor: pointer;
+}
+.cktype .ui-tabs .ui-tabs-panel {
+	background: #fff;
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+}
+/*------------- edition of items, sortable elements --------------*/
+#items_edition_list .item_edition {
+	border: 1px solid #eee;
+	background: #fff;
+	padding: 5px 5px 5px 35px;
+	margin: 3px 0;
+	position: relative;
+	border-radius: 4px;
+}
+
+.item_edition::before, .item_edition::after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+
+#items_edition_list .item_title, #items_edition_list .item_content {
+	min-width: 250px;
+	display: inline-block;
+}
+
+#items_edition_list .item_move {
+	background: #f5f5f5 url(../images/arrow_move.gif) center 10px no-repeat;
+	border-right: 1px solid #eee;
+	width: 30px;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	cursor: move;
+}
+
+.workspaceck .cktype {
+	position: relative;
+	min-height: 50px;
+}
+
+.workspaceck:not(.ckiscontenttype) .cktype:hover:after,
+.workspaceck:not(.ckiscontenttype) .cktype.ckhighlight:after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	border: 2px solid orange;
+	border-radius: 4px;
+	pointer-events: none;
+}
+
+.workspaceck .cktype[data-type="code"]:hover:after {
+	pointer-events: none;
+}
+
+.workspaceck .cktype[data-type="html"]:hover:after  {
+	pointer-events: none;
+}
+
+.item_delete {
+	margin: 5px 0;
+}
+
+.item_add {
+	
+}
+
+.item_edition .item_toggler {
+	background: #fff;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+	font-size: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-indent: 20px;
+}
+
+.item_edition .item_toggler .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -4px;
+	margin-left: 5px;
+}
+
+.item_edition .item_toggler > .ui-icon-triangle-1-e {
+	height: 0;
+	width: 0;
+	border-color: transparent transparent transparent #ccc;
+	border-style: solid;
+	border-width: 4px 0 4px 6px;
+}
+
+.item_edition .item_toggler > .ui-icon-triangle-1-s {
+	height: 0;
+	width: 0;
+	border-color: #ccc transparent transparent transparent;
+	border-style: solid;
+	border-width: 6px 4px 0 4px;
+}
+
+.messageckvariation {
+	float:left;
+	margin-right:10px;
+	padding: 3px 8px 0 8px;
+	border: 3px solid transparent;
+	cursor: pointer;
+}
+
+.messageckvariation:hover {
+	border: 3px solid #000;
+}
+
+.messageckvariation .alertck{
+	margin: 2px;
+	padding: 8px;
+}
+
+/*
+.workspaceck * {
+	box-sizing: border-box;
+}*/
+
+/** Override media manager **/
+form#imageForm iframe#imageframe {
+	height: 350px;
+}
+
+/*.modulerow_title {
+	font-size: 14px;
+	font-weight: bold;
+}*/
+
+/** Override to force correct Bootstrap values and avoid issues with template (issue found in Isis) **/
+.workspaceck .row-fluid {
+	width: 100%;
+	*zoom: 1;
+}
+.workspaceck .row-fluid:before,
+.workspaceck .row-fluid:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.workspaceck .row-fluid:after {
+	clear: both;
+}
+.workspaceck .row-fluid [class*="span"] {
+	display: block;
+	width: 100%;
+	min-height: 28px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 2.1276595744681%;
+	*margin-left: 2.0744680851064%;
+}
+.workspaceck .row-fluid [class*="span"]:first-child {
+	margin-left: 0;
+}
+.workspaceck .row-fluid .controls-row [class*="span"] + [class*="span"] {
+	margin-left: 2.1276595744681%;
+}
+.workspaceck .row-fluid .span12 {
+	width: 100%;
+	*width: 99.946808510638%;
+}
+.workspaceck .row-fluid .span11 {
+	width: 91.489361702128%;
+	*width: 91.436170212766%;
+}
+.workspaceck .row-fluid .span10 {
+	width: 82.978723404255%;
+	*width: 82.925531914894%;
+}
+.workspaceck .row-fluid .span9 {
+	width: 74.468085106383%;
+	*width: 74.414893617021%;
+}
+.workspaceck .row-fluid .span8 {
+	width: 65.957446808511%;
+	*width: 65.904255319149%;
+}
+.workspaceck .row-fluid .span7 {
+	width: 57.446808510638%;
+	*width: 57.393617021277%;
+}
+.workspaceck .row-fluid .span6 {
+	width: 48.936170212766%;
+	*width: 48.882978723404%;
+}
+.workspaceck .row-fluid .span5 {
+	width: 40.425531914894%;
+	*width: 40.372340425532%;
+}
+.workspaceck .row-fluid .span4 {
+	width: 31.914893617021%;
+	*width: 31.86170212766%;
+}
+.workspaceck .row-fluid .span3 {
+	width: 23.404255319149%;
+	*width: 23.351063829787%;
+}
+.workspaceck .row-fluid .span2 {
+	width: 14.893617021277%;
+	*width: 14.840425531915%;
+}
+.workspaceck .row-fluid .span1 {
+	width: 6.3829787234043%;
+	*width: 6.3297872340426%;
+}
+
+.pagebuilderckImagemanagerck  .modal-body {
+	min-height: 500px;
+}
+
+/** fullscreen mode for the Page Builder CK modal **/
+.pagebuilderckModalFullscreen {
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	margin: 0 !important;
+	width: 100% !important;
+	box-sizing: border-box;
+	height: 100% !important;
+}
+
+.pagebuilderckModalFullscreen .modal-body {
+	max-height: 100% !important;
+	box-sizing: border-box;
+}
+
+.pagebuilderckModalFullscreen iframe {
+	height: 100% !important;
+}
+
+.pagebuilderckModalDesc {
+	padding: 0 0 10px 0;
+}
+
+.pagebuilderckModalChoice {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+
+.pagebuilderckModalChoice .label {
+	margin: 0 7px;
+}
+
+.moduleck {
+	/*background: #fff;
+	border: 1px solid #ccc;*/
+	margin: 3px;
+	padding: 3px;
+	text-align: center;
+}
+
+.videock iframe {
+	border: none;
+}
+
+.restoreline {
+	padding: 5px;
+	margin-top: 3px;
+	border-bottom: 1px solid #eee;
+}
+
+.htmlck {
+	padding-top: 30px;
+}
+
+.htmlckcont {
+	overflow: auto;
+	height:75px;
+	background-color:#efefef;
+	border:1px solid #666;
+}
+
+#ckadvanceditembox {
+	margin-left: 220px;
+}
+
+#ckadvanceditembox .ckboxmodal-body {
+	overflow-y: auto;
+}
+
+#menuck.advancedinterfaceck {
+	top: 0px !important;
+	z-index: 999999;
+}
+
+.workspaceckbox {
+	padding: 10px 10px 10px 40px;
+}
+
+.infock {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #468847;
+	padding: 10px;
+}
+
+.alertck {
+	background-color: #f2dede;
+	border-color: #eed3d7;
+	color: #b94a48;
+	padding: 10px;
+}
+
+.badge-alertck {
+	background-color: #b94a48;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 9px;
+	margin: 2px;
+	padding: 3px;
+	text-shadow: none;
+}
+
+span.icon-pagebuilderck {
+	background: url(../images/icon_star_pagebuilderck.png) center center no-repeat;
+	background-size: cover;
+	height: 24px;
+	width: 24px;
+	vertical-align: sub;
+}
+
+/*------------------------------------------------------
+ * Styles for the image drag and drop upload
+ *-----------------------------------------------------*/
+
+.ckdndhover {
+	border: 5px dashed #0c0;
+}
+
+progress.progress {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	height: 10px;
+}
+
+/*------------------------------------------------------
+ * Styles for main tabs in the edition page
+ *-----------------------------------------------------*/
+ 
+ .tab {
+	min-height: 500px;
+	/*overflow-y: auto;*/
+	position: relative;
+}
+
+.menulink {
+	float: left;
+	padding: 10px 15px;
+	margin: 5px 5px 0 5px;
+	cursor: pointer;
+	color: #a6a6a6;
+	background: #eee;
+	border-radius: 2px 2px 0 0;
+	border: 1px solid #ddd;
+	position: relative;
+	z-index: 1;
+}
+
+.tab_fullscreen {
+	position: fixed;
+	left: 310px;
+	top: 0;
+	bottom :0;
+	right: 0;
+	overflow: auto;
+	padding: 10px;
+	background: #fff;
+}
+
+.tablinkdesc {
+	text-align: center;
+	font-size: 10px;
+	color: #a6a6a6;
+	line-height: 10px;
+}
+
+.menulink:hover, .menulink.current {
+	color: #000;
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.menulink + .clr {
+	clear: both;
+	border-top: 1px solid #ddd;
+	margin-bottom: 5px;
+	position: relative;
+	z-index: 0;
+	top: -1px;
+	visibility: visible;
+}
+
+/* Horizontal menu with buttons */
+
+.cktoolbar {
+	margin-bottom: 10px;
+}
+
+.ckbutton {
+	display: inline-block;
+	background: #f9f9f9;
+	border: #bbb 1px solid;
+	border-color: #bbb #bbb #a2a2a2;
+	border-radius: 2px;
+	color: #333;
+	font-size: 0.9em;
+	cursor: pointer;
+	text-align: center;
+	line-height: 18px;
+	margin: 3px 5px;
+	vertical-align: middle;
+	padding: 4px 12px;
+}
+
+.ckbutton:hover {
+	background: #f1f1f1;
+}
+
+/*.cssfocus:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 1px dashed orange;
+	pointer-events: none;
+}*/
+
+.ckclose.ckstick {
+	background-image: url(../images/pin.png);
+}
+
+.stick .ckclose.ckstick {
+	background-image: url(../images/pin_active.png);
+}
+
+#ckeditorcontainer.ckboxmodaleditor {
+	border: #666 1px solid;
+	box-shadow: #000 0px 0px 5px;
+	-moz-box-shadow: #000 0px 0px 5px;
+	background: #fff;
+	padding-bottom: 50px;
+	z-index: 100000;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.ckboxmodaleditor iframe,
+.ckboxmodaleditor .ckboxmodal-body {
+	width: 100%;
+	height: 100%;
+	border: none;
+	box-sizing: border-box;
+}
+
+.ckmobileoverlay, .ckcolwidthedition {
+	background: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.ckcolwidthedition {
+	text-align: center;
+	background: rgba(255,255,255, 0.7);
+	border: 1px solid #ddd;
+	color: #111;
+}
+
+.ckcolwidthedition.locked {
+	background: rgba(194,224,255, 0.8)
+}
+
+.ckcolwidthlocker {
+	position: absolute;
+	top: 35px;
+	left: 49%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: #fff url(../images/lock_open.png) 49% center no-repeat;
+}
+
+.ckcolwidthlocker.locked {
+	background: #c2e0ff url(../images/lock.png) 49% center no-repeat;
+}
+
+.ckcolwidthedition > input.inputbox {
+	height: 25px;
+	width: 40px;
+	margin-top: 5px;
+}
+
+.ckcolwidthediting.inner {
+	min-height: 100px;
+	height: 100%;
+}
+
+.ckmobileediting {
+	min-height: 100px;
+}
+
+.ckmobilebuttons {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+}
+
+.ckmobilebutton {
+	position: absolute;
+	width: calc(50% - 5px);
+	height: 100%;
+	z-index: 9;
+	left: 0;
+	top: 0;
+	text-align: center;
+	background: rgba(87, 162, 237, 0.7) url(../images/phone_portrait.html) center center no-repeat;
+	cursor: pointer;
+}
+
+.ckmobilebutton + .ckmobilebutton {
+	left: auto;
+	right: 0;
+	background: rgba(87, 162, 237, 0.7) url(../images/computer.html) center center no-repeat;
+}
+
+.ckmobilebutton:hover {
+	background-color: rgba(87, 162, 237, 0.85)
+}
+
+
+/*
+.ckmobilebuttonphone {
+	background: url(../images/phone_portrait.png) center center no-repeat;
+	background-size: contain;
+	height: 39px;
+	width: 50px;
+}
+
+.ckmobilebuttonphone {
+	background: url(../images/desktop.png) center center no-repeat;
+	background-size: contain;
+	height: 39px;
+	width: 50px;
+}*/
+
+.ckhtmlinfos {
+	position: relative;
+	z-index: 9;
+}
+
+.ckhtmlinfosidvalue, .ckhtmlinfosclassvalue {
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #333;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	line-height: 1;
+	border-radius: 3px;
+	min-width: 50px;
+	height: 22px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ckhtmlinfosidvalue:hover, .ckhtmlinfosclassvalue:hover {
+	background: #eee;
+}
+
+.ckhtmlinfosid, .ckhtmlinfosclass {
+	margin: 2px;
+	padding: 2px;
+	cursor: pointer;
+}
+
+.cktype.ckhtmlinfoediting {
+	padding-top: 30px;
+}
+
+.ckhtmlinfosidvalue.invalid{
+	background: #942a25;
+	border-color: #6B1C19;
+	color: #fff;
+}
+
+.ckoption {
+	margin-bottom: 3px;
+	padding: 2px 5px;
+}
+
+.ckoption > span {
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding: 0 3px;
+}
+
+.ckoption > span:first-child {
+	width: 170px;
+}
+
+.ckoption .ckoption-desc {
+	font-style: italic;
+	display: inline;
+}
+
+.ckoption-label, .ckoption > span.ckoption-label:first-child {
+	width: 115px;
+	float: left;
+	margin-top: 5px;
+}
+
+.ckoption-field {
+	width: calc(100% - 115px);
+}
+
+#elementscontainer .ckoption-field  > input[type="text"], 
+.ckoption-field  > input[type="text"],
+#elementscontainer .ckoption-field  > select, 
+.ckoption-field  > select {
+	width: 165px;
+	text-align: center;
+}
+
+#elementscontainer .ckoption-field  > input[type="range"].ckrangeinputupdate, 
+.ckoption-field  > input[type="range"].ckrangeinputupdate {
+	width: 120px;
+}
+
+#elementscontainer input[type="text"].inputbox-large, 
+#elementscontainer .ckoption-field  > select.inpubox-large {
+	width: 296px;
+}
+
+.ckoption-suffix {
+	display: inline-block;
+	margin-top: 4px;
+	margin-left: -35px;
+	width: 30px;
+	text-align: center;
+}
+
+img.ckoption-icon {
+	float: right;
+}
+
+#cktoolbarResponsive {
+	/*display: none;*/
+	/*margin-left: 235px;*/
+}
+
+#cktoolbarResponsive .fa {
+	font-size: 1.4em;
+	vertical-align: bottom;
+}
+
+.ckmobilewidth {
+	position: absolute;
+	width: calc(100% - 5px);
+	height: 100%;
+	z-index: 9;
+	left: 0;
+	top: 0;
+	text-align: center;
+	background: rgba(87, 162, 237, 0.7);
+	cursor: pointer;
+}
+
+.ckmobilewidth > input.inputbox {
+	height: 25px;
+	width: 50px;
+	padding: 5px;
+	/*position: relative;
+	top: 50%;*/
+	margin-top: 35px;
+}
+
+#cktoolbarResponsive .ckbutton + input {
+	height: 29px;
+	margin-left: -1px;
+	border: 1px solid #ddd !important;
+}
+
+#ckcolumnsuggestions, ckresponsiveoptions {
+	padding: 5px;
+}
+
+.columnsuggestion .fa {
+	text-indent: 0;
+	font-size: 15px;
+}
+
+.ckinlineeditable:after {
+	pointer-events: none;
+}
+
+.ckresponsiveheader {
+	padding: 5px;
+	display: block;
+	background: #ececec;
+	margin: 0 0 5px;
+	border: 1px solid #ddd;
+}
+
+.ckresponsiveactive .roweditor > .ckfields {
+	height: 152px;
+}
+
+.ckresponsiveactive .wrappereditor > .ckfields {
+	height: 62px;
+}
+
+.ckresponsiveactive .editorck:not(.roweditor):not(.wrappereditor),
+.ckresponsiveactive .editorck.roweditor .isControl:not(.isControlResponsive),
+.ckresponsiveactive .editorck.wrappereditor .isControl:not(.isControlResponsive),
+.ckresponsiveactive .ckcolumnsoptions,
+/*.ckresponsiveactive .ckcolwidthedition,*/
+[ckresponsiverange*="5"] .ckresponsiveoptions div.ckresponsiveoption:not([data-range="5"]),
+[ckresponsiverange*="4"] .ckresponsiveoptions div.ckresponsiveoption:not([data-range="4"]),
+[ckresponsiverange*="3"] .ckresponsiveoptions div.ckresponsiveoption:not([data-range="3"]),
+[ckresponsiverange*="2"] .ckresponsiveoptions div.ckresponsiveoption:not([data-range="2"]),
+[ckresponsiverange*="1"] .ckresponsiveoptions div.ckresponsiveoption:not([data-range="1"]) {
+	display: none !important;
+}
+
+.editorck.roweditor .isControl.isControlResponsive,
+.editorck.wrappereditor .isControl.isControlResponsive {
+	display: none;
+}
+
+.ckresponsiveactive .editorck.roweditor .isControl.isControlResponsive,
+.ckresponsiveactive .editorck.wrappereditor .isControl.isControlResponsive {
+	display: block;
+}
+
+.editorckresponsive {
+	background: #3AAE8E;
+	color :#fff;
+}
+
+.cktype > .editorckresponsive {
+	background: #EF5A4F;
+	color :#fff;
+}
+
+.editorckresponsive .isControl {
+	padding: 5px 8px;
+	font-size: 16px;
+	float: left;
+	cursor: pointer;
+	width: 32px;
+	height: 28px;
+	box-sizing: border-box;
+}
+
+.editorckresponsive .isControl .fa {
+	vertical-align: top;
+	font-size: 16px !important;
+}
+
+.editorckresponsive .isControl:hover,
+.editorckresponsive .isControl.active{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.ckresponsiveactive .cktype > .editorckresponsive {
+	background: orange;
+	color: #fff;
+	border-radius: 0 0 4px 0;
+}
+
+.ckresponsiveactive .cktype {
+	border: 2px solid orange;
+	border-radius: 4px;
+	margin-bottom: 2px;
+}
+
+.ckresponsiveactive .blockck > .editorckresponsive {
+	background: #3AAE8E;
+	color: #fff;
+	height: 28px;
+	margin-top: -28px;
+	border-radius: 4px 4px 0 0;
+}
+
+.ckresponsiveactive .blockck {
+	border: 2px solid #3AAE8E;
+	border-radius: 4px;
+	margin-bottom: 2px;
+}
+
+.ckresponsiveactive[ckresponsiverange*="5"] .blockck.ckhide5:before,
+.ckresponsiveactive[ckresponsiverange*="5"] .cktype.ckhide5:before,
+.ckresponsiveactive[ckresponsiverange*="5"] .rowck.ckhide5:before,
+.ckresponsiveactive[ckresponsiverange*="5"] .wrapperck.ckhide5:before,
+.ckresponsiveactive[ckresponsiverange*="4"] .blockck.ckhide4:before,
+.ckresponsiveactive[ckresponsiverange*="4"] .cktype.ckhide4:before,
+.ckresponsiveactive[ckresponsiverange*="4"] .rowck.ckhide4:before,
+.ckresponsiveactive[ckresponsiverange*="4"] .wrapperck.ckhide4:before,
+.ckresponsiveactive[ckresponsiverange*="3"] .blockck.ckhide3:before,
+.ckresponsiveactive[ckresponsiverange*="3"] .cktype.ckhide3:before,
+.ckresponsiveactive[ckresponsiverange*="3"] .rowck.ckhide3:before,
+.ckresponsiveactive[ckresponsiverange*="3"] .wrapperck.ckhide3:before,
+.ckresponsiveactive[ckresponsiverange*="2"] .blockck.ckhide2:before,
+.ckresponsiveactive[ckresponsiverange*="2"] .cktype.ckhide2:before,
+.ckresponsiveactive[ckresponsiverange*="2"] .rowck.ckhide2:before,
+.ckresponsiveactive[ckresponsiverange*="2"] .wrapperck.ckhide2:before,
+.ckresponsiveactive[ckresponsiverange*="1"] .blockck.ckhide1:before,
+.ckresponsiveactive[ckresponsiverange*="1"] .cktype.ckhide1:before,
+.ckresponsiveactive[ckresponsiverange*="1"] .rowck.ckhide1:before,
+.ckresponsiveactive[ckresponsiverange*="1"] .wrapperck.ckhide1:before {
+	display: block;
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #d3531a;
+	border-radius: 9px;
+	opacity: 1;
+	left: 0;
+	top: 0;
+	background: url('../images/disable.png') center center repeat;
+	/*background-size: contain;*/
+	z-index: 9;
+}
+
+.ckresponsiveactive[ckresponsiverange*="5"] [class*="ckhide5"] .cktype:before,
+.ckresponsiveactive[ckresponsiverange*="5"] [class*="ckhide5"] .cktype .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="5"] [class*="ckhide5"] .blockck:before,
+.ckresponsiveactive[ckresponsiverange*="5"] [class*="ckhide5"] .blockck .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="5"] [class*="ckhide5"] .rowck .ckfields,
+.ckresponsiveactive[ckresponsiverange*="4"] [class*="ckhide4"] .cktype:before,
+.ckresponsiveactive[ckresponsiverange*="4"] [class*="ckhide4"] .cktype .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="4"] [class*="ckhide4"] .blockck:before,
+.ckresponsiveactive[ckresponsiverange*="4"] [class*="ckhide4"] .blockck .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="4"] [class*="ckhide4"] .rowck .ckfields,
+.ckresponsiveactive[ckresponsiverange*="3"] [class*="ckhide3"] .cktype:before,
+.ckresponsiveactive[ckresponsiverange*="3"] [class*="ckhide3"] .cktype .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="3"] [class*="ckhide3"] .blockck:before,
+.ckresponsiveactive[ckresponsiverange*="3"] [class*="ckhide3"] .blockck .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="3"] [class*="ckhide3"] .rowck .ckfields,
+.ckresponsiveactive[ckresponsiverange*="2"] [class*="ckhide2"] .cktype:before,
+.ckresponsiveactive[ckresponsiverange*="2"] [class*="ckhide2"] .cktype .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="2"] [class*="ckhide2"] .blockck:before,
+.ckresponsiveactive[ckresponsiverange*="2"] [class*="ckhide2"] .blockck .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="2"] [class*="ckhide2"] .rowck .ckfields,
+.ckresponsiveactive[ckresponsiverange*="1"] [class*="ckhide1"] .cktype:before,
+.ckresponsiveactive[ckresponsiverange*="1"] [class*="ckhide1"] .cktype .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="1"] [class*="ckhide1"] .blockck:before,
+.ckresponsiveactive[ckresponsiverange*="1"] [class*="ckhide1"] .blockck .editorckresponsive,
+.ckresponsiveactive[ckresponsiverange*="1"] [class*="ckhide1"] .rowck .ckfields {
+	display: none !important;
+}
+
+.workspaceck.ckresponsiveactive {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.workspaceck.ckresponsiveactive .rowck {
+	margin-top: 30px;
+}
+
+.workspaceck.ckresponsiveactive .controlMoreChildren {
+	display: none !important;
+}
+
+.ckresponsiveactive[ckresponsiverange*="5"] .ckstack5 > .inner { display: block !important; }
+.ckresponsiveactive[ckresponsiverange*="5"] .ckstack5 .ckcolwidthedition { display: none !important; }
+.ckresponsiveactive[ckresponsiverange*="5"] .ckstack5 > .inner > .blockck { float: none; width: auto !important; display: block !important; margin-left: 0 !important;}
+
+.ckresponsiveactive[ckresponsiverange*="4"] .ckstack4 > .inner { display: block !important; }
+.ckresponsiveactive[ckresponsiverange*="4"] .ckstack4 .ckcolwidthedition { display: none !important; }
+.ckresponsiveactive[ckresponsiverange*="4"] .ckstack4 > .inner > .blockck { float: none; width: auto !important; display: block !important; margin-left: 0 !important;}
+
+.ckresponsiveactive[ckresponsiverange*="3"] .ckstack3 > .inner { display: block !important; }
+.ckresponsiveactive[ckresponsiverange*="3"] .ckstack3 .inckcolwidtheditionner { display: none !important; }
+.ckresponsiveactive[ckresponsiverange*="3"] .ckstack3 > .inner > .blockck { float: none; width: auto !important; display: block !important; margin-left: 0 !important;}
+
+.ckresponsiveactive[ckresponsiverange*="2"] .ckstack2 > .inner { display: block !important; }
+.ckresponsiveactive[ckresponsiverange*="2"] .ckstack2 .ckcolwidthedition { display: none !important; }
+.ckresponsiveactive[ckresponsiverange*="2"] .ckstack2 > .inner > .blockck { float: none; width: auto !important; display: block !important; margin-left: 0 !important;}
+
+.ckresponsiveactive[ckresponsiverange*="1"] .ckstack1 > .inner { display: block !important; }
+.ckresponsiveactive[ckresponsiverange*="1"] .ckstack1 .ckcolwidthedition { display: none !important; }
+.ckresponsiveactive[ckresponsiverange*="1"] .ckstack1 > .inner > .blockck { float: none; width: auto !important; display: block !important; margin-left: 0 !important;}
+
+
+/* inline editing */
+.mce-edit-focus ~ .editorck {
+	display: none !important;
+}
+
+.mce-container, .mce-container *, .mce-reset {
+	color: #333 !important;
+}
+
+/* Front end module edition */
+.ckfrontendfullwidth {
+	position: fixed;
+	top: 0;
+	left: 310px;
+	background: white;
+	z-index: 10;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto;
+	padding: 10px;
+}
+
+[class*="ckhide"] {
+	display: block !important; /* force in admin, else the elements disappears */
+}
+
+.imageeffectckbuttondemo figure {
+	overflow: hidden;
+}
+
+#popup_editionck .menuck > .inner,
+#popup_favoriteck > .inner {
+	max-height: 100%;
+	overflow-y: auto;
+	height: calc(100vh - 50px);
+	overflow-y: auto;
+	margin-left: 0px;
+	display: block;
+}
+
+#popup_favoriteck > .inner {
+	height: 100%;
+}
+
+/* hide scrollbars when loading iframe */
+.menuckpaneltarget[data-target="pages"] {
+	overflow: hidden !important;
+}
+
+.menuckpaneltarget iframe {
+	overflow: hidden;
+	height: calc(100% - 41px);
+	border: none;
+}
+
+/** for Joomla 4 **/
+.ckadminsidebar {
+	float: left;
+	width: 220px;
+	margin-right: 10px;
+}
+
+.ckadminarea {
+	float: left;
+	width: calc(100% - 230px);
+}
+
+/* compat with jsn power admin template */
+div#jsn-adminbar-wrapper {
+	z-index: 999 !important
+}
+
+.ckimagedata {
+	position: absolute;
+	bottom: 0;
+	background: rgba(255,255,255,0.7);
+}
+
+.ckimagedata > div {
+	padding: 3px;
+}
+
+.ckimagedata > div:hover {
+	background: rgba(255,255,255,1);
+}
+
+.ckoption-value {
+	margin-top: 5px;
+}
+
+
+
+.workspaceck div.ckcontenttype {
+	position: relative;
+	padding-right: 45px;
+	float: none;
+	width: auto;
+	max-width: none;
+}
+
+.menuck .menuitemck_remove {
+	display: none !important;
+}
+
+.workspaceck .ckcontenttype .menuitemck_remove {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: auto;
+	width: 40px;
+	background: #f1f1f1;
+	border-left: 1px solid #ddd;
+	line-height: 200%;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/*.menuitemck_remove:after {
+	content: "×";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 40px;
+	background: #f1f1f1;
+	border-left: 1px solid #ddd;
+	line-height: 200%;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}*/
+
+.workspaceck .ckcontenttype .menuitemck_remove:hover {
+	color: red;
+}
+
+.menuckpanelpopup {
+	display: block;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	background: #fff;
+	width: 257px;
+	text-align: center;
+	overflow: visible;
+	box-sizing: border-box;
+}
+
+.cktooltip {
+	pointer-events: none;
+}
+
+.pagebuilderck [data-state="0"] {
+	display: none;
+}
+
+.ckinterfacetitle {
+	font-weight: bold;
+}
+
+/* for edition only */
+a.pbck-link-wrap {
+	pointer-events: none;
+	opacity: 1;
+}
+
+.ckleftpanelsearch {
+	position: relative;
+	margin: 0;
+}
+
+.ckleftpanelsearch button {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.ckleftpanelsearch button + button {
+	right: 30px;
+}
+
+.ckleftpanelsearch input[type="text"].cksearchleftpanel {
+	margin: 0 5px;
+	width: calc(100% - 10px);
+	height: 32px;
+	padding: 0 5px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 13px;
+	min-height: 18px;
+	line-height: 18px;
+	vertical-align: top;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.ckleftpanelsearch .fa {
+	font-size: 11px;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	color: #6d6d6d;
+	cursor: pointer;
+}
+
+.ckleftpanelsearch .fa-times {
+	right: 40px;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.ckleftpanelsearch .fa-times:hover {
+	color: #000;
+}
+
+.ckheading {
+	color: #2EA2CC;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.ckrangeinputupdate + label {
+	display: inline;
+}
+
+.ckrangeinputupdate + input[type="text"] {
+	width: 40px !important;
+}
+
+#popup_editionck input[type="checkbox"].inputbox-enable {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin: 0;
+	padding: 0;
+	margin-left: -20px;
+}
+
+#popup_editionck input[type="checkbox"].inputbox-enable + .ckoption-field {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+#popup_editionck input[type="checkbox"].inputbox-enable:checked + .ckoption-field {
+	opacity: 1;
+	pointer-events: initial;
+}
+
+.item_edition .iconck {
+	font-size: 14px;
+	display: inline-block;
+	margin: 0 5px;
+	line-height: 25px;
+}
+
+#popup_editionck .inputbox[type="range"] {
+	width: auto;
+}
+
+#popup_editionck legend {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	margin: 5px;
+}
+
+#popup_editionck fieldset {
+	min-width: 250px;
+	border: 1px dashed #aaa;
+	padding: 0;
+	margin: 0px;
+	border: none;
+}
+
+#popup_editionck fieldset select.inputbox {
+	height: 22px;
+	width: 143px;
+}
+
+.menuck legend {
+	font-size: 15px;
+}
+
+#togglepanel {
+	position: absolute;
+	left: 0;
+	background: rgba(255,255,255,0.2);
+	width: 48px;
+}
+
+.pbck-divider-container {
+	pointer-events: none;
+}
+
+/** update for the images manager **/
+#items_edition_list.expandable .item_edition {
+	display: inline-block;
+	margin: 5px;
+	transition: transform 0.2s;
+}
+
+#items_edition_list.expandable .item_expanded {
+	display: block;
+}
+
+#items_edition_list.expandable .item_edition:not(.item_expanded):hover {
+	transform: scale(1.01);
+}
+
+#items_edition_list.expandable .item_edition:not(.item_expanded) > *:not(.item_overlay):not(.item_move):not(.item_image) {
+	display: none;
+}
+
+#items_edition_list.expandable .item_overlay {
+	background: transparent;
+	position: absolute;
+	z-index: 1;
+	left: 30px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+}
+
+#items_edition_list .item_close {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#items_edition_list.expandable .item_expanded .item_close {
+	display: block;
+}
+
+#items_edition_list.expandable .item_expanded .item_overlay {
+	display: none;
+}
+
+#items_edition_list.expandable .placeholderck {
+	display: inline-block;
+}
+
+#popup_editionck[data-responsiverange]:not([data-responsiverange="5"]) .inputbox:not(.ckresponsivable),
+#popup_editionck[data-responsiverange]:not([data-responsiverange="5"]) .inputbox:not(.ckresponsivable) + label {
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+/*-- for fast button edition */
+
+.rowck .rowck-button-add,
+.blockck .blockck-button-add,
+.blockck .cktype-button-add,
+.cktype .cktype-button-add {
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 11111111111111111111111;
+}
+
+.rowck .rowck-button-add {
+	height: 5px;
+	background: #57a2ed;
+	border-top: 1px solid #57a2ed;
+	border-bottom: 1px solid #57a2ed;
+	box-shadow: #fff 0 0 1px 1px;
+}
+
+.blockck .blockck-button-add {
+	width: 0px;
+	height: 100%;
+	left: auto;
+	border-left: 1px solid #3AAE8E;
+	border-right: 1px solid #3AAE8E;
+}
+
+.cktype .cktype-button-add {
+	height: 0px;
+	top: auto;
+	bottom: 0;
+}
+
+.blockck .cktype-button-add-center {
+	height: 0px;
+	top: 50%;
+	bottom: auto;
+}
+
+.rowck .rowck-button-add-bottom {
+	top: auto;
+	bottom: 0;
+}
+
+.rowck .rowck-button-add-icon,
+.blockck .blockck-button-add-icon,
+.blockck .cktype-button-add-center .cktype-button-add-icon,
+.cktype .cktype-button-add-icon {
+	content: "+";
+	display: block;
+	background: #57a2ed;
+	height: 30px;
+	position: absolute;
+	top: -15px;
+	left: calc(50% - 15px);
+	/* right: 0; */
+	width: 30px;
+	z-index: 111111111111111111111111;
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: #fff 0 0 1px 1px;
+	font-size: 25px;
+	font-family: arial;
+	line-height: 20px;
+}
+
+.rowck .rowck-button-add-icon {
+	left: -10px;
+}
+
+.blockck .blockck-button-add-icon {
+	top: calc(50% - 15px);
+	left: -15px;
+	background: #3AAE8E;
+}
+
+.blockck .cktype-button-add-center .cktype-button-add-icon,
+.cktype .cktype-button-add-icon {
+	background: orange;
+}
+
+#ckaddonspanelpopup {
+	display: none;
+	height:100%;
+}
+
+#ckaddonspanelpopup > .inner {
+	width: auto;
+	position: static;
+	height:100%;
+}
+
+#ckaddonspanelpopup .menuckinfos {
+	display: none;
+}
+
+#ckaddonspanelpopup .menuck .menuitemck {
+	max-width: 144px;
+}
+
+#ckaddonspanelpopup .menuck .menuitemck:hover {
+	cursor: pointer;
+}
+
+#ckaddonspanelpopup .headerckdisplaytype {
+	display: none;
+}
+
+#ckaddonspanelpopup #ckaddonsdisplaytypegrid {
+	display: none !important;
+}
+
+#ckaddonspanelpopup #ckaddonsdisplaytypelist {
+	display: block !important;
+}
+
+#ckaddonspanelpopup #ckaddonsearch {
+	margin-top: 5px;
+}
+
+.ckelementedition .rowck-button-add-icon,
+.ckelementedition .blockck-button-add-icon,
+.ckelementedition .cktype-button-add-icon {
+	display: none;
+}
+
+/*-- end of fast buttion edition */
+
+.ckstyleedition .rowck-button-add,
+.ckstyleedition .blockck-button-add {
+	display: none;
+}
+
+/* hide unwanted elements in the style edition */
+.ckstyleedition .controlSize,
+.ckstyleedition .controlCopy,
+.ckstyleedition .controlFullwidth,
+.ckstyleedition .controlSave,
+.ckstyleedition .controlAcl,
+.ckstyleedition .controlMove,
+.ckstyleedition .controlMoveItem,
+.ckstyleedition .controlValignTop,
+.ckstyleedition .controlValignCenter,
+.ckstyleedition .controlValignBottom,
+/*.ckstyleedition .controlDel,*/
+.ckstyleedition .controlValignDefault
+{
+	display: none !important;
+}
+
+.workspaceck.ckresponsiveactive .rowck .ckcolwidthediting .rowck {
+	z-index: 10;
+	margin-top: 100px;
+}
+
+/* fix issue with responsive width edition and nested rows */
+.ckresponsiveactive[ckresponsiverange*="2"] .ckstack2 .rowck:not(.ckstack2) .ckcolwidthedition {
+	display: block !important;
+}
+
+.ckresponsiveactive[ckresponsiverange*="1"] .ckstack1 .rowck:not(.ckstack2) .ckcolwidthedition {
+	display: block !important;
+}
+
+.ckleftpanelframe #categories,
+.ckleftpanelframe .ckleftpanelsearch input[type="text"].cksearchleftpanel {
+	margin: 0 5px 5px 5px;
+	width: calc(100% - 10px);
+	min-height: 0 !important;
+}
+
+.ckleftpanelframe .pagination {
+	padding: 0;
+	margin: 0 !important;
+}
+
+.ckleftpanelframe .pagination .page-link {
+	padding: 2px 8px;
+}
+
+#pagebuilderckList .ckrowpage a {
+	text-decoration: none;
+}
+
+#pagebuilderckList .ckrowpage a:hover,
+#pagebuilderckList .ckrowpage a:focus {
+	text-decoration: underline;
+}
+
+.menuckbootomtoolbar span.menuckbootomtoolbar-button svg {
+	width: 24px;
+	height: 24px;
+	stroke: #fff;
+	stroke-width: 2px;
+	margin: -5px 0 0 0;
+	padding: 0;
+	vertical-align: middle;
+	max-width: none;
+}
+
+#ckhtmlchecksettingsbutton svg {
+	height: 20px;
+	width: 20px;
+}
+
+#items_edition_list input.item_title_edition {
+	width: 250px;
+}
+
+#items_edition_list .ckbuttonstyle {
+	margin: 0 0 0 5px;
+	height: 30px;
+	line-height: 20px;
+	display: inline-block;
+}
+
+#items_edition_list .item_setdefault {
+	background: #f8f9fa;
+}
+
+#items_edition_list .item_setdefault:hover {
+	background: #f0f0f0;
+}
+
+#items_edition_list .item_setdefault.active {
+	background: #ffbc2c;
+	border-color: #ffbc2c;
+}
+
+#items_edition_list .item_edition_buttons {
+	margin: 5px 0 0 0;
+}
+
+#items_edition_list .item_edition_buttons .ckbutton:first-child {
+	margin-left: 0;
+}
+
+#items_edition_list .item_edition_icon {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.menustyles-row {
+	display: flex;
+	width: 100%;
+}
+
+.menustyles-row > div:not(.menustyles-column),
+.menustyles-column > div:not(.menustyles-row) {
+	display: flex;
+	align-items: center; 
+}
+
+.menustyles-field-large,
+.menustyles-field-large > * {
+	flex: 1;
+}
+
+.menustyles-row > div > * {
+	flex: 1;
+}
+
+.menustyles-column > div:not(.menustyles-field-large) {
+	flex: 0;
+}
+
+.menustyles-text-label {
+	width: 50%;
+}
+
+.menustyles-text {
+	white-space: nowrap;
+}
+
+#elementscontainer .menustyles-row input.colorPicker,
+#elementscontainer .menustyles-field input,
+#elementscontainer .menustyles-field select {
+	width: 70px;
+	text-align: center;
+}
+
+.menustyles-row svg {
+	width: 16px;
+	height: 16px;
+	stroke-width: 1.7px;
+}
+
+#tab_interface {
+	background: #fff;
+	padding: 0px;
+	box-shadow: rgba(0,0,0,0.03) 0 0 10px;
+}
+
+.ckresponsivebutton svg {
+	width: 16px;
+	height: 16px;
+}
+
+.ckoption-field .inputbox + .ckbuttonstyle {
+	display: inline-block;
+	line-height: 20px !important;
+	margin-left: 0;
+	margin-right: 0;
+	width: 30px;
+	height: 30px;
+	font-size: 20px !important;
+}
+
+#elementscontainer .ckoption-field-with-button > input[type="text"] {
+	width: 128px;
+}
+
+iframe.ckwait {
+	background: none;
+	min-height: 0;
+}
+
+img.ckoption-icon {
+	float: right;
+	filter: grayscale(0.5) brightness(0.9) hue-rotate(180deg);
+}
+
+#tab_favoriteshadows {
+	background: #fff;
+}
+
+#tab_favoriteshadows:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#ckelementscontentfavorites {
+	background: #fff;
+	margin-top: -5px;
+}
+
+.item_edition_icon svg {
+	height: 24px;
+	width: 24px;
+}
+
+/* for front edition */
+.ckpopup, .menuck, .layout-edit .workspaceck, .ckboxmodal {
+	color: #222;
+}
+
+.menuck table th, table td {
+	word-break: normal;
+}
+
+.presetthumb img {
+	max-width: 100%;
+	height: auto;
+}
+
+.presetthumb {
+	max-width: 90%;
+	margin: 10px 5%;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.presetthumb:hover:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border: 2px solid orange;
+}
+
+.editorckresponsiverow .controlToggleDetection {
+	opacity: 0.8;
+}
+
+.menuckpanel.pbck-accessibility-bad svg,
+.menuckpanel.pbck-accessibility-ok svg {
+	opacity: 1;
+}
+
+.pbck-accessibility-bad svg * {
+	fill: darkorange;
+}
+
+.pbck-accessibility-ok svg * {
+	fill: green;
+}
+
+.pbck-accessibility-result-row {
+	background: white;
+	margin: 10px;
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.pbck-accessibility-result-row:hover {
+	border-color: #bbb;
+}
+
+.pbck-accessibility-result-text {
+	font-size: 16px;
+	padding: 0 10px;
+	color: chocolate;
+}
+
+.pbck-accessibility-result-color {
+	display: inline-block;
+	border-radius: 4px;
+	padding: 5px 10px;
+	vertical-align: top;
+	height: 30px;
+	font-size: 11px;
+	line-height: 17px;
+}
+
+.pbck-accessibility-result-color-copy {
+	display: inline-block;
+	border-radius: 4px;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+	float: right;
+	margin-left: 5px;
+}

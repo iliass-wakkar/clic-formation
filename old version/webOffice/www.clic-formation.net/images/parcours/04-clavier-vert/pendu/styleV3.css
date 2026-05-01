@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+
+/* -------------------------------- */
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+#page {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    *background-color: yellow;
+}
+
+header {
+    height: 13%;
+    padding: 1%;
+    background-color: rgba(9, 86, 157, 1.0);
+    color: white;
+}
+
+article#jeu {
+    float:left;
+    width: 76%;
+    height: 70%;
+    background-color: rgba(9, 86, 157, 0.40);
+}
+
+#canvas {
+    float:left;
+    width: 24%;
+    height: 70%;
+    background-color: rgba(9, 86, 157, 0.40);
+    *background-color: yellow;
+}
+
+#mot-cache {
+    height: 33%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+    *background-color: lightblue;
+}
+
+#clavier {
+    padding-left: 2%;
+    *background-color: lightgreen;
+}
+
+.ligne {
+    margin-top: 2px;
+    display: block;
+    *background-color: yellow;
+}
+
+.touche {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-color: rgba(9, 86, 157, 0.7);
+    border: 2px solid rgba(9, 86, 157, 1.0);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+#toucheRejouer {
+    width: 103px;
+    text-align: center;
+}
+
+footer {
+    clear:both;
+    height: 7%;
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(8, 85, 157);
+    color: white;
+}

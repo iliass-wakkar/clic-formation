@@ -1,0 +1,890 @@
+
+/* ---------------------------------------
+	Responsive design code
+-----------------------------------------*/
+
+@media screen and (min-width: 1025px) {
+
+.hidemobile5,
+.tck-hide-desktop {
+	display: none !important;
+}
+
+[class*="tck-cols"].tck-stack-5,
+[class*="tck-cols"].tck-stack-desktop {
+	flex-direction: column;
+}
+
+[class*="tck-cols"].tck-stack-5 > *,
+[class*="tck-cols"].tck-stack-desktop > * {
+	width: auto !important;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 951px) and (max-width: 1024px) {
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.tck-container {
+	width: 950px;
+}
+
+.hidemobile4,
+.tck-hide-tablet-l {
+	display: none !important;
+}
+
+[class*="tck-cols"].tck-stack-4,
+[class*="tck-cols"].tck-stack-tablet-l {
+	flex-direction: column;
+}
+
+[class*="tck-cols"].tck-stack-4 > *,
+[class*="tck-cols"].tck-stack-tablet-l > * {
+	width: auto !important;
+	max-width: 100%;
+}
+
+
+
+#nav {
+	height: auto !important;
+}
+#nav ul {
+	height: auto !important;
+}
+#nav li {
+	float :none !important;
+	width: 100% !important;
+}
+#nav div.floatck, #nav li > ul {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 !important;
+	left: auto !important;
+}
+#nav div.maximenuck2 {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	float: none !important;
+}
+#nav .mobileckhambuger_togglerlabel {
+	display: block !important;
+	font-size: 33px !important;
+	text-align: right !important;
+	padding: 10px !important;
+}
+#nav .mobileckhambuger_toggler + * {
+	display: none !important;
+	overflow-x: hidden;
+}
+#nav .mobileckhambuger_toggler:checked + * {
+	display: block !important;
+}
+
+
+}
+
+@media screen and (min-width: 759px) and (max-width: 950px) {
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.tck-container {
+	width: 758px;
+}
+
+.hidemobile3,
+.tck-hide-tablet-p {
+	display: none !important;
+}
+
+[class*="tck-cols"].tck-stack-3,
+[class*="tck-cols"].tck-stack-tablet-p {
+	flex-direction: column;
+}
+
+[class*="tck-cols"].tck-stack-3 > *,
+[class*="tck-cols"].tck-stack-tablet-p > * {
+	width: auto !important;
+	max-width: 100%;
+}
+
+
+
+#nav {
+	height: auto !important;
+}
+#nav ul {
+	height: auto !important;
+}
+#nav li {
+	float :none !important;
+	width: 100% !important;
+}
+#nav div.floatck, #nav li > ul {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 !important;
+	left: auto !important;
+}
+#nav div.maximenuck2 {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	float: none !important;
+}
+#nav .mobileckhambuger_togglerlabel {
+	display: block !important;
+	font-size: 33px !important;
+	text-align: right !important;
+	padding: 10px !important;
+}
+#nav .mobileckhambuger_toggler + * {
+	display: none !important;
+	overflow-x: hidden;
+}
+#nav .mobileckhambuger_toggler:checked + * {
+	display: block !important;
+}
+
+
+}
+
+@media screen and (min-width: 525px) and (max-width: 758px) {
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.tck-container {
+	width: 524px;
+}
+
+.hidemobile2,
+.tck-hide-phone-l {
+	display: none !important;
+}
+
+[class*="tck-cols"].tck-stack-2,
+[class*="tck-cols"].tck-stack-phone-l {
+	flex-direction: column;
+}
+
+[class*="tck-cols"].tck-stack-2 > *,
+[class*="tck-cols"].tck-stack-phone-l > * {
+	width: auto !important;
+	max-width: 100%;
+}
+
+
+
+#body {
+	height: auto !important;
+}
+#body .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#wrapper {
+	height: auto !important;
+}
+#wrapper .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#row1 > .inner {
+	flex-direction: column;
+}
+#row1 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#row1column1 > .inner {
+	flex-direction: column;
+}
+#row1column1 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1column1 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#block4 {
+	height: auto !important;
+}
+#block4 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#row1column2 > .inner {
+	flex-direction: column;
+}
+#row1column2 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1column2 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#block1 {
+	height: auto !important;
+}
+#block1 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#row1column3 > .inner {
+	flex-direction: column;
+}
+#row1column3 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1column3 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#block2 {
+	height: auto !important;
+}
+#block2 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#nav {
+	height: auto !important;
+}
+#nav ul {
+	height: auto !important;
+}
+#nav li {
+	float :none !important;
+	width: 100% !important;
+}
+#nav div.floatck, #nav li > ul {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 !important;
+	left: auto !important;
+}
+#nav div.maximenuck2 {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	float: none !important;
+}
+#nav .mobileckhambuger_togglerlabel {
+	display: block !important;
+	font-size: 33px !important;
+	text-align: right !important;
+	padding: 10px !important;
+}
+#nav .mobileckhambuger_toggler + * {
+	display: none !important;
+	overflow-x: hidden;
+}
+#nav .mobileckhambuger_toggler:checked + * {
+	display: block !important;
+}
+#block3 {
+	height: auto !important;
+}
+#block3 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maincontent > .inner {
+	display: block;
+}
+#maincontent .column {
+	width: 100% !important;
+	clear:both;
+	float:left
+}
+#maincontent .column1 div.inner, #maincontent .column2 div.inner {
+	/*overflow:hidden;*/
+}
+#maincontent .column div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.items-row .item, .column {
+	width: auto !important;
+	float: none;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.column div.moduletable, .column div.moduletable_menu {
+	float: none;
+	width: auto !important;
+	/*margin: 0 !important;
+	padding: 0 !important;*/
+}
+
+/** specifique au formulaire de contact **/
+.contact form fieldset dt {
+	max-width: 80px;
+}
+
+.contact input, .contact textarea {
+	max-width: 160px;
+}#left {
+	height: auto !important;
+}
+#left .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#main {
+	height: auto !important;
+}
+#main .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maintop {
+	height: auto !important;
+}
+#maintop .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maintopmodule {
+	height: auto !important;
+}
+#maintopmodule .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maincenter {
+	height: auto !important;
+}
+#maincenter .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#center {
+	height: auto !important;
+}
+#center .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#centertop {
+	height: auto !important;
+}
+#centertop .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#centertopmodule {
+	height: auto !important;
+}
+#centertopmodule .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#content {
+	height: auto !important;
+}
+#content .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#centerbottom {
+	height: auto !important;
+}
+#centerbottom .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#right {
+	height: auto !important;
+}
+#right .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#mainbottom {
+	height: auto !important;
+}
+#mainbottom .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#mainbottommodule {
+	height: auto !important;
+}
+#mainbottommodule .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1 .flexiblemodule {
+	width: 100% !important;
+float: none;
+}
+#blocks1 .flexiblemodule > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#blocks1 > .inner {
+	flex-direction: column;
+}
+#blocks1mod1 {
+	height: auto !important;
+}
+#blocks1mod1 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod2 {
+	height: auto !important;
+}
+#blocks1mod2 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod3 {
+	height: auto !important;
+}
+#blocks1mod3 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod4 {
+	height: auto !important;
+}
+#blocks1mod4 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod5 {
+	height: auto !important;
+}
+#blocks1mod5 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#wrapper1 {
+	height: auto !important;
+}
+#wrapper1 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#layout_error404_html {
+	height: auto !important;
+}
+#layout_error404_html .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#ckcustomlayoutarticle {
+	height: auto !important;
+}
+#ckcustomlayoutarticle .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#ckcustomlayoutblog {
+	height: auto !important;
+}
+#ckcustomlayoutblog .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#ckcustomlayoutsearch {
+	height: auto !important;
+}
+#ckcustomlayoutsearch .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+
+
+}
+
+@media screen and (max-width: 524px) {
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.tck-container {
+	width: 292px;
+}
+
+.hidemobile1,
+.tck-hide-phone-p {
+	display: none !important;
+}
+
+[class*="tck-cols"].tck-stack-1,
+[class*="tck-cols"].tck-stack-phone-p {
+	flex-direction: column;
+}
+
+[class*="tck-cols"].tck-stack-1 > *,
+[class*="tck-cols"].tck-stack-phone-p > * {
+	width: auto !important;
+	max-width: 100%;
+}
+
+
+#body {
+	height: auto !important;
+}
+#body .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#wrapper {
+	height: auto !important;
+}
+#wrapper .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#row1 > .inner {
+	flex-direction: column;
+}
+#row1 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#row1column1 > .inner {
+	flex-direction: column;
+}
+#row1column1 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1column1 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#block4 {
+	height: auto !important;
+}
+#block4 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#row1column2 > .inner {
+	flex-direction: column;
+}
+#row1column2 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1column2 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#block1 {
+	height: auto !important;
+}
+#block1 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#row1column3 > .inner {
+	flex-direction: column;
+}
+#row1column3 .flexiblecolumn {
+	width: 100% !important;
+float: none;
+}
+#row1column3 .flexiblecolumn > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#block2 {
+	height: auto !important;
+}
+#block2 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#nav {
+	height: auto !important;
+}
+#nav ul {
+	height: auto !important;
+}
+#nav li {
+	float :none !important;
+	width: 100% !important;
+}
+#nav div.floatck, #nav li > ul {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 !important;
+	left: auto !important;
+}
+#nav div.maximenuck2 {
+	width: 100% !important;
+	position: relative !important;
+	display: block !important;
+	float: none !important;
+}
+#nav .mobileckhambuger_togglerlabel {
+	display: block !important;
+	font-size: 33px !important;
+	text-align: right !important;
+	padding: 10px !important;
+}
+#nav .mobileckhambuger_toggler + * {
+	display: none !important;
+	overflow-x: hidden;
+}
+#nav .mobileckhambuger_toggler:checked + * {
+	display: block !important;
+}
+#block3 {
+	height: auto !important;
+}
+#block3 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maincontent > .inner {
+	display: block;
+}
+#maincontent .column {
+	width: 100% !important;
+	clear:both;
+	float:left
+}
+#maincontent .column1 div.inner, #maincontent .column2 div.inner {
+	/*overflow:hidden;*/
+}
+#maincontent .column div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.items-row .item, .column {
+	width: auto !important;
+	float: none;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.column div.moduletable, .column div.moduletable_menu {
+	float: none;
+	width: auto !important;
+	/*margin: 0 !important;
+	padding: 0 !important;*/
+}
+
+/** specifique au formulaire de contact **/
+.contact form fieldset dt {
+	max-width: 80px;
+}
+
+.contact input, .contact textarea {
+	max-width: 160px;
+}#left {
+	height: auto !important;
+}
+#left .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#main {
+	height: auto !important;
+}
+#main .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maintop {
+	height: auto !important;
+}
+#maintop .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maintopmodule {
+	height: auto !important;
+}
+#maintopmodule .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#maincenter {
+	height: auto !important;
+}
+#maincenter .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#center {
+	height: auto !important;
+}
+#center .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#centertop {
+	height: auto !important;
+}
+#centertop .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#centertopmodule {
+	height: auto !important;
+}
+#centertopmodule .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#content {
+	height: auto !important;
+}
+#content .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#centerbottom {
+	height: auto !important;
+}
+#centerbottom .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#right {
+	height: auto !important;
+}
+#right .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#mainbottom {
+	height: auto !important;
+}
+#mainbottom .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#mainbottommodule {
+	height: auto !important;
+}
+#mainbottommodule .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1 .flexiblemodule {
+	width: 100% !important;
+float: none;
+}
+#blocks1 .flexiblemodule > div.inner {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+#blocks1 > .inner {
+	flex-direction: column;
+}
+#blocks1mod1 {
+	height: auto !important;
+}
+#blocks1mod1 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod2 {
+	height: auto !important;
+}
+#blocks1mod2 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod3 {
+	height: auto !important;
+}
+#blocks1mod3 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod4 {
+	height: auto !important;
+}
+#blocks1mod4 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#blocks1mod5 {
+	height: auto !important;
+}
+#blocks1mod5 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#wrapper1 {
+	height: auto !important;
+}
+#wrapper1 .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#layout_error404_html {
+	height: auto !important;
+}
+#layout_error404_html .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#ckcustomlayoutarticle {
+	height: auto !important;
+}
+#ckcustomlayoutarticle .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#ckcustomlayoutblog {
+	height: auto !important;
+}
+#ckcustomlayoutblog .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+#ckcustomlayoutsearch {
+	height: auto !important;
+}
+#ckcustomlayoutsearch .logobloc {
+	float :none !important;
+	width: auto !important;
+}
+
+
+}

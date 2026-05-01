@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr-fr">
+	<title type="text">Clic-Formation - Exercices niveau 4</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://www.clic-formation.net"/>
+	<id>https://www.clic-formation.net/exercices-niveau-4.feed</id>
+	<updated>2026-04-26T10:47:35+00:00</updated>
+	<author>
+		<name>Clic-formation.net</name>
+		<email>info@clic-formation.net</email>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://www.clic-formation.net/exercices-niveau-4.feed?type=atom"/>
+	<entry>
+		<title>Cas Etude de Cas - ❹</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/exercices-niveau-4/etude-de-cas.html"/>
+		<published>2023-12-20T16:41:22+00:00</published>
+		<updated>2023-12-20T16:41:22+00:00</updated>
+		<id>https://www.clic-formation.net/exercices-niveau-4/etude-de-cas.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/etude-de-cas/resultet-etude-de-cas.jpg&quot; class=&quot;wfpopup wf-mediabox-has-float wf-zoom-image jcepopup&quot; style=&quot;float: left; margin-right: 15px;&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/etude-de-cas/resultet-etude-de-cas.jpg&quot; alt=&quot;Vue du résultat attendu de l'exercice word : &amp;quot;Etude de Cas&amp;quot;&quot; width=&quot;100&quot; height=&quot;71&quot; style=&quot;margin: 5px 20px 5px 5px; padding: 0px; border: 1px solid #000000; float: left;&quot; /&gt;&lt;/a&gt;Vous travaillez principalement les zones de textes, l'alignement, grouper...&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.clic-formation.net/exercices-niveau-4/etude-de-cas.html&quot; rel=&quot;noopener&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/etude-de-cas/resultet-etude-de-cas.jpg&quot; class=&quot;wfpopup wf-mediabox-has-float wf-zoom-image jcepopup&quot; style=&quot;float: left; margin-right: 15px;&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/etude-de-cas/resultet-etude-de-cas.jpg&quot; alt=&quot;Vue du résultat attendu de l'exercice word : &amp;quot;Etude de Cas&amp;quot;&quot; width=&quot;100&quot; height=&quot;71&quot; style=&quot;margin: 5px 20px 5px 5px; padding: 0px; border: 1px solid #000000; float: left;&quot; /&gt;&lt;/a&gt;Vous travaillez principalement les zones de textes, l'alignement, grouper...&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.clic-formation.net/exercices-niveau-4/etude-de-cas.html&quot; rel=&quot;noopener&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="Exercice word Niveau 4" />
+	</entry>
+	<entry>
+		<title>Cas Fiche commune - ❹</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/exercices-niveau-4/fiche-commune.html"/>
+		<published>2023-12-20T16:41:22+00:00</published>
+		<updated>2023-12-20T16:41:22+00:00</updated>
+		<id>https://www.clic-formation.net/exercices-niveau-4/fiche-commune.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/fiche-commune/resultat-01.gif&quot; class=&quot;wfpopup wf-zoom-image jcepopup&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/fiche-commune/resultat-01.gif&quot; alt=&quot;Vue du résultat attendu de l'exercice word : &amp;quot;Fiche commune&amp;quot;&quot; width=&quot;100&quot; height=&quot;142&quot; style=&quot;margin: 5px 20px 5px 5px; padding: 0px; border: 1px solid #000000; float: left;&quot; /&gt;&lt;/a&gt;Dans cet exercice, vous travaillez&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;la table des matières&lt;/li&gt;
+&lt;li&gt;l'encadrement des titres&lt;/li&gt;
+&lt;li&gt;l'insertion de tableau&lt;/li&gt;
+&lt;li&gt;la pagination&lt;/li&gt;
+&lt;li&gt;l'insertion des zones de textes&lt;/li&gt;
+&lt;li&gt;les listes à puces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.clic-formation.net/exercices-niveau-4/fiche-commune.html&quot; rel=&quot;noopener&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/fiche-commune/resultat-01.gif&quot; class=&quot;wfpopup wf-zoom-image jcepopup&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/fiche-commune/resultat-01.gif&quot; alt=&quot;Vue du résultat attendu de l'exercice word : &amp;quot;Fiche commune&amp;quot;&quot; width=&quot;100&quot; height=&quot;142&quot; style=&quot;margin: 5px 20px 5px 5px; padding: 0px; border: 1px solid #000000; float: left;&quot; /&gt;&lt;/a&gt;Dans cet exercice, vous travaillez&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;la table des matières&lt;/li&gt;
+&lt;li&gt;l'encadrement des titres&lt;/li&gt;
+&lt;li&gt;l'insertion de tableau&lt;/li&gt;
+&lt;li&gt;la pagination&lt;/li&gt;
+&lt;li&gt;l'insertion des zones de textes&lt;/li&gt;
+&lt;li&gt;les listes à puces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.clic-formation.net/exercices-niveau-4/fiche-commune.html&quot; rel=&quot;noopener&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="Exercice word Niveau 4" />
+	</entry>
+	<entry>
+		<title>Cas Gazette du Caroux - ❹</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/exercices-niveau-4/gazette-du-caroux.html"/>
+		<published>2023-12-20T16:41:22+00:00</published>
+		<updated>2023-12-20T16:41:22+00:00</updated>
+		<id>https://www.clic-formation.net/exercices-niveau-4/gazette-du-caroux.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/gazette/gazette-tuto.jpg&quot; class=&quot;wfpopup wf-mediabox-has-float wf-zoom-image jcepopup&quot; style=&quot;float: left; margin-right: 15px;&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/gazette/gazette-tuto.jpg&quot; alt=&quot;Vue du résultat attendu de l'exercice word : &amp;quot;Gazette du Caroux&amp;quot;&quot; width=&quot;100&quot; height=&quot;142&quot; style=&quot;margin: 5px 20px 5px 5px; padding: 0px; border: 1px solid #000000; float: left;&quot; /&gt;&lt;/a&gt;Dans cet exercice, vous travaillez&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La mise en colonne&lt;/li&gt;
+&lt;li&gt;Les sauts de sections&lt;/li&gt;
+&lt;li&gt;L'insertion d'images&lt;/li&gt;
+&lt;li&gt;L'insertion de tableau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.clic-formation.net/exercices-niveau-4/gazette-du-caroux.html&quot; rel=&quot;noopener&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/gazette/gazette-tuto.jpg&quot; class=&quot;wfpopup wf-mediabox-has-float wf-zoom-image jcepopup&quot; style=&quot;float: left; margin-right: 15px;&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/02-word/bibliotheque/niveau-4/gazette/gazette-tuto.jpg&quot; alt=&quot;Vue du résultat attendu de l'exercice word : &amp;quot;Gazette du Caroux&amp;quot;&quot; width=&quot;100&quot; height=&quot;142&quot; style=&quot;margin: 5px 20px 5px 5px; padding: 0px; border: 1px solid #000000; float: left;&quot; /&gt;&lt;/a&gt;Dans cet exercice, vous travaillez&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La mise en colonne&lt;/li&gt;
+&lt;li&gt;Les sauts de sections&lt;/li&gt;
+&lt;li&gt;L'insertion d'images&lt;/li&gt;
+&lt;li&gt;L'insertion de tableau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.clic-formation.net/exercices-niveau-4/gazette-du-caroux.html&quot; rel=&quot;noopener&quot;&gt;Lire la suite...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="Exercice word Niveau 4" />
+	</entry>
+</feed>

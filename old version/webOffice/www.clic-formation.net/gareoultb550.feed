@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr-fr">
+	<title type="text">Clic-Formation - Ecole</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://www.clic-formation.net"/>
+	<id>https://www.clic-formation.net/gareoult.feed</id>
+	<updated>2026-04-26T10:26:30+00:00</updated>
+	<author>
+		<name>Clic-formation.net</name>
+		<email>info@clic-formation.net</email>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://www.clic-formation.net/gareoult.feed?type=atom"/>
+	<entry>
+		<title>La fabrication industrielle du yaourt</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/gareoult/la-fabrication-industrielle-du-yaourt.html"/>
+		<published>2020-03-23T17:48:44+00:00</published>
+		<updated>2020-03-23T17:48:44+00:00</updated>
+		<id>https://www.clic-formation.net/gareoult/la-fabrication-industrielle-du-yaourt.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=20&amp;amp;Itemid=3531&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz Fabrication du yaourt&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;La fabrication industrielle des yaourts&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="1" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-chez-leleveur" role="button" aria-controls="rlta-panel-chez-leleveur" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="chez-leleveur" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Chez l'éleveur...</h3>
+</div>
+<div id="rlta-panel-chez-leleveur" aria-labelledby="rlta-chez-leleveur" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/traite-des-vaches.jpg&quot; alt=&quot;traite des vaches&quot; style=&quot;margin-left: 10px; float: right;&quot; /&gt;Le lait est produit le plus souvent par les vaches (mais il y a aussi des yaourts au lait de chèvre, ou de brebis).&lt;br /&gt;Elles sont traites deux fois par jour par l'éleveur ou l'agriculteur. Une vache produit en moyenne 25 litres de lait chaque jour !&lt;br /&gt;La vache doit donner naissance à un veau chaque année pour produire du lait, les conditions d'hygiène pour la traite sont très strictes.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Le lait va ensuite directement dans un tank à lait. Il ne verra maintenant plus du tout la lumière! Le lait est réfrigéré (entre 3°C et 4°C) pour conserver sa qualité, en attendant le passage du camion (souvent tous les deux jours).&lt;br /&gt;Le camion citerne isotherme qui collecte le lait le pompe directernent dans le tank.&lt;br /&gt;Et direction la laiterie !&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/lait.gif&quot; alt=&quot;lait&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-puis-dans-lusine" role="button" aria-controls="rlta-panel-puis-dans-lusine" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="puis-dans-lusine" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    ...puis dans l'usine...</h3>
+</div>
+<div id="rlta-panel-puis-dans-lusine" aria-labelledby="rlta-puis-dans-lusine" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Là, le lait est une nouvetle fois analysé pour vérifier sa qualité avant de subir les transformations nécessaires pour devenir un yaourt.&lt;br /&gt;Le lait est écrémé : cela signifie qu'on lui enlève une partie de sa crème à l'aide d'une écrémeuse-centrifugeuse.&lt;br /&gt;On peut ainsi obtenir du lait entier, demi-écrémé ou écrémé.&lt;br /&gt;Le plus souvent, le lait est ensuite pasteurisé afin d'éliminer les micro-organismes qu'il contient. La pasteurisation consiste à chauffer le lait jusqu'à une température de 72°C pendant 15 secondes.&lt;br /&gt;On refroidit ensuite le lait à une température de 42°C,et on lui ajoute des ferments lactiques pourqu'il se transforme en yaourt. C'est ce qu'on appelle l'ensemencement du lait.&lt;br /&gt;Lorsque le lait est ensemencé, il est mis en pots. Les pots sont fermés et vont entrer dans une salle chaude pendant 3 heures. Les ferments vont se multiplier et ainsi transformer le lait en yaourt. Cette opération se nomme l'étuvage.&lt;br /&gt;Enfin, on va réfrigérer les pots de yaourts jusqu'à leur consommation : ils seront transportés dans les magasins en camion réfrigéré et stockés dans des vitrines réfrigérées elles aussi. Un yaourt peut se conserver au frais 30 jours après sa production.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/01-ecremage.jpg&quot; alt=&quot;01 ecremage&quot; width=&quot;450&quot; height=&quot;288&quot; /&gt;&amp;nbsp;&amp;nbsp; &lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/controle.jpg&quot; alt=&quot;controle&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/conditionneuse.jpg&quot; alt=&quot;conditionneuse&quot; /&gt;&amp;nbsp;&amp;nbsp; &lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/rayon.jpg&quot; alt=&quot;rayon&quot; /&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;&amp;nbsp;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/circuit.jpg&quot; alt=&quot;circuit&quot; width=&quot;1000&quot; height=&quot;247&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-cest-pas-sorcier-ah-les-vaches" role="button" aria-controls="rlta-panel-video-cest-pas-sorcier-ah-les-vaches" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-cest-pas-sorcier-ah-les-vaches" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: C'est pas sorcier Ah Les vaches !</h3>
+</div>
+<div id="rlta-panel-video-cest-pas-sorcier-ah-les-vaches" aria-labelledby="rlta-video-cest-pas-sorcier-ah-les-vaches" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ajvUdq5KQdU?allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;560&quot; height=&quot;315&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; align=&quot;middle&quot; allowfullscreen=&quot;allowfullscreen&quot; rel=&quot;1&quot;&gt;&lt;/iframe&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-du-champs-au-frigo" role="button" aria-controls="rlta-panel-du-champs-au-frigo" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="du-champs-au-frigo" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Du champs au frigo</h3>
+</div>
+<div id="rlta-panel-du-champs-au-frigo" aria-labelledby="rlta-du-champs-au-frigo" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Il faut remettre de l'ordre dans le circuit de fabrication du lait. Pour cela tu peux t'aider de la souris et déposer les images dans le bon ordre.&lt;/p&gt;
+&lt;p&gt;La solution et à verifier en bas de page.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &lt;iframe src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/lait/index.html&quot; width=&quot;1000&quot; height=&quot;300&quot; class=&quot;undefined&quot; style=&quot;vertical-align: top;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-solution-du-jeu" role="button" aria-controls="rlta-panel-solution-du-jeu" aria-expanded="false" tabindex="0" data-rlta-alias="solution-du-jeu" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Solution du jeu</h3>
+</div>
+<div id="rlta-panel-solution-du-jeu" aria-labelledby="rlta-solution-du-jeu" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/lait/resultat.gif&quot; alt=&quot;resultat&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=20&amp;amp;Itemid=3531&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz Fabrication du yaourt&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;La fabrication industrielle des yaourts&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="2" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-chez-leleveur-2" role="button" aria-controls="rlta-panel-chez-leleveur-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="chez-leleveur-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Chez l'éleveur...</h3>
+</div>
+<div id="rlta-panel-chez-leleveur-2" aria-labelledby="rlta-chez-leleveur-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/traite-des-vaches.jpg&quot; alt=&quot;traite des vaches&quot; style=&quot;margin-left: 10px; float: right;&quot; /&gt;Le lait est produit le plus souvent par les vaches (mais il y a aussi des yaourts au lait de chèvre, ou de brebis).&lt;br /&gt;Elles sont traites deux fois par jour par l'éleveur ou l'agriculteur. Une vache produit en moyenne 25 litres de lait chaque jour !&lt;br /&gt;La vache doit donner naissance à un veau chaque année pour produire du lait, les conditions d'hygiène pour la traite sont très strictes.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Le lait va ensuite directement dans un tank à lait. Il ne verra maintenant plus du tout la lumière! Le lait est réfrigéré (entre 3°C et 4°C) pour conserver sa qualité, en attendant le passage du camion (souvent tous les deux jours).&lt;br /&gt;Le camion citerne isotherme qui collecte le lait le pompe directernent dans le tank.&lt;br /&gt;Et direction la laiterie !&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/lait.gif&quot; alt=&quot;lait&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-puis-dans-lusine-2" role="button" aria-controls="rlta-panel-puis-dans-lusine-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="puis-dans-lusine-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    ...puis dans l'usine...</h3>
+</div>
+<div id="rlta-panel-puis-dans-lusine-2" aria-labelledby="rlta-puis-dans-lusine-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Là, le lait est une nouvetle fois analysé pour vérifier sa qualité avant de subir les transformations nécessaires pour devenir un yaourt.&lt;br /&gt;Le lait est écrémé : cela signifie qu'on lui enlève une partie de sa crème à l'aide d'une écrémeuse-centrifugeuse.&lt;br /&gt;On peut ainsi obtenir du lait entier, demi-écrémé ou écrémé.&lt;br /&gt;Le plus souvent, le lait est ensuite pasteurisé afin d'éliminer les micro-organismes qu'il contient. La pasteurisation consiste à chauffer le lait jusqu'à une température de 72°C pendant 15 secondes.&lt;br /&gt;On refroidit ensuite le lait à une température de 42°C,et on lui ajoute des ferments lactiques pourqu'il se transforme en yaourt. C'est ce qu'on appelle l'ensemencement du lait.&lt;br /&gt;Lorsque le lait est ensemencé, il est mis en pots. Les pots sont fermés et vont entrer dans une salle chaude pendant 3 heures. Les ferments vont se multiplier et ainsi transformer le lait en yaourt. Cette opération se nomme l'étuvage.&lt;br /&gt;Enfin, on va réfrigérer les pots de yaourts jusqu'à leur consommation : ils seront transportés dans les magasins en camion réfrigéré et stockés dans des vitrines réfrigérées elles aussi. Un yaourt peut se conserver au frais 30 jours après sa production.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/01-ecremage.jpg&quot; alt=&quot;01 ecremage&quot; width=&quot;450&quot; height=&quot;288&quot; /&gt;&amp;nbsp;&amp;nbsp; &lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/controle.jpg&quot; alt=&quot;controle&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/conditionneuse.jpg&quot; alt=&quot;conditionneuse&quot; /&gt;&amp;nbsp;&amp;nbsp; &lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/rayon.jpg&quot; alt=&quot;rayon&quot; /&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;&amp;nbsp;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/circuit.jpg&quot; alt=&quot;circuit&quot; width=&quot;1000&quot; height=&quot;247&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-cest-pas-sorcier-ah-les-vaches-2" role="button" aria-controls="rlta-panel-video-cest-pas-sorcier-ah-les-vaches-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-cest-pas-sorcier-ah-les-vaches-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: C'est pas sorcier Ah Les vaches !</h3>
+</div>
+<div id="rlta-panel-video-cest-pas-sorcier-ah-les-vaches-2" aria-labelledby="rlta-video-cest-pas-sorcier-ah-les-vaches-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ajvUdq5KQdU?allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;560&quot; height=&quot;315&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; align=&quot;middle&quot; allowfullscreen=&quot;allowfullscreen&quot; rel=&quot;1&quot;&gt;&lt;/iframe&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-du-champs-au-frigo-2" role="button" aria-controls="rlta-panel-du-champs-au-frigo-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="du-champs-au-frigo-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Du champs au frigo</h3>
+</div>
+<div id="rlta-panel-du-champs-au-frigo-2" aria-labelledby="rlta-du-champs-au-frigo-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Il faut remettre de l'ordre dans le circuit de fabrication du lait. Pour cela tu peux t'aider de la souris et déposer les images dans le bon ordre.&lt;/p&gt;
+&lt;p&gt;La solution et à verifier en bas de page.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &lt;iframe src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/lait/index.html&quot; width=&quot;1000&quot; height=&quot;300&quot; class=&quot;undefined&quot; style=&quot;vertical-align: top;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-solution-du-jeu-2" role="button" aria-controls="rlta-panel-solution-du-jeu-2" aria-expanded="false" tabindex="0" data-rlta-alias="solution-du-jeu-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Solution du jeu</h3>
+</div>
+<div id="rlta-panel-solution-du-jeu-2" aria-labelledby="rlta-solution-du-jeu-2" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/fabrication-yaourts/lait/resultat.gif&quot; alt=&quot;resultat&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Ecole de Garéoult" />
+	</entry>
+	<entry>
+		<title>Consommer de l'eau</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/gareoult/consommer-de-l-eau.html"/>
+		<published>2020-03-20T17:37:27+00:00</published>
+		<updated>2020-03-20T17:37:27+00:00</updated>
+		<id>https://www.clic-formation.net/gareoult/consommer-de-l-eau.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=11&amp;amp;Itemid=3523&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz Consommer de l'eau&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;D'où vient ['eau qui coule du robinet ?&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="3" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-leau-du-robinet" role="button" aria-controls="rlta-panel-leau-du-robinet" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="leau-du-robinet" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    L'eau du robinet</h3>
+</div>
+<div id="rlta-panel-leau-du-robinet" aria-labelledby="rlta-leau-du-robinet" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Les usages de l'eau potabte en France&lt;br /&gt;En moyenne en une journée, un Français consomme plus de 100 litres d'eau.&lt;br /&gt;Que fait un Français avec l'eau qu'il consomme chaque jour ?&lt;br /&gt;L'eau que l'on boit compte-t-elle pour beaucoup ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/eau.jpg&quot; alt=&quot;eau&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Relevé d'un compteur d'eau&lt;br /&gt;Regarde ce compteur d'eau :&lt;br /&gt;Sais-tu où se trouve celui de ta maison ?&lt;br /&gt;Sais-tu à quoi il sert ?&lt;br /&gt;En dehors de la maison, à quelles autres occasions a-t-on besoin d'eau : à l'école ? pour entretenir le village ou le quartier ?&lt;br /&gt;On demande à chacun d'économiser l'eau : pourquoi ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/compteur-eau.jpg&quot; alt=&quot;compteur eau&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;L'eau du robinet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;En France, l'eau qui coule du robinet est potable.&lt;br /&gt;Une personne consomme plus de 100 litres d'eau par jour : pour boire, se laver, faire la vaisselle, la lessive...&lt;br /&gt;On a aussi besoin d'eau dans les écoles, les hôpitaux, les bureaux. Il faut également de l'eau pour arroser les champs, nettoyer les rues, refroidir les machines dans les usines... Tout cela représente une importante consommation d'eau.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Le réseau d'eau potable&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On trouve de l'eau dans la nature : dans des rivières, les nappes phréatiques, les barrages.&lt;br /&gt;Des usines la captent et la purifient pour qu'elle devienne potable. Ensuite, elles l'acheminent jusqu'aux robinets par un vaste réseau de canalisations enterrées.&lt;br /&gt;Un autre réseau récupère les eaux usées (toilettes, salle de bains, machines à laver) et les nettoie dans des stations d'épuration avant de les rejeter dans la nature, de manière à ne pas polluer.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-le-reseau-deau-potable" role="button" aria-controls="rlta-panel-le-reseau-deau-potable" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="le-reseau-deau-potable" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Le réseau d'eau potable</h3>
+</div>
+<div id="rlta-panel-le-reseau-deau-potable" aria-labelledby="rlta-le-reseau-deau-potable" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;D'ou vient l'eau du robinet ?&lt;br /&gt;Pourquoi la traite-t-on avant de la boire ?&lt;br /&gt;À quoi sert le château d'eau ?&lt;br /&gt;Que deviennent les eaux usées ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemple du cycle de l'eau de la ville de Lyon&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/cycle-urbain-de-eau.jpg&quot; class=&quot;jcepopup&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/cycle-urbain-de-eau.jpg&quot; alt=&quot;cycle urbain de eau&quot; width=&quot;1000&quot; height=&quot;676&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-leau-en-bouteille" role="button" aria-controls="rlta-panel-leau-en-bouteille" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="leau-en-bouteille" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    L'eau en bouteille</h3>
+</div>
+<div id="rlta-panel-leau-en-bouteille" aria-labelledby="rlta-leau-en-bouteille" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Le réseau d'eau potable&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;Usine de mise en bouteille d'eau minérale&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/usine-eau.jpg&quot; alt=&quot;usine eau&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Dis ce que tu vois dans cette usine.&lt;br /&gt;D'où vient l'eau ?&lt;br /&gt;Comment est-elle transportée vers les magasins ?&lt;br /&gt;Quels sont les avantages de l'eau en bouteille ? ses inconvénients ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;L'eau en bouteille&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On peut aussi acheter de l'eau en bouteille : de l'eau plate, de l'eau gazeuse, de l'eau minérale... Des usines captent ces eaux à la source et Ia mettent en bouteille. Ensuite, des camions transportent les bouteilles à travers toute la France jusque dans les magasins. Tout cela consomme de l'énergie et entraîne de la pollution. Boire l'eau du robinet respecte mieux l'environnement : c'est pourquoi on nous incite à la consommer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;canalisation :&lt;/strong&gt;&amp;nbsp;gros tuyau dans lequel circule un liquide.&lt;br /&gt;&lt;strong&gt;eau minérale :&lt;/strong&gt;&amp;nbsp;eau qui contient des minéraux bons pour la santé. Leau du robinet contient suffisamment de minéraux pour la santé.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;eaux usées :&lt;/strong&gt;&amp;nbsp;eaux sales qui sortent de l'évier, de la salle de bains, des toilettes, des machines à laver.&lt;br /&gt;&lt;strong&gt;nappe phréatique :&lt;/strong&gt;&amp;nbsp;réserve d'eau souterraine.&lt;br /&gt;&lt;strong&gt;station d'épuration :&lt;/strong&gt;&amp;nbsp;usine qui purifie les eaux usées.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-cest-pas-sorcier" role="button" aria-controls="rlta-panel-video-cest-pas-sorcier" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-cest-pas-sorcier" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: C'est pas sorcier</h3>
+</div>
+<div id="rlta-panel-video-cest-pas-sorcier" aria-labelledby="rlta-video-cest-pas-sorcier" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/hwhrXzhXyLk?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=11&amp;amp;Itemid=3523&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz Consommer de l'eau&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;D'où vient ['eau qui coule du robinet ?&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="4" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-leau-du-robinet-2" role="button" aria-controls="rlta-panel-leau-du-robinet-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="leau-du-robinet-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    L'eau du robinet</h3>
+</div>
+<div id="rlta-panel-leau-du-robinet-2" aria-labelledby="rlta-leau-du-robinet-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Les usages de l'eau potabte en France&lt;br /&gt;En moyenne en une journée, un Français consomme plus de 100 litres d'eau.&lt;br /&gt;Que fait un Français avec l'eau qu'il consomme chaque jour ?&lt;br /&gt;L'eau que l'on boit compte-t-elle pour beaucoup ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/eau.jpg&quot; alt=&quot;eau&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Relevé d'un compteur d'eau&lt;br /&gt;Regarde ce compteur d'eau :&lt;br /&gt;Sais-tu où se trouve celui de ta maison ?&lt;br /&gt;Sais-tu à quoi il sert ?&lt;br /&gt;En dehors de la maison, à quelles autres occasions a-t-on besoin d'eau : à l'école ? pour entretenir le village ou le quartier ?&lt;br /&gt;On demande à chacun d'économiser l'eau : pourquoi ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/compteur-eau.jpg&quot; alt=&quot;compteur eau&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;L'eau du robinet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;En France, l'eau qui coule du robinet est potable.&lt;br /&gt;Une personne consomme plus de 100 litres d'eau par jour : pour boire, se laver, faire la vaisselle, la lessive...&lt;br /&gt;On a aussi besoin d'eau dans les écoles, les hôpitaux, les bureaux. Il faut également de l'eau pour arroser les champs, nettoyer les rues, refroidir les machines dans les usines... Tout cela représente une importante consommation d'eau.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Le réseau d'eau potable&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On trouve de l'eau dans la nature : dans des rivières, les nappes phréatiques, les barrages.&lt;br /&gt;Des usines la captent et la purifient pour qu'elle devienne potable. Ensuite, elles l'acheminent jusqu'aux robinets par un vaste réseau de canalisations enterrées.&lt;br /&gt;Un autre réseau récupère les eaux usées (toilettes, salle de bains, machines à laver) et les nettoie dans des stations d'épuration avant de les rejeter dans la nature, de manière à ne pas polluer.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-le-reseau-deau-potable-2" role="button" aria-controls="rlta-panel-le-reseau-deau-potable-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="le-reseau-deau-potable-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Le réseau d'eau potable</h3>
+</div>
+<div id="rlta-panel-le-reseau-deau-potable-2" aria-labelledby="rlta-le-reseau-deau-potable-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;D'ou vient l'eau du robinet ?&lt;br /&gt;Pourquoi la traite-t-on avant de la boire ?&lt;br /&gt;À quoi sert le château d'eau ?&lt;br /&gt;Que deviennent les eaux usées ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemple du cycle de l'eau de la ville de Lyon&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/cycle-urbain-de-eau.jpg&quot; class=&quot;jcepopup&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/cycle-urbain-de-eau.jpg&quot; alt=&quot;cycle urbain de eau&quot; width=&quot;1000&quot; height=&quot;676&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-leau-en-bouteille-2" role="button" aria-controls="rlta-panel-leau-en-bouteille-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="leau-en-bouteille-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    L'eau en bouteille</h3>
+</div>
+<div id="rlta-panel-leau-en-bouteille-2" aria-labelledby="rlta-leau-en-bouteille-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Le réseau d'eau potable&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;Usine de mise en bouteille d'eau minérale&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/consommer-de-eau/usine-eau.jpg&quot; alt=&quot;usine eau&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Dis ce que tu vois dans cette usine.&lt;br /&gt;D'où vient l'eau ?&lt;br /&gt;Comment est-elle transportée vers les magasins ?&lt;br /&gt;Quels sont les avantages de l'eau en bouteille ? ses inconvénients ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;L'eau en bouteille&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On peut aussi acheter de l'eau en bouteille : de l'eau plate, de l'eau gazeuse, de l'eau minérale... Des usines captent ces eaux à la source et Ia mettent en bouteille. Ensuite, des camions transportent les bouteilles à travers toute la France jusque dans les magasins. Tout cela consomme de l'énergie et entraîne de la pollution. Boire l'eau du robinet respecte mieux l'environnement : c'est pourquoi on nous incite à la consommer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;canalisation :&lt;/strong&gt;&amp;nbsp;gros tuyau dans lequel circule un liquide.&lt;br /&gt;&lt;strong&gt;eau minérale :&lt;/strong&gt;&amp;nbsp;eau qui contient des minéraux bons pour la santé. Leau du robinet contient suffisamment de minéraux pour la santé.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;eaux usées :&lt;/strong&gt;&amp;nbsp;eaux sales qui sortent de l'évier, de la salle de bains, des toilettes, des machines à laver.&lt;br /&gt;&lt;strong&gt;nappe phréatique :&lt;/strong&gt;&amp;nbsp;réserve d'eau souterraine.&lt;br /&gt;&lt;strong&gt;station d'épuration :&lt;/strong&gt;&amp;nbsp;usine qui purifie les eaux usées.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-cest-pas-sorcier-2" role="button" aria-controls="rlta-panel-video-cest-pas-sorcier-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-cest-pas-sorcier-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: C'est pas sorcier</h3>
+</div>
+<div id="rlta-panel-video-cest-pas-sorcier-2" aria-labelledby="rlta-video-cest-pas-sorcier-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/hwhrXzhXyLk?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</content>
+		<category term="Ecole de Garéoult" />
+	</entry>
+	<entry>
+		<title>Se loger en centre-ville</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/gareoult/se-loger-en-centre-ville.html"/>
+		<published>2020-03-20T17:37:27+00:00</published>
+		<updated>2020-03-20T17:37:27+00:00</updated>
+		<id>https://www.clic-formation.net/gareoult/se-loger-en-centre-ville.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;La ville comporte plusieurs quartiers.&lt;br /&gt;Le plus ancien se trouve au centre : c'est le centre-ville.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="5" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-le-centre-ville" role="button" aria-controls="rlta-panel-le-centre-ville" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="le-centre-ville" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Le centre-ville</h3>
+</div>
+<div id="rlta-panel-le-centre-ville" aria-labelledby="rlta-le-centre-ville" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Dans les centres-villes, la population est nombreuse. Tout l'espace est occupé par les rues et les bâtiments : essentiellement des immeubles avec plusieurs appartements pouvant accueillir différentes familles. Certains immeubles sont anciens, hauts de quelques étages, construits en brique ou en pierre. D'autres sont récents, généralement plus élevés, souvent en béton.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/centre-lyon.jpg&quot; alt=&quot;centre lyon&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Ces bâtiments sont-ils des maisons individuelles ou des immeubles ? Justifie ta réponse.&lt;br /&gt;Quels sont les avantages des immeubles collectifs ? Quels en sont les inconvénients ?&lt;br /&gt;Sur la carte, situe la ville où tu habites ou la grande ville la plus proche de chez toi.&lt;br /&gt;Décris le centre-ville le plus proche de ton école. Comment sont les bâtiments ?&lt;/p&gt;
+&lt;p&gt;Sur la carte, situe Lyon, Lille, Bordeaux, Marseille&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/carte.jpg&quot; alt=&quot;carte&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-les-avantages-du-centre-ville" role="button" aria-controls="rlta-panel-les-avantages-du-centre-ville" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="les-avantages-du-centre-ville" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Les avantages du centre-ville</h3>
+</div>
+<div id="rlta-panel-les-avantages-du-centre-ville" aria-labelledby="rlta-les-avantages-du-centre-ville" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Certains citadins aiment la vie en centre-ville. Ils apprécient ses quartiers animés, avec leurs boutiques, leurs restaurants, leurs cinémas.&lt;br /&gt;Ils aiment avoir un accès facile aux différents services : la mairie, la poste, les magasins... Ils se déplacent sur de courtes distances car tout est à « portée de main ». Ils trouvent facilement des transports en commun.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/tram.jpg&quot; alt=&quot;tram&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Dis ce que tu vois sur cette photographie.&lt;br /&gt;Quels sont les avantages de la vie en centre-ville ?&lt;br /&gt;Aide-toi de la photo pour répondre.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-les-inconvenients-du-centre-ville" role="button" aria-controls="rlta-panel-les-inconvenients-du-centre-ville" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="les-inconvenients-du-centre-ville" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Les inconvénients du centre-ville</h3>
+</div>
+<div id="rlta-panel-les-inconvenients-du-centre-ville" aria-labelledby="rlta-les-inconvenients-du-centre-ville" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;D'autres citadins n'aiment pas le centre-ville, les logements y sont petits, la circulation et le stationnement difficiles, les espaces verts rares. Il y a du bruit et de la pollution. Pour améliorer la vie en centre-ville, on rénove les vieux quartiers ou on en construit de nouveaux.&lt;br /&gt;On crée des espaces verts et des zones réservées aux piétons. On encourage d'autres moyens de circuler, par exemple en créant des pistes cyclables.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/embouteillage.jpg&quot; alt=&quot;embouteillage&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;À quoi reconnais-tu que cet espace est urbain ?&lt;br /&gt;Pourquoi y a-t-iI des embouteitlages en ville et pas dans les campagnes ?&lt;br /&gt;Que peut-on faire pour améliorer la circulation ?&lt;br /&gt;Quels sont les autres problèmes de la vie en centre-ville ?&lt;br /&gt;Que peut-on faire pour y remédier ?&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;citadin :&lt;/strong&gt;&amp;nbsp;habitant des villes.&lt;br /&gt;&lt;strong&gt;piéton :&lt;/strong&gt;&amp;nbsp;personne qui se déplace à pied.&lt;br /&gt;&lt;strong&gt;piste cyclable :&lt;/strong&gt;&amp;nbsp;voie réservée aux cyclistes.&lt;br /&gt;&lt;strong&gt;rénover :&lt;/strong&gt; remettre à neuf.&lt;br /&gt;&lt;strong&gt;transports en commun&lt;/strong&gt;: tous les moyens de transport collectif (train, métro, bus, tramway...).&lt;/p&gt;</summary>
+		<content type="html">&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;La ville comporte plusieurs quartiers.&lt;br /&gt;Le plus ancien se trouve au centre : c'est le centre-ville.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="6" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-le-centre-ville-2" role="button" aria-controls="rlta-panel-le-centre-ville-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="le-centre-ville-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Le centre-ville</h3>
+</div>
+<div id="rlta-panel-le-centre-ville-2" aria-labelledby="rlta-le-centre-ville-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Dans les centres-villes, la population est nombreuse. Tout l'espace est occupé par les rues et les bâtiments : essentiellement des immeubles avec plusieurs appartements pouvant accueillir différentes familles. Certains immeubles sont anciens, hauts de quelques étages, construits en brique ou en pierre. D'autres sont récents, généralement plus élevés, souvent en béton.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/centre-lyon.jpg&quot; alt=&quot;centre lyon&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Ces bâtiments sont-ils des maisons individuelles ou des immeubles ? Justifie ta réponse.&lt;br /&gt;Quels sont les avantages des immeubles collectifs ? Quels en sont les inconvénients ?&lt;br /&gt;Sur la carte, situe la ville où tu habites ou la grande ville la plus proche de chez toi.&lt;br /&gt;Décris le centre-ville le plus proche de ton école. Comment sont les bâtiments ?&lt;/p&gt;
+&lt;p&gt;Sur la carte, situe Lyon, Lille, Bordeaux, Marseille&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/carte.jpg&quot; alt=&quot;carte&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-les-avantages-du-centre-ville-2" role="button" aria-controls="rlta-panel-les-avantages-du-centre-ville-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="les-avantages-du-centre-ville-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Les avantages du centre-ville</h3>
+</div>
+<div id="rlta-panel-les-avantages-du-centre-ville-2" aria-labelledby="rlta-les-avantages-du-centre-ville-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Certains citadins aiment la vie en centre-ville. Ils apprécient ses quartiers animés, avec leurs boutiques, leurs restaurants, leurs cinémas.&lt;br /&gt;Ils aiment avoir un accès facile aux différents services : la mairie, la poste, les magasins... Ils se déplacent sur de courtes distances car tout est à « portée de main ». Ils trouvent facilement des transports en commun.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/tram.jpg&quot; alt=&quot;tram&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Dis ce que tu vois sur cette photographie.&lt;br /&gt;Quels sont les avantages de la vie en centre-ville ?&lt;br /&gt;Aide-toi de la photo pour répondre.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-les-inconvenients-du-centre-ville-2" role="button" aria-controls="rlta-panel-les-inconvenients-du-centre-ville-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="les-inconvenients-du-centre-ville-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Les inconvénients du centre-ville</h3>
+</div>
+<div id="rlta-panel-les-inconvenients-du-centre-ville-2" aria-labelledby="rlta-les-inconvenients-du-centre-ville-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;D'autres citadins n'aiment pas le centre-ville, les logements y sont petits, la circulation et le stationnement difficiles, les espaces verts rares. Il y a du bruit et de la pollution. Pour améliorer la vie en centre-ville, on rénove les vieux quartiers ou on en construit de nouveaux.&lt;br /&gt;On crée des espaces verts et des zones réservées aux piétons. On encourage d'autres moyens de circuler, par exemple en créant des pistes cyclables.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/se-loger-centre-ville/embouteillage.jpg&quot; alt=&quot;embouteillage&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;À quoi reconnais-tu que cet espace est urbain ?&lt;br /&gt;Pourquoi y a-t-iI des embouteitlages en ville et pas dans les campagnes ?&lt;br /&gt;Que peut-on faire pour améliorer la circulation ?&lt;br /&gt;Quels sont les autres problèmes de la vie en centre-ville ?&lt;br /&gt;Que peut-on faire pour y remédier ?&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;citadin :&lt;/strong&gt;&amp;nbsp;habitant des villes.&lt;br /&gt;&lt;strong&gt;piéton :&lt;/strong&gt;&amp;nbsp;personne qui se déplace à pied.&lt;br /&gt;&lt;strong&gt;piste cyclable :&lt;/strong&gt;&amp;nbsp;voie réservée aux cyclistes.&lt;br /&gt;&lt;strong&gt;rénover :&lt;/strong&gt; remettre à neuf.&lt;br /&gt;&lt;strong&gt;transports en commun&lt;/strong&gt;: tous les moyens de transport collectif (train, métro, bus, tramway...).&lt;/p&gt;</content>
+		<category term="Ecole de Garéoult" />
+	</entry>
+	<entry>
+		<title>Vivre à Versailles</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/gareoult/vivre-a-versailles.html"/>
+		<published>2020-03-20T17:37:27+00:00</published>
+		<updated>2020-03-20T17:37:27+00:00</updated>
+		<id>https://www.clic-formation.net/gareoult/vivre-a-versailles.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/liste-quizz/primaire/vivre-a-versailles.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz Vivre à Versailles&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;Avant même [a fin des travaux, Louis XIV s'installa&lt;br /&gt;au château de Versai[[es pour y vivre avec toute [a Cour.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="7" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-la-cour" role="button" aria-controls="rlta-panel-la-cour" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-cour" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La Cour</h3>
+</div>
+<div id="rlta-panel-la-cour" aria-labelledby="rlta-la-cour" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Décris la scène : les personnes, leurs costumes, leur attitude...&lt;br /&gt;À ton avis, pourquoi Louis XIV faisait-it venir les nobles à Versailles au lieu de les laisser dans leurs châteaux ?&lt;br /&gt;Imagine leur vie quotidienne à Versailles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/vivre-a-versailles/cour.jpg&quot; alt=&quot;HenriIVenfants&quot; width=&quot;800&quot; height=&quot;545&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LA COUR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pour surveiller les nobles les plus puissants et les empêcher de préparer des complots contre lui, Louis XIV les fait venir à la Cour à Versailles. Le palais abritait des milliers de personnes. Pour les impressionner, le roi organisait des spectacles, des illuminations, des fêtes, des banquets... La grande noblesse et le haut clergé menaient ainsi une existence luxueuse et oisive.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LA VIE A VERSAILLES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Louis XIV organisa avec précision la vie à la Cour. Pour montrer sa puissance, il fit de chaque moment de sa journée une véritable cérémonie. Les nobles se pressaient pour le voir. Il désignait ses favoris qui pouvaient l'approcher et lui parler. Chacun tentait de se faire voir et de rester dans ses faveurs.&lt;br /&gt;Les nobles vivaient dans la peur d'être renvoyés de la Cour ou d'être oubliés.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-la-vie-a-versailles" role="button" aria-controls="rlta-panel-la-vie-a-versailles" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-vie-a-versailles" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La vie à Versailles</h3>
+</div>
+<div id="rlta-panel-la-vie-a-versailles" aria-labelledby="rlta-la-vie-a-versailles" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lis le premier texte : quand les gens voyaient-ils le roi ?&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Pourquoi voulaient-ils le voir ?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&quot;Sire, voilà I'heure&quot;: Ie Premier valet de chambre éveille le Roi.&lt;br /&gt;Médecins, familiers et quelques favoris pénètrent dans Ia chambre du Roi qui est lavé, peigné et rasé. Les officiers de la chambre et de la Garde-robe entrent à leur tour. Le Roi est habillé et déjeune d'un bouillon. Les personnages les plus importants du royaume sont admis à observer ce cérémonial. Quand le roi sort de son appartement, la foule se masse dans Ia galerie des Glaces pour l'apercevoir. Certains peuvent lui parler ou lui glisser un mot écrit.&lt;br /&gt;D'après le site lnternet du château de Versailles, &lt;a href=&quot;https://www.chateauversailles.fr&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;www.chateauversailles.fr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lis le second texte et relève le passage qui montre que les nobles cherchaient à se faire remarquer par le roi.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Le roi regardait à droite et à gauche, à son lever, à son coucher, à ses repas, en passant dans ses appartements, dans les jardins. ll voyait, il remarquait tout le monde. C'était une honte de ne pas vivre à Ia Cour, d'y venir rarement, et un malheur de ne jamais y venir. Pour lui plaire, les gens de la Cour dépensaient leur argent en habits, équipages et jeux. Le roi leur faisait ainsi dépenser tout leur argent jusqu'à ce qu'ils n'aient plus rien et doivent dépendre de lui pour vivre.&lt;br /&gt;D'après le duc de Saint-Simon, noble et écrivain, 1749&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;Que faisait Louis XIV pour les obliger à rester à la Cour ?&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-les-domestiques" role="button" aria-controls="rlta-panel-les-domestiques" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="les-domestiques" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Les domestiques</h3>
+</div>
+<div id="rlta-panel-les-domestiques" aria-labelledby="rlta-les-domestiques" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Décris cette scène.&lt;br /&gt;Que fait l'enfant au milieu ?&lt;br /&gt;À ton avis, quels étaient les métiers nécessaires pour entretenir le château de Versailles ?&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/vivre-a-versailles/domestique.jpg&quot; alt=&quot;domestique&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Les domestiques&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pour entretenir l'immense château de Versailles et pour servir ses nombreux habitants, des milliers de domestiques étaient nécessaires : des gens de ménage, des jardiniers, des blanchisseuses pour laver le linge, des serviteurs pour ouvrir et fermer les portes, des cuisiniers... Certaines tâches, comme servir le roi à table, étaient un honneur réservé aux nobles. Les autres tâches étaient confiées à des gens du peuple.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;clergé :&lt;/strong&gt;&amp;nbsp;ensemble des personnes qui consacrent leur vie à la religion..&lt;br /&gt;&lt;strong&gt;complot&amp;nbsp;&lt;/strong&gt;: projet secret contre une personne.&lt;br /&gt;&lt;strong&gt;faveur&amp;nbsp;&lt;/strong&gt;: avantage que l'on donne à une personne de préférence aux autres.&lt;br /&gt;&lt;strong&gt;favori&amp;nbsp;&lt;/strong&gt;: personne qui est préferée aux autres.&lt;br /&gt;&lt;strong&gt;gens du peuple&amp;nbsp;&lt;/strong&gt;: ceux qui ne sont ni nobles ni dans le clergé.&lt;br /&gt;&lt;strong&gt;oisif, oisive :&lt;/strong&gt; qui ne travaille pas, qui ne fait rien.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/liste-quizz/primaire/vivre-a-versailles.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz Vivre à Versailles&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;Avant même [a fin des travaux, Louis XIV s'installa&lt;br /&gt;au château de Versai[[es pour y vivre avec toute [a Cour.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="8" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-la-cour-2" role="button" aria-controls="rlta-panel-la-cour-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-cour-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La Cour</h3>
+</div>
+<div id="rlta-panel-la-cour-2" aria-labelledby="rlta-la-cour-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Décris la scène : les personnes, leurs costumes, leur attitude...&lt;br /&gt;À ton avis, pourquoi Louis XIV faisait-it venir les nobles à Versailles au lieu de les laisser dans leurs châteaux ?&lt;br /&gt;Imagine leur vie quotidienne à Versailles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/vivre-a-versailles/cour.jpg&quot; alt=&quot;HenriIVenfants&quot; width=&quot;800&quot; height=&quot;545&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LA COUR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pour surveiller les nobles les plus puissants et les empêcher de préparer des complots contre lui, Louis XIV les fait venir à la Cour à Versailles. Le palais abritait des milliers de personnes. Pour les impressionner, le roi organisait des spectacles, des illuminations, des fêtes, des banquets... La grande noblesse et le haut clergé menaient ainsi une existence luxueuse et oisive.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LA VIE A VERSAILLES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Louis XIV organisa avec précision la vie à la Cour. Pour montrer sa puissance, il fit de chaque moment de sa journée une véritable cérémonie. Les nobles se pressaient pour le voir. Il désignait ses favoris qui pouvaient l'approcher et lui parler. Chacun tentait de se faire voir et de rester dans ses faveurs.&lt;br /&gt;Les nobles vivaient dans la peur d'être renvoyés de la Cour ou d'être oubliés.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-la-vie-a-versailles-2" role="button" aria-controls="rlta-panel-la-vie-a-versailles-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-vie-a-versailles-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La vie à Versailles</h3>
+</div>
+<div id="rlta-panel-la-vie-a-versailles-2" aria-labelledby="rlta-la-vie-a-versailles-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lis le premier texte : quand les gens voyaient-ils le roi ?&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Pourquoi voulaient-ils le voir ?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&quot;Sire, voilà I'heure&quot;: Ie Premier valet de chambre éveille le Roi.&lt;br /&gt;Médecins, familiers et quelques favoris pénètrent dans Ia chambre du Roi qui est lavé, peigné et rasé. Les officiers de la chambre et de la Garde-robe entrent à leur tour. Le Roi est habillé et déjeune d'un bouillon. Les personnages les plus importants du royaume sont admis à observer ce cérémonial. Quand le roi sort de son appartement, la foule se masse dans Ia galerie des Glaces pour l'apercevoir. Certains peuvent lui parler ou lui glisser un mot écrit.&lt;br /&gt;D'après le site lnternet du château de Versailles, &lt;a href=&quot;https://www.chateauversailles.fr&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;www.chateauversailles.fr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lis le second texte et relève le passage qui montre que les nobles cherchaient à se faire remarquer par le roi.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Le roi regardait à droite et à gauche, à son lever, à son coucher, à ses repas, en passant dans ses appartements, dans les jardins. ll voyait, il remarquait tout le monde. C'était une honte de ne pas vivre à Ia Cour, d'y venir rarement, et un malheur de ne jamais y venir. Pour lui plaire, les gens de la Cour dépensaient leur argent en habits, équipages et jeux. Le roi leur faisait ainsi dépenser tout leur argent jusqu'à ce qu'ils n'aient plus rien et doivent dépendre de lui pour vivre.&lt;br /&gt;D'après le duc de Saint-Simon, noble et écrivain, 1749&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;Que faisait Louis XIV pour les obliger à rester à la Cour ?&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-les-domestiques-2" role="button" aria-controls="rlta-panel-les-domestiques-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="les-domestiques-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Les domestiques</h3>
+</div>
+<div id="rlta-panel-les-domestiques-2" aria-labelledby="rlta-les-domestiques-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Décris cette scène.&lt;br /&gt;Que fait l'enfant au milieu ?&lt;br /&gt;À ton avis, quels étaient les métiers nécessaires pour entretenir le château de Versailles ?&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/vivre-a-versailles/domestique.jpg&quot; alt=&quot;domestique&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Les domestiques&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pour entretenir l'immense château de Versailles et pour servir ses nombreux habitants, des milliers de domestiques étaient nécessaires : des gens de ménage, des jardiniers, des blanchisseuses pour laver le linge, des serviteurs pour ouvrir et fermer les portes, des cuisiniers... Certaines tâches, comme servir le roi à table, étaient un honneur réservé aux nobles. Les autres tâches étaient confiées à des gens du peuple.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;clergé :&lt;/strong&gt;&amp;nbsp;ensemble des personnes qui consacrent leur vie à la religion..&lt;br /&gt;&lt;strong&gt;complot&amp;nbsp;&lt;/strong&gt;: projet secret contre une personne.&lt;br /&gt;&lt;strong&gt;faveur&amp;nbsp;&lt;/strong&gt;: avantage que l'on donne à une personne de préférence aux autres.&lt;br /&gt;&lt;strong&gt;favori&amp;nbsp;&lt;/strong&gt;: personne qui est préferée aux autres.&lt;br /&gt;&lt;strong&gt;gens du peuple&amp;nbsp;&lt;/strong&gt;: ceux qui ne sont ni nobles ni dans le clergé.&lt;br /&gt;&lt;strong&gt;oisif, oisive :&lt;/strong&gt; qui ne travaille pas, qui ne fait rien.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</content>
+		<category term="Ecole de Garéoult" />
+	</entry>
+	<entry>
+		<title>Le temps des reines</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/gareoult/le-temps-des-reines.html"/>
+		<published>2020-03-20T17:37:27+00:00</published>
+		<updated>2020-03-20T17:37:27+00:00</updated>
+		<id>https://www.clic-formation.net/gareoult/le-temps-des-reines.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=16&amp;amp;Itemid=3528&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz le temps des reines&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;Au temps des rois, les femmes n'avaient pas les mêmes droits que les hommes. Elles avaient une place secondaire dans [a société.&lt;br /&gt;Quelques reines, pourtant, ont joué un rôle dans l'histoire de France.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="9" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-devenir-reine" role="button" aria-controls="rlta-panel-devenir-reine" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="devenir-reine" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Devenir reine</h3>
+</div>
+<div id="rlta-panel-devenir-reine" aria-labelledby="rlta-devenir-reine" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;En France, pour devenir roi, iI fallait être le fils aîné du roi précédent. Pour devenir reine, iI fallait épouser un roi.&lt;br /&gt;Le mariage du roi n'était pas une question d'amour mais l'occasion de nouer des alliances avec le père de la mariée, un puissant seigneur ou le roi d'un autre pays, pour obtenir son soutien ou des terres.&lt;br /&gt;Sur cette image, retrouve le roi, la mariée et l'évêque qui les marie.&lt;br /&gt;La mariée semble-t-elle d'accord avec ce mariage ?&lt;br /&gt;La soeur du roi pouvait-elle devenir reine ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/mariage.jpg&quot; alt=&quot;HenriIVenfants&quot; width=&quot;341&quot; height=&quot;340&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-le-pouvoir-des-reines" role="button" aria-controls="rlta-panel-le-pouvoir-des-reines" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="le-pouvoir-des-reines" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Le pouvoir des reines</h3>
+</div>
+<div id="rlta-panel-le-pouvoir-des-reines" aria-labelledby="rlta-le-pouvoir-des-reines" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Les reines n'exerçaient pas de pouvoir, mais elles avaient la responsabitité de l'éducation des futurs rois. Et, si leur fils était encore enfant quand leur mari mourait, elles dirigeaient alors Le royaume de France. C'est ce qui est arrivé à Blanche de Castille, la mère de Louis IX.&lt;br /&gt;Sur cette image, identifie Blanche de Castille : Que porte-t-elle sur la tête ? Où est-elle assise ?&lt;br /&gt;Quel geste fait-elle ?&lt;br /&gt;ldentifie Louis IX : A quoi le reconnais-tu ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/blanche.jpg&quot; alt=&quot;blanche&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-alienor-daquitaine" role="button" aria-controls="rlta-panel-alienor-daquitaine" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="alienor-daquitaine" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Aliénor d'Aquitaine</h3>
+</div>
+<div id="rlta-panel-alienor-daquitaine" aria-labelledby="rlta-alienor-daquitaine" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;L'alliance entre le roi et l'Eglise&lt;/p&gt;
+&lt;p&gt;La duchesse Aliénor d'Aquitaine est devenue reine de France en 1137. Son mariage rattacha l'Aquitaine au domaine royal.&lt;br /&gt;Sur l'image, retrouve Aliénor d'Aquitaine, le roi et l'évêque qui les marie.&lt;br /&gt;Aliénor s'est ensuite séparée du roi de France et s'est mariée avec le roi d'Angleterre. L'Aquitaine est alors devenue anglaise.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/alienor.jpg&quot; alt=&quot;laicite&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-anne-de-bretagne" role="button" aria-controls="rlta-panel-anne-de-bretagne" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="anne-de-bretagne" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Anne de Bretagne</h3>
+</div>
+<div id="rlta-panel-anne-de-bretagne" aria-labelledby="rlta-anne-de-bretagne" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;La duchesse Anne de Bretagne est devenue reine de France en 1491.&lt;br /&gt;Combien de temps la sépare d'Aliénor?&lt;br /&gt;Sur l'image, retrouve Anne de Bretagne, assise.&lt;br /&gt;Que fait-elle ? Qu'est-ce que cela indique sur ses goûts ?&lt;br /&gt;Anne a dirigé elle-même son domaine : la Bretagne.&lt;br /&gt;Quand sa fille, qui en avait hérité, a épousé François Ier, la Bretagne a rejoint le domaine royal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/anne-de-bretagne.jpg&quot; alt=&quot;anne de bretagne&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-catherine-de-medicis" role="button" aria-controls="rlta-panel-catherine-de-medicis" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="catherine-de-medicis" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Catherine de Médicis</h3>
+</div>
+<div id="rlta-panel-catherine-de-medicis" aria-labelledby="rlta-catherine-de-medicis" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Reine de France en 1547, Catherine de Médicis a exercé le pouvoir après la mort de son mari mais aussi sous les règnes successifs de ses trois fils, qu'elle a fortement influencés pendant trente années.&lt;br /&gt;Sur cette image, retrouve Catherine de Médicis. Pourquoi est-elle en noir ?&lt;br /&gt;À quoi servent les ambassadeurs?&lt;br /&gt;En quoi les recevoir est-il un pouvoir important ?&lt;/p&gt;
+&lt;p&gt;Remets dans l'ordre chronologique : Blanche de Castille, Aliénor d'Aquitaine, Catherine de Médicis et Anne de Bretagne.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/catherine-de-medecis.jpg&quot; alt=&quot;catherine de medecis&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=16&amp;amp;Itemid=3528&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz le temps des reines&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;Au temps des rois, les femmes n'avaient pas les mêmes droits que les hommes. Elles avaient une place secondaire dans [a société.&lt;br /&gt;Quelques reines, pourtant, ont joué un rôle dans l'histoire de France.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="10" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-devenir-reine-2" role="button" aria-controls="rlta-panel-devenir-reine-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="devenir-reine-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Devenir reine</h3>
+</div>
+<div id="rlta-panel-devenir-reine-2" aria-labelledby="rlta-devenir-reine-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;En France, pour devenir roi, iI fallait être le fils aîné du roi précédent. Pour devenir reine, iI fallait épouser un roi.&lt;br /&gt;Le mariage du roi n'était pas une question d'amour mais l'occasion de nouer des alliances avec le père de la mariée, un puissant seigneur ou le roi d'un autre pays, pour obtenir son soutien ou des terres.&lt;br /&gt;Sur cette image, retrouve le roi, la mariée et l'évêque qui les marie.&lt;br /&gt;La mariée semble-t-elle d'accord avec ce mariage ?&lt;br /&gt;La soeur du roi pouvait-elle devenir reine ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/mariage.jpg&quot; alt=&quot;HenriIVenfants&quot; width=&quot;341&quot; height=&quot;340&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-le-pouvoir-des-reines-2" role="button" aria-controls="rlta-panel-le-pouvoir-des-reines-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="le-pouvoir-des-reines-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Le pouvoir des reines</h3>
+</div>
+<div id="rlta-panel-le-pouvoir-des-reines-2" aria-labelledby="rlta-le-pouvoir-des-reines-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Les reines n'exerçaient pas de pouvoir, mais elles avaient la responsabitité de l'éducation des futurs rois. Et, si leur fils était encore enfant quand leur mari mourait, elles dirigeaient alors Le royaume de France. C'est ce qui est arrivé à Blanche de Castille, la mère de Louis IX.&lt;br /&gt;Sur cette image, identifie Blanche de Castille : Que porte-t-elle sur la tête ? Où est-elle assise ?&lt;br /&gt;Quel geste fait-elle ?&lt;br /&gt;ldentifie Louis IX : A quoi le reconnais-tu ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/blanche.jpg&quot; alt=&quot;blanche&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-alienor-daquitaine-2" role="button" aria-controls="rlta-panel-alienor-daquitaine-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="alienor-daquitaine-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Aliénor d'Aquitaine</h3>
+</div>
+<div id="rlta-panel-alienor-daquitaine-2" aria-labelledby="rlta-alienor-daquitaine-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;L'alliance entre le roi et l'Eglise&lt;/p&gt;
+&lt;p&gt;La duchesse Aliénor d'Aquitaine est devenue reine de France en 1137. Son mariage rattacha l'Aquitaine au domaine royal.&lt;br /&gt;Sur l'image, retrouve Aliénor d'Aquitaine, le roi et l'évêque qui les marie.&lt;br /&gt;Aliénor s'est ensuite séparée du roi de France et s'est mariée avec le roi d'Angleterre. L'Aquitaine est alors devenue anglaise.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/alienor.jpg&quot; alt=&quot;laicite&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-anne-de-bretagne-2" role="button" aria-controls="rlta-panel-anne-de-bretagne-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="anne-de-bretagne-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Anne de Bretagne</h3>
+</div>
+<div id="rlta-panel-anne-de-bretagne-2" aria-labelledby="rlta-anne-de-bretagne-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;La duchesse Anne de Bretagne est devenue reine de France en 1491.&lt;br /&gt;Combien de temps la sépare d'Aliénor?&lt;br /&gt;Sur l'image, retrouve Anne de Bretagne, assise.&lt;br /&gt;Que fait-elle ? Qu'est-ce que cela indique sur ses goûts ?&lt;br /&gt;Anne a dirigé elle-même son domaine : la Bretagne.&lt;br /&gt;Quand sa fille, qui en avait hérité, a épousé François Ier, la Bretagne a rejoint le domaine royal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/anne-de-bretagne.jpg&quot; alt=&quot;anne de bretagne&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-catherine-de-medicis-2" role="button" aria-controls="rlta-panel-catherine-de-medicis-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="catherine-de-medicis-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Catherine de Médicis</h3>
+</div>
+<div id="rlta-panel-catherine-de-medicis-2" aria-labelledby="rlta-catherine-de-medicis-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Reine de France en 1547, Catherine de Médicis a exercé le pouvoir après la mort de son mari mais aussi sous les règnes successifs de ses trois fils, qu'elle a fortement influencés pendant trente années.&lt;br /&gt;Sur cette image, retrouve Catherine de Médicis. Pourquoi est-elle en noir ?&lt;br /&gt;À quoi servent les ambassadeurs?&lt;br /&gt;En quoi les recevoir est-il un pouvoir important ?&lt;/p&gt;
+&lt;p&gt;Remets dans l'ordre chronologique : Blanche de Castille, Aliénor d'Aquitaine, Catherine de Médicis et Anne de Bretagne.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/catherine-de-medecis.jpg&quot; alt=&quot;catherine de medecis&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</content>
+		<category term="Ecole de Garéoult" />
+	</entry>
+	<entry>
+		<title>L'héritage d'Henri IV</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/gareoult/l-heritage-d-henri-iv.html"/>
+		<published>2020-03-20T17:37:27+00:00</published>
+		<updated>2020-03-20T17:37:27+00:00</updated>
+		<id>https://www.clic-formation.net/gareoult/l-heritage-d-henri-iv.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=15&amp;amp;Itemid=3527&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz L'héritage d'Henri IV&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;Henri IV était un roi différent de ceux qui l'ont précédé.&lt;br /&gt;Son action en faveur de la tolérance religieuse a marqué l'histoire de France.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="11" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-un-roi-venu-dailleurs" role="button" aria-controls="rlta-panel-un-roi-venu-dailleurs" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="un-roi-venu-dailleurs" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Un roi venu d'ailleurs</h3>
+</div>
+<div id="rlta-panel-un-roi-venu-dailleurs" aria-labelledby="rlta-un-roi-venu-dailleurs" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Sur ce tableau, situe Henri IV, en noir. Que fait-il ?&lt;br /&gt;Situe ['ambassadeur qui lui rend visite. Qu'est-ce que, normalement, le roi devrait faire ?&lt;br /&gt;La pIupart des rois de France sont nés à Paris. Henri IV venait du sud de la France. Il parlait avec un fort accent. Il a montré que l'on peut jouer un rôle important en France, même en n'étant pas parisien.&lt;br /&gt;Fais des recherches : le président de la République et le Premier ministre actuels sont-ils nés à Paris ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/HenriIVenfants.jpg&quot; alt=&quot;HenriIVenfants&quot; width=&quot;600&quot; height=&quot;475&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-la-poule-au-pot" role="button" aria-controls="rlta-panel-la-poule-au-pot" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-poule-au-pot" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La poule au pot</h3>
+</div>
+<div id="rlta-panel-la-poule-au-pot" aria-labelledby="rlta-la-poule-au-pot" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;En rétablissant la paix, Henri IV a permis au pays de s'enrichir.&amp;nbsp; Souhaitant que tous profitent de la richesse revenue, le roi aurait dit vouloir que tous les Français mangent une fois par semaine une « poule au Pot » : une façon d'espérer que chaque Français mange de la viande.&lt;/p&gt;
+&lt;p&gt;Et toi, quand as-tu mangé du poulet ou de la poule pour la dernière fois ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/poule-au-pot.jpg&quot; alt=&quot;poule au pot&quot; width=&quot;505&quot; height=&quot;382&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-lalliance-entre-le-roi-et-leglise" role="button" aria-controls="rlta-panel-lalliance-entre-le-roi-et-leglise" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="lalliance-entre-le-roi-et-leglise" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    L'alliance entre le roi et l'Eglise</h3>
+</div>
+<div id="rlta-panel-lalliance-entre-le-roi-et-leglise" aria-labelledby="rlta-lalliance-entre-le-roi-et-leglise" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;En se convertissant au cathoIicisme, Henri IV a renforcé l'alliance entre les rois de France et l'Église catholique.&lt;br /&gt;Son fils Louis XIII a même choisi un dirigeant de l'Église comme Premier ministre. Cette alliance du pouvoir et de l'Église s'est poursuivie jusqu'au dernier roi de France, et même au-delà.&lt;br /&gt;Repère le roi Louis XIII en jaune ; son ministre, le cardinaI de Richelieu en rouge.&lt;br /&gt;Te souviens-tu de quand date l'alliance entre les rois de France et l'Église ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/poussin_louis13.jpg&quot; alt=&quot;&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;</div>
+</div>
+<div id="rlta-la-tolerance-religieuse" role="button" aria-controls="rlta-panel-la-tolerance-religieuse" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-tolerance-religieuse" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La tolérance religieuse ?</h3>
+</div>
+<div id="rlta-panel-la-tolerance-religieuse" aria-labelledby="rlta-la-tolerance-religieuse" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;L'alliance entre le roi et l'Eglise&lt;/p&gt;
+&lt;p&gt;Autrefois, ceux qui n'étaient pas catholiques étaient peu nombreux, mis à ['écart, voire persécutés.&lt;br /&gt;L'édit de Nantes a été la première décision imposant la tolérance religieuse en France.&lt;br /&gt;De nos jours, quelles religions existent en France ?&lt;br /&gt;En France, depuis 1905, le pouvoir ne fait plus alliance avec aucune religion et respecte la liberté religieuse de chacun : quel mot exprime cette situation ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/laicite.jpg&quot; alt=&quot;laicite&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=15&amp;amp;Itemid=3527&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;button&quot;&gt;Quizz L'héritage d'Henri IV&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;Henri IV était un roi différent de ceux qui l'ont précédé.&lt;br /&gt;Son action en faveur de la tolérance religieuse a marqué l'histoire de France.&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="12" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-un-roi-venu-dailleurs-2" role="button" aria-controls="rlta-panel-un-roi-venu-dailleurs-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="un-roi-venu-dailleurs-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Un roi venu d'ailleurs</h3>
+</div>
+<div id="rlta-panel-un-roi-venu-dailleurs-2" aria-labelledby="rlta-un-roi-venu-dailleurs-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Sur ce tableau, situe Henri IV, en noir. Que fait-il ?&lt;br /&gt;Situe ['ambassadeur qui lui rend visite. Qu'est-ce que, normalement, le roi devrait faire ?&lt;br /&gt;La pIupart des rois de France sont nés à Paris. Henri IV venait du sud de la France. Il parlait avec un fort accent. Il a montré que l'on peut jouer un rôle important en France, même en n'étant pas parisien.&lt;br /&gt;Fais des recherches : le président de la République et le Premier ministre actuels sont-ils nés à Paris ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/HenriIVenfants.jpg&quot; alt=&quot;HenriIVenfants&quot; width=&quot;600&quot; height=&quot;475&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-la-poule-au-pot-2" role="button" aria-controls="rlta-panel-la-poule-au-pot-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-poule-au-pot-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La poule au pot</h3>
+</div>
+<div id="rlta-panel-la-poule-au-pot-2" aria-labelledby="rlta-la-poule-au-pot-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;En rétablissant la paix, Henri IV a permis au pays de s'enrichir.&amp;nbsp; Souhaitant que tous profitent de la richesse revenue, le roi aurait dit vouloir que tous les Français mangent une fois par semaine une « poule au Pot » : une façon d'espérer que chaque Français mange de la viande.&lt;/p&gt;
+&lt;p&gt;Et toi, quand as-tu mangé du poulet ou de la poule pour la dernière fois ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/poule-au-pot.jpg&quot; alt=&quot;poule au pot&quot; width=&quot;505&quot; height=&quot;382&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-lalliance-entre-le-roi-et-leglise-2" role="button" aria-controls="rlta-panel-lalliance-entre-le-roi-et-leglise-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="lalliance-entre-le-roi-et-leglise-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    L'alliance entre le roi et l'Eglise</h3>
+</div>
+<div id="rlta-panel-lalliance-entre-le-roi-et-leglise-2" aria-labelledby="rlta-lalliance-entre-le-roi-et-leglise-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;En se convertissant au cathoIicisme, Henri IV a renforcé l'alliance entre les rois de France et l'Église catholique.&lt;br /&gt;Son fils Louis XIII a même choisi un dirigeant de l'Église comme Premier ministre. Cette alliance du pouvoir et de l'Église s'est poursuivie jusqu'au dernier roi de France, et même au-delà.&lt;br /&gt;Repère le roi Louis XIII en jaune ; son ministre, le cardinaI de Richelieu en rouge.&lt;br /&gt;Te souviens-tu de quand date l'alliance entre les rois de France et l'Église ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/poussin_louis13.jpg&quot; alt=&quot;&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;</div>
+</div>
+<div id="rlta-la-tolerance-religieuse-2" role="button" aria-controls="rlta-panel-la-tolerance-religieuse-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="la-tolerance-religieuse-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    La tolérance religieuse ?</h3>
+</div>
+<div id="rlta-panel-la-tolerance-religieuse-2" aria-labelledby="rlta-la-tolerance-religieuse-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;L'alliance entre le roi et l'Eglise&lt;/p&gt;
+&lt;p&gt;Autrefois, ceux qui n'étaient pas catholiques étaient peu nombreux, mis à ['écart, voire persécutés.&lt;br /&gt;L'édit de Nantes a été la première décision imposant la tolérance religieuse en France.&lt;br /&gt;De nos jours, quelles religions existent en France ?&lt;br /&gt;En France, depuis 1905, le pouvoir ne fait plus alliance avec aucune religion et respecte la liberté religieuse de chacun : quel mot exprime cette situation ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/henri4/laicite.jpg&quot; alt=&quot;laicite&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</content>
+		<category term="Ecole de Garéoult" />
+	</entry>
+	<entry>
+		<title>Consommer de l'électricité</title>
+		<link rel="alternate" type="text/html" href="https://www.clic-formation.net/gareoult/consommer-de-l-electricite.html"/>
+		<published>2020-03-20T17:37:27+00:00</published>
+		<updated>2020-03-20T17:37:27+00:00</updated>
+		<id>https://www.clic-formation.net/gareoult/consommer-de-l-electricite.html</id>
+		<author>
+			<name>Webmaster Clic-formation.net</name>
+			<email>thierry.didoli@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=12&amp;amp;Itemid=3511&quot; target=&quot;_blank&quot; class=&quot;button&quot;&gt;QUIZZ consommer de l'électricité&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=9&amp;amp;Itemid=3514&quot;&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;D'où vient l'électricité que j'utilise à la maison et à ['école ?&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="13" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-de-lelectricite-partout" role="button" aria-controls="rlta-panel-de-lelectricite-partout" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="de-lelectricite-partout" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    De l'électricité partout</h3>
+</div>
+<div id="rlta-panel-de-lelectricite-partout" aria-labelledby="rlta-de-lelectricite-partout" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/electricite-01/a.gif&quot; alt=&quot;a&quot; width=&quot;895&quot; height=&quot;873&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;De l'électricité partout&lt;/strong&gt;&lt;br /&gt;L'électricité permet d'éclairer la maison, de cuire les aliments, de faire fonctionner la télévision, l'ordinateur, la machine à laver. Elle est présente partout : dans la classe, les magasins, les bureaux et les usines, dans les rues, pour les feux tricolores et l'éclairage la nuit... Elle fait avancer les véhicules électriques, les métros, les tramways et les trains.&lt;br /&gt;Pour avoir de l'électricité, chacun paie un abonnement, mais aussi le courant qu'il consomme.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-un-immense-reseau" role="button" aria-controls="rlta-panel-un-immense-reseau" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="un-immense-reseau" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Un immense réseau</h3>
+</div>
+<div id="rlta-panel-un-immense-reseau" aria-labelledby="rlta-un-immense-reseau" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ligne à haute tension&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dis ce que tu vois sur cette photographie.&lt;br /&gt;Y a-t-il des lignes à haute tension près de chez toi ?&lt;br /&gt;Les gens qui habitent là sont-ils contents de voir des lignes électriques devant leur maison ?&lt;br /&gt;Pourquoi ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/electricite-01/b1.jpg&quot; alt=&quot;b1&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Un immense réseau&lt;/strong&gt;&lt;br /&gt;Nous nous servons parfois de piles, mais nous utilisons surtout le courant issu du réseau électrique : celui qui alimente les lumières et les prises de la maison. C'est un immense réseau de lignes qui transportent l'électricité dans toute la France. Des ouvriers l'entretiennent et le réparent sans cesse.&lt;br /&gt;Parfois, il y a des coupures de courant : quand il y a un accident ou, en hiver, quand trop de personnes en même temps consomment de l'électricité.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-produire-de-lelectricite" role="button" aria-controls="rlta-panel-produire-de-lelectricite" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="produire-de-lelectricite" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Produire de l'électricité</h3>
+</div>
+<div id="rlta-panel-produire-de-lelectricite" aria-labelledby="rlta-produire-de-lelectricite" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Sur la photographie, repère la centrale nucléaire et les éoliennes.&lt;br /&gt;Pour quelles raisons certaines personnes critiquent-elles les centrales nucléaires ?&lt;br /&gt;Connais-tu d'autres moyens de produire de l'électricité ?&lt;br /&gt;Que peux-tu faire pour limiter les problèmes de développement durable liés à la production d'électricité ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/electricite-01/paysage.jpg&quot; alt=&quot;paysage&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Produire de l'électricité&lt;/strong&gt;&lt;br /&gt;L'électricité est produite dans des centrales électriques. &lt;br /&gt;Certaines consomment du charbon ou du pétrole, ce qui entraine une pollution importante.&lt;br /&gt;En France, la plupart de ces centrales fonctionnent à l'énergie nucléaire : elles ne polluent pas l'air mais on ne sait pas traiter les déchets qui restent dangereux pendant des siècles. On cherche donc à développer des énergies non polluantes et renouvelables : l'énergie solaire, l'énergie éolienne. . .&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Courant électrique&amp;nbsp;&lt;/strong&gt;: électricité qui arrive par les fils électriques.&lt;br /&gt;&lt;strong&gt;Centrale nucléaire&amp;nbsp;&lt;/strong&gt;: usine qui produit de l'électricité à partir de l'énergie des atomes.&lt;br /&gt;&lt;strong&gt;Énergie &lt;/strong&gt;: tout ce qui permet de produire de la lumière, de Ia chaleur ou du mouvement (le pétrole, I'électricité, l'énergie solaire ou éolienne...).&lt;br /&gt;&lt;strong&gt;Énergie nucléaire :&lt;/strong&gt;&amp;nbsp;énergie présente dans le noyau des atomes.&lt;br /&gt;&lt;strong&gt;Éolienne :&lt;/strong&gt;&amp;nbsp;immense moulin qui utilise Ia force du vent pour produire de l'électricité.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-cest-quoi-les-energies-renouvelables" role="button" aria-controls="rlta-panel-video-cest-quoi-les-energies-renouvelables" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-cest-quoi-les-energies-renouvelables" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: C'est quoi les énergies renouvelables ?</h3>
+</div>
+<div id="rlta-panel-video-cest-quoi-les-energies-renouvelables" aria-labelledby="rlta-video-cest-quoi-les-energies-renouvelables" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/T2pfO4eJDHw?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-comment-ca-marche-les-centrales-nucleaires" role="button" aria-controls="rlta-panel-video-comment-ca-marche-les-centrales-nucleaires" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-comment-ca-marche-les-centrales-nucleaires" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: Comment ça marche les centrales nucléaires</h3>
+</div>
+<div id="rlta-panel-video-comment-ca-marche-les-centrales-nucleaires" aria-labelledby="rlta-video-comment-ca-marche-les-centrales-nucleaires" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/6uGO5oWD-R4?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-comment-ca-marche-une-voiture-electrique" role="button" aria-controls="rlta-panel-video-comment-ca-marche-une-voiture-electrique" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-comment-ca-marche-une-voiture-electrique" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: Comment ça marche une voiture électrique</h3>
+</div>
+<div id="rlta-panel-video-comment-ca-marche-une-voiture-electrique" aria-labelledby="rlta-video-comment-ca-marche-une-voiture-electrique" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/NN-FoPmciW8?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-lien-externe-nbsp-les-grandes-dates" role="button" aria-controls="rlta-panel-lien-externe-nbsp-les-grandes-dates" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="lien-externe-nbsp-les-grandes-dates" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Lien externe&amp;nbsp;: Les grandes dates</h3>
+</div>
+<div id="rlta-panel-lien-externe-nbsp-les-grandes-dates" aria-labelledby="rlta-lien-externe-nbsp-les-grandes-dates" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Les grandes dates de l'électricité&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.edf.fr/groupe-edf/espaces-dedies/l-energie-de-a-a-z/les-grandes-dates-de-l-electricite&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.edf.fr/groupe-edf/espaces-dedies/l-energie-de-a-a-z/les-grandes-dates-de-l-electricite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=12&amp;amp;Itemid=3511&quot; target=&quot;_blank&quot; class=&quot;button&quot;&gt;QUIZZ consommer de l'électricité&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;https://www.clic-formation.net/index.php?option=com_communityquiz&amp;amp;view=quiz&amp;amp;id=9&amp;amp;Itemid=3514&quot;&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cliquez sur les titres (ci-dessous) pour voir les fiches&lt;/h2&gt;
+&lt;p&gt;D'où vient l'électricité que j'utilise à la maison et à ['école ?&lt;/p&gt;
+&lt;p&gt;<!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="14" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="true" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-de-lelectricite-partout-2" role="button" aria-controls="rlta-panel-de-lelectricite-partout-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="de-lelectricite-partout-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    De l'électricité partout</h3>
+</div>
+<div id="rlta-panel-de-lelectricite-partout-2" aria-labelledby="rlta-de-lelectricite-partout-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/electricite-01/a.gif&quot; alt=&quot;a&quot; width=&quot;895&quot; height=&quot;873&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;De l'électricité partout&lt;/strong&gt;&lt;br /&gt;L'électricité permet d'éclairer la maison, de cuire les aliments, de faire fonctionner la télévision, l'ordinateur, la machine à laver. Elle est présente partout : dans la classe, les magasins, les bureaux et les usines, dans les rues, pour les feux tricolores et l'éclairage la nuit... Elle fait avancer les véhicules électriques, les métros, les tramways et les trains.&lt;br /&gt;Pour avoir de l'électricité, chacun paie un abonnement, mais aussi le courant qu'il consomme.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-un-immense-reseau-2" role="button" aria-controls="rlta-panel-un-immense-reseau-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="un-immense-reseau-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Un immense réseau</h3>
+</div>
+<div id="rlta-panel-un-immense-reseau-2" aria-labelledby="rlta-un-immense-reseau-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ligne à haute tension&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dis ce que tu vois sur cette photographie.&lt;br /&gt;Y a-t-il des lignes à haute tension près de chez toi ?&lt;br /&gt;Les gens qui habitent là sont-ils contents de voir des lignes électriques devant leur maison ?&lt;br /&gt;Pourquoi ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/electricite-01/b1.jpg&quot; alt=&quot;b1&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Un immense réseau&lt;/strong&gt;&lt;br /&gt;Nous nous servons parfois de piles, mais nous utilisons surtout le courant issu du réseau électrique : celui qui alimente les lumières et les prises de la maison. C'est un immense réseau de lignes qui transportent l'électricité dans toute la France. Des ouvriers l'entretiennent et le réparent sans cesse.&lt;br /&gt;Parfois, il y a des coupures de courant : quand il y a un accident ou, en hiver, quand trop de personnes en même temps consomment de l'électricité.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-produire-de-lelectricite-2" role="button" aria-controls="rlta-panel-produire-de-lelectricite-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="produire-de-lelectricite-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Produire de l'électricité</h3>
+</div>
+<div id="rlta-panel-produire-de-lelectricite-2" aria-labelledby="rlta-produire-de-lelectricite-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;Sur la photographie, repère la centrale nucléaire et les éoliennes.&lt;br /&gt;Pour quelles raisons certaines personnes critiquent-elles les centrales nucléaires ?&lt;br /&gt;Connais-tu d'autres moyens de produire de l'électricité ?&lt;br /&gt;Que peux-tu faire pour limiter les problèmes de développement durable liés à la production d'électricité ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.clic-formation.net/images/quizz/electricite-01/paysage.jpg&quot; alt=&quot;paysage&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Produire de l'électricité&lt;/strong&gt;&lt;br /&gt;L'électricité est produite dans des centrales électriques. &lt;br /&gt;Certaines consomment du charbon ou du pétrole, ce qui entraine une pollution importante.&lt;br /&gt;En France, la plupart de ces centrales fonctionnent à l'énergie nucléaire : elles ne polluent pas l'air mais on ne sait pas traiter les déchets qui restent dangereux pendant des siècles. On cherche donc à développer des énergies non polluantes et renouvelables : l'énergie solaire, l'énergie éolienne. . .&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VOCABULAIRE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Courant électrique&amp;nbsp;&lt;/strong&gt;: électricité qui arrive par les fils électriques.&lt;br /&gt;&lt;strong&gt;Centrale nucléaire&amp;nbsp;&lt;/strong&gt;: usine qui produit de l'électricité à partir de l'énergie des atomes.&lt;br /&gt;&lt;strong&gt;Énergie &lt;/strong&gt;: tout ce qui permet de produire de la lumière, de Ia chaleur ou du mouvement (le pétrole, I'électricité, l'énergie solaire ou éolienne...).&lt;br /&gt;&lt;strong&gt;Énergie nucléaire :&lt;/strong&gt;&amp;nbsp;énergie présente dans le noyau des atomes.&lt;br /&gt;&lt;strong&gt;Éolienne :&lt;/strong&gt;&amp;nbsp;immense moulin qui utilise Ia force du vent pour produire de l'électricité.&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-cest-quoi-les-energies-renouvelables-2" role="button" aria-controls="rlta-panel-video-cest-quoi-les-energies-renouvelables-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-cest-quoi-les-energies-renouvelables-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: C'est quoi les énergies renouvelables ?</h3>
+</div>
+<div id="rlta-panel-video-cest-quoi-les-energies-renouvelables-2" aria-labelledby="rlta-video-cest-quoi-les-energies-renouvelables-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/T2pfO4eJDHw?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-comment-ca-marche-les-centrales-nucleaires-2" role="button" aria-controls="rlta-panel-video-comment-ca-marche-les-centrales-nucleaires-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-comment-ca-marche-les-centrales-nucleaires-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: Comment ça marche les centrales nucléaires</h3>
+</div>
+<div id="rlta-panel-video-comment-ca-marche-les-centrales-nucleaires-2" aria-labelledby="rlta-video-comment-ca-marche-les-centrales-nucleaires-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/6uGO5oWD-R4?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-video-comment-ca-marche-une-voiture-electrique-2" role="button" aria-controls="rlta-panel-video-comment-ca-marche-une-voiture-electrique-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="video-comment-ca-marche-une-voiture-electrique-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    VIDEO: Comment ça marche une voiture électrique</h3>
+</div>
+<div id="rlta-panel-video-comment-ca-marche-une-voiture-electrique-2" aria-labelledby="rlta-video-comment-ca-marche-une-voiture-electrique-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/NN-FoPmciW8?rel=1&amp;amp;allow=accelerometer%3B%20autoplay%3B%20encrypted-media%3B%20gyroscope%3B%20picture-in-picture&quot; width=&quot;760&quot; height=&quot;428&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;</div>
+</div>
+<div id="rlta-lien-externe-nbsp-les-grandes-dates-2" role="button" aria-controls="rlta-panel-lien-externe-nbsp-les-grandes-dates-2" aria-expanded="false" tabindex="0" class="orange" data-rlta-alias="lien-externe-nbsp-les-grandes-dates-2" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Lien externe&amp;nbsp;: Les grandes dates</h3>
+</div>
+<div id="rlta-panel-lien-externe-nbsp-les-grandes-dates-2" aria-labelledby="rlta-lien-externe-nbsp-les-grandes-dates-2" tabindex="-1" class="orange" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Les grandes dates de l'électricité&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.edf.fr/groupe-edf/espaces-dedies/l-energie-de-a-a-z/les-grandes-dates-de-l-electricite&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.edf.fr/groupe-edf/espaces-dedies/l-energie-de-a-a-z/les-grandes-dates-de-l-electricite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions -->&lt;/p&gt;</content>
+		<category term="Ecole de Garéoult" />
+	</entry>
+</feed>

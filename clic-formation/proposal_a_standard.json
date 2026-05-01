@@ -1,0 +1,5274 @@
+{
+  "title": "Racine",
+  "url": "index.html",
+  "children": [
+    {
+      "title": "Excel",
+      "url": "tableur.html",
+      "children": [
+        {
+          "title": "Bases",
+          "url": null,
+          "children": [
+            {
+              "title": "Prise en main",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "interface-excel/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "interface-excel/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "interface-excel/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "interface-excel/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "interface-excel/exercice-4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Saisir des données",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "saisir-des-donnees/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "saisir-des-donnees/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "saisir-des-donnees/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "saisir-des-donnees/exercice-3.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Sélectionner des cellules",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "selectionner-la-celulle/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "selectionner-la-celulle/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "selectionner-la-celulle/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "selectionner-la-celulle/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "selectionner-la-celulle/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "selectionner-la-celulle/exercice-5.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Mise en forme",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "format-embelissement/format-embelissement.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "format-embelissement/format-embelissement-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "format-embelissement/format-embelissement-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "format-embelissement/format-embelissement-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "format-embelissement/format-embelissement-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "format-embelissement/format-embelissement-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "format-embelissement/format-embelissement-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "format-embelissement/format-embelissement-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "format-embelissement/format-embelissement-8.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "format-embelissement/format-embelissement-9.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Intégrer une image",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "integrer-une-image/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "integrer-une-image/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "integrer-une-image/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "integrer-une-image/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "integrer-une-image/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "integrer-une-image/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "integrer-une-image/exercice-6.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Poignée de recopie",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "poignee-de-recopie/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "poignee-de-recopie/exercice-1-poignee-de-recopie.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "poignee-de-recopie/exercice-2-poignee-de-recopie.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "poignee-de-recopie/exercice-3-poignee-de-recopie.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "poignee-de-recopie/exercice-4-poignee-de-recopie.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "poignee-de-recopie/exercice-5-poignee-de-recopie.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "poignee-de-recopie/exercice-6-poignee-de-recopie.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "poignee-de-recopie/exercice-7-poigne-de-recopie.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "poignee-de-recopie/exercice-8-liste-personnalisable.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "poignee-de-recopie/exercice-9-liste-personnalisable.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "poignee-de-recopie/exercice-10-poignee-de-recopie.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Addition",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "addition/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "addition/exercices-1-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "addition/exercices-2-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "addition/exercices-3-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "addition/exercices-4-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "addition/exercices-5-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "addition/exercices-6-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "addition/exercices-7-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "addition/exercices-8-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "addition/exercices-9-addition.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "addition/exercices-10-addition.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Soustraction",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "soustraction/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "soustraction/exercice-1-soustraction.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "soustraction/exercice-2-soustraction.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "soustraction/exercice-3-soustraction.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "soustraction/exercice-4-soustraction.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "soustraction/exercice-5-soustraction.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "soustraction/exercice-6-soustraction.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "soustraction/exercice-7-soustraction.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "soustraction/exercice-8-soustraction.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Multiplication",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "multiplication/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "multiplication/exercice-1-multiplication.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "multiplication/exercice-2-multiplication.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "multiplication/exercice-3-multiplication.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "multiplication/exercice-4-multiplication.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "multiplication/exercice-5-multiplication.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "multiplication/exercice-6-multiplication.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "multiplication/exercice-7-multiplication.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Division",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "division/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "division/exercice-1-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "division/exercice-2-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "division/exercice-3-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "division/exercice-4-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "division/exercice-5-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "division/exercice-6-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "division/exercice-7-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "division/exercice-8-division.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "division/exercice-9-division.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Pourcentages",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "pourcentage/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "pourcentage/exercice-1-pourcentage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "pourcentage/exercice-2-pourcentage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "pourcentage/exercice-3-pourcentage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "pourcentage/exercice-4-pourcentage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "pourcentage/exercice-5-pourcentage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "pourcentage/exercice-6-pourcentage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "pourcentage/exercice-7-pourcentage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "pourcentage/exercice-8-pourcentage.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Graphiques",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "graphiques1/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "graphiques1/exercice-1-graphiques-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "graphiques1/exercice-2-graphique.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "graphiques1/exercice-3-graphique.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "graphiques1/exercice-4-graphique.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "graphiques1/exercice-5-graphique.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "graphiques1/exercice-6-graphique-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "graphiques1/exercice-7-graphique-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "graphiques1/exercice-8-graphique-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "graphiques1/exercice-9-graphique-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "graphiques1/exercice-10-graphique-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Support Sparklines",
+                  "url": "graphiques1/support-sparklines.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 11",
+                  "url": "graphiques1/exercice-1-sparkline.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Impression",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "impression/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "impression/exercice-1-impression-classeur-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "impression/exercice-2-impression-classeur-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "impression/exercice-3-impression-classeur-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "impression/exercice-4-impression-classeur-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "impression/exercice-5-impression-classeur-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "impression/exercice-6-impression-classeur-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "impression/exercice-7-impression-classeur-excel.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Raccourcis clavier",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "raccourcis/les-essentiels.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1 – ALT+=",
+                  "url": "raccourcis/alt.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2 – CTRL+E",
+                  "url": "raccourcis/ctrl-e.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3 – F4",
+                  "url": "raccourcis/f4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Évaluation",
+              "url": null,
+              "children": [
+                {
+                  "title": "Quiz – Bases",
+                  "url": "evaluation/quizz-evaluation.html",
+                  "children": []
+                },
+                {
+                  "title": "Quiz – Opérations simples",
+                  "url": "evaluation/quizz-operations-simples.html",
+                  "children": []
+                },
+                {
+                  "title": "Quiz – Pourcentages",
+                  "url": "evaluation/evaluation-pourcentage.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Avancé",
+          "url": null,
+          "children": [
+            {
+              "title": "Présentation",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "presentation/les-outils.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Format de cellule",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "format-de-celulle/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "format-de-celulle/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "format-de-celulle/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "format-de-celulle/exercice-3-format-de-cellule-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "format-de-celulle/exercice-4-format-de-cellule-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "format-de-celulle/exercice-5-format-de-cellule-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "format-de-celulle/exercice-6-format-de-cellule-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "format-de-celulle/exercice-7-format-de-cellule-excel.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "format-de-celulle/exercice-8-date.html",
+                  "children": []
+                },
+                {
+                  "title": "Formats personnalisés",
+                  "url": "format-de-celulle/format-personnalise.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Référence absolue",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "reference-absolue/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "reference-absolue/exercice-1-reference-absolue.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "reference-absolue/exercice-2-reference-absolue.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "reference-absolue/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "reference-absolue/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "reference-absolue/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "reference-absolue/exercice-6-valeur-absolue.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "reference-absolue/exercice-7-valeur-absolue.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "reference-absolue/exercice-8-valeur-absolue.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "reference-absolue/exercice-9-valeur-absolue.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "reference-absolue/exercice-10-valeur-absolue.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Trier et filtrer",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "tri/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "tri/exercice-1-tri.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "tri/exercice-2-tri.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "tri/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "tri/exercice-3-tri-filtre.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "tri/exercice-5-tri-filtre.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "tri/exercice-6-tri-filtre.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "tri/exercice-7-tri-filtre.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "tri/exercice-8-tri-filtre.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "tri/exercice-9-segment.html",
+                  "children": []
+                },
+                {
+                  "title": "Support – Filtres avancés",
+                  "url": "tri/support-filtres-avances.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Mise en forme conditionnelle",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "mise-en-forme-conditionnelle/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "mise-en-forme-conditionnelle/exercice-1-mise-en-forme-conditionnelle.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "mise-en-forme-conditionnelle/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "mise-en-forme-conditionnelle/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "mise-en-forme-conditionnelle/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "mise-en-forme-conditionnelle/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "mise-en-forme-conditionnelle/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "mise-en-forme-conditionnelle/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "mise-en-forme-conditionnelle/exercice-8.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "mise-en-forme-conditionnelle/exercice-9.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Outils de données",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "validation-des-donnees/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "validation-des-donnees/exercice-1-validation-des-donnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "validation-des-donnees/exercice-2-validation-des-donnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "validation-des-donnees/exercice-3-validation-des-donnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "validation-des-donnees/exercice-4-validation-des-donnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "validation-des-donnees/exercice-5-supprimer-les-doublons.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "validation-des-donnees/exercice-6-remplissage-instantane.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "validation-des-donnees/exercice-7-validation-des-donnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "validation-des-donnees/exercice-8-validation-des-donnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "validation-des-donnees/exercice-8-convertir-des-donnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "validation-des-donnees/exercice-10-listes-deroulantes-en-cascade.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Lier des feuilles",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "lier-des-feuilles-de-calculs/support-liaisons-feuilles.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "lier-des-feuilles-de-calculs/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "lier-des-feuilles-de-calculs/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "lier-des-feuilles-de-calculs/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "lier-des-feuilles-de-calculs/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "lier-des-feuilles-de-calculs/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "lier-des-feuilles-de-calculs/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "lier-des-feuilles-de-calculs/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "lier-des-feuilles-de-calculs/exercice-8.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Nommer une cellule",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "nommer-une-plage-de-celulle/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "nommer-une-plage-de-celulle/exercice-1-nommer-une-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "nommer-une-plage-de-celulle/10-02-nommage-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "nommer-une-plage-de-celulle/exercice-3-nommer-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "nommer-une-plage-de-celulle/exercice-4-nommer-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "nommer-une-plage-de-celulle/exercice-5-nommer-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "nommer-une-plage-de-celulle/exercice-6-nommer-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "nommer-une-plage-de-celulle/exercice-7-nommer-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "nommer-une-plage-de-celulle/exercice-8-nommer-cellule.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "nommer-une-plage-de-celulle/exercice-9-nommer-cellule.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Tableaux croisés dynamiques",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "fonctions-base-de-donnees/support-tableau-croise.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "fonctions-base-de-donnees/tableau-croise-dynamique-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "fonctions-base-de-donnees/exercice-2-tcd.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "fonctions-base-de-donnees/exercice-3-tcd.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "fonctions-base-de-donnees/exercice-4-tcd.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "fonctions-base-de-donnees/exercice-5-tcd.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "fonctions-base-de-donnees/exercice-6-tcd.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "fonctions-base-de-donnees/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "fonctions-base-de-donnees/exercice-8.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "fonctions-base-de-donnees/exercice-9.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Sous-totaux",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "sous-totaux/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "sous-totaux/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "sous-totaux/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "sous-totaux/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "sous-totaux/exercice-4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Consolidation",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "consolidation/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "consolidation/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "consolidation/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "consolidation/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "consolidation/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "consolidation/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "consolidation/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "consolidation/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "consolidation/exercice-8.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Macros",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "macro/support-macro.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "macro/exercice-1-macro.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "macro/exercice-2-macro.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "macro/exercice-3-macro.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "macro/exercice-4-macro.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "macro/exercice-5-macro.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Formulaires de saisie",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "formulaires/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "formulaires/exercice-1.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Contrôles de formulaire",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support – Cases à cocher",
+                  "url": "controles-de-formulaire/support-case-a-cocher.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "controles-de-formulaire/exercice-1-case-a-cocher.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "controles-de-formulaire/exercice-2-case-a-cocher.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "controles-de-formulaire/exercice-3-case-a-cocher.html",
+                  "children": []
+                },
+                {
+                  "title": "Support – Cases d'option",
+                  "url": "controles-de-formulaire/support-cases-doption.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "controles-de-formulaire/exercice-1-bouton-radio.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "controles-de-formulaire/exercice-2-bouton-radio.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "controles-de-formulaire/exercice-3-bouton-radio.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "controles-de-formulaire/exercice-4-bouton-radio.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "ActiveX",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "activex/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "activex/exercice-1-activex.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Calcul matriciel",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "calcul-matriciel/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "calcul-matriciel/exercice-calcul-matriciel-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "calcul-matriciel/exercice-calcul-matriciel-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "calcul-matriciel/exercice-calcul-matriciel-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "calcul-matriciel/exercice-calcul-matriciel-4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Évaluation",
+              "url": null,
+              "children": [
+                {
+                  "title": "Quiz – Référence absolue",
+                  "url": "quizz-evaluation-connexion-requise-2/quizz-valeur-absolue.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fonctions",
+          "url": null,
+          "children": [
+            {
+              "title": "Fonctions statistiques",
+              "url": "fonctions-statistiques.html",
+              "children": []
+            },
+            {
+              "title": "Fonctions logiques",
+              "url": "fonctions-logiques.html",
+              "children": []
+            },
+            {
+              "title": "Recherche & Matrice",
+              "url": "fonctions-recherche.html",
+              "children": []
+            },
+            {
+              "title": "Fonctions mathématiques",
+              "url": "fonctions-mathematiques.html",
+              "children": []
+            },
+            {
+              "title": "Dates et heures",
+              "url": "fonctions-de-date-et-heures.html",
+              "children": []
+            },
+            {
+              "title": "Fonctions texte",
+              "url": "fonctions-texte.html",
+              "children": []
+            },
+            {
+              "title": "Cartographie",
+              "url": "fonctions-cartographie.html",
+              "children": []
+            },
+            {
+              "title": "Trucs et astuces",
+              "url": "excel-inclassable.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Exercices complets",
+          "url": null,
+          "children": [
+            {
+              "title": "Présentation",
+              "url": "exercice-complet.html",
+              "children": []
+            },
+            {
+              "title": "Planning de congés",
+              "url": "cas-creation-planning-conges.html",
+              "children": []
+            },
+            {
+              "title": "Fiche clients garage",
+              "url": "cas-fiche-clients-garage.html",
+              "children": []
+            },
+            {
+              "title": "Formulaire de saisie",
+              "url": "cas-formulaire-de-saisie.html",
+              "children": []
+            },
+            {
+              "title": "Fiche d'intervention",
+              "url": "cas-fiche-dintervention.html",
+              "children": []
+            },
+            {
+              "title": "Calendrier perpétuel",
+              "url": "cas-calendrier-perpetuel.html",
+              "children": []
+            },
+            {
+              "title": "Réservation spectacle",
+              "url": "cas-reservation-spectacle.html",
+              "children": []
+            },
+            {
+              "title": "Fiche horticole",
+              "url": "cas-fiche-horticole.html",
+              "children": []
+            },
+            {
+              "title": "GANTT simple",
+              "url": "cas-gantt-simple.html",
+              "children": []
+            },
+            {
+              "title": "Société CLICOU",
+              "url": "cas-societe-clicou.html",
+              "children": []
+            },
+            {
+              "title": "SUD informatique",
+              "url": "cas-sud-informatique.html",
+              "children": []
+            },
+            {
+              "title": "Grand Raid",
+              "url": "cas-grand-raid.html",
+              "children": []
+            },
+            {
+              "title": "Course Haut Caroux",
+              "url": "cas-course-haut-caroux.html",
+              "children": []
+            },
+            {
+              "title": "Salon de coiffure",
+              "url": "cas-salon-de-coiffure.html",
+              "children": []
+            },
+            {
+              "title": "Facturation",
+              "url": "cas-facturation.html",
+              "children": []
+            },
+            {
+              "title": "Révision opérations",
+              "url": "revisions-operations-simples.html",
+              "children": []
+            },
+            {
+              "title": "Heures et distances",
+              "url": "calculs-heures-et-distances.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Préparer l'ASCA",
+          "url": null,
+          "children": [
+            {
+              "title": "Présentation ASCA",
+              "url": "asca.html",
+              "children": []
+            },
+            {
+              "title": "UL11 – Word",
+              "url": null,
+              "children": [
+                {
+                  "title": "Wi-Tool",
+                  "url": "exercices-asca-ul11-word/wi-tool.html",
+                  "children": []
+                },
+                {
+                  "title": "Electra",
+                  "url": "exercices-asca-ul11-word/electra.html",
+                  "children": []
+                },
+                {
+                  "title": "Cité des concerts",
+                  "url": "exercices-asca-ul11-word/cas-cite-des-concerts.html",
+                  "children": []
+                },
+                {
+                  "title": "Union des commerçants",
+                  "url": "exercices-asca-ul11-word/cas-union-des-commercants.html",
+                  "children": []
+                },
+                {
+                  "title": "Novatix",
+                  "url": "exercices-asca-ul11-word/cas-novatix.html",
+                  "children": []
+                },
+                {
+                  "title": "Super Print",
+                  "url": "exercices-asca-ul11-word/cas-super-print.html",
+                  "children": []
+                },
+                {
+                  "title": "Crédit Top",
+                  "url": "exercices-asca-ul11-word/cas-credit-top.html",
+                  "children": []
+                },
+                {
+                  "title": "Logique Bio",
+                  "url": "exercices-asca-ul11-word/cas-logique-bio.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "UL21 – Excel",
+              "url": null,
+              "children": [
+                {
+                  "title": "Enveloppe",
+                  "url": "exercices-asca-ul21-excel/enveloppe.html",
+                  "children": []
+                },
+                {
+                  "title": "Nett Industrie",
+                  "url": "exercices-asca-ul21-excel/nett-industrie.html",
+                  "children": []
+                },
+                {
+                  "title": "Bustop",
+                  "url": "exercices-asca-ul21-excel/bustop.html",
+                  "children": []
+                },
+                {
+                  "title": "Com Un Parfum",
+                  "url": "exercices-asca-ul21-excel/cas-com-un-parfum.html",
+                  "children": []
+                },
+                {
+                  "title": "Vancouver",
+                  "url": "exercices-asca-ul21-excel/cas-vancouver.html",
+                  "children": []
+                },
+                {
+                  "title": "La Suédoise",
+                  "url": "exercices-asca-ul21-excel/cas-la-sue-doise.html",
+                  "children": []
+                },
+                {
+                  "title": "Mosaïque",
+                  "url": "exercices-asca-ul21-excel/cas-mosaique.html",
+                  "children": []
+                },
+                {
+                  "title": "Sud Informatique",
+                  "url": "exercices-asca-ul21-excel/cas-sud-informatique.html",
+                  "children": []
+                },
+                {
+                  "title": "Générale Cosmétiques",
+                  "url": "exercices-asca-ul21-excel/cas-generale-de-cosmetiques.html",
+                  "children": []
+                },
+                {
+                  "title": "Petits Porteurs",
+                  "url": "exercices-asca-ul21-excel/cas-petits-porteurs.html",
+                  "children": []
+                },
+                {
+                  "title": "Centre Format",
+                  "url": "exercices-asca-ul21-excel/cas-centre-format.html",
+                  "children": []
+                },
+                {
+                  "title": "Parcelle",
+                  "url": "exercices-asca-ul21-excel/cas-parcelle.html",
+                  "children": []
+                },
+                {
+                  "title": "Ress Marketing",
+                  "url": "exercices-asca-ul21-excel/cas-ress-marketing.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "UL22 – Excel",
+              "url": null,
+              "children": [
+                {
+                  "title": "Suédoise Sandwicherie",
+                  "url": "ul22-excel/suedoise-sandwicherie-ul22.html",
+                  "children": []
+                },
+                {
+                  "title": "Blue Lagon",
+                  "url": "ul22-excel/blue-lagon.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Word",
+      "url": "word.html",
+      "children": [
+        {
+          "title": "Bases",
+          "url": null,
+          "children": [
+            {
+              "title": "Prise en main",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "prise-en-main-word/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "prise-en-main-word/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "prise-en-main-word/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "prise-en-main-word/exercice-3.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Gérer les documents",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "gerer-les-documents-dans-word/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "gerer-les-documents-dans-word/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "gerer-les-documents-dans-word/exercice-2.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Saisir du texte",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "changer-de-police/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "changer-de-police/exercice-1-changer-de-police.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "changer-de-police/exercice-2-changer-de-police.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "changer-de-police/exercice-3-mises-en-forme.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "changer-de-police/exercice-reproduction-mise-en-forme.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "changer-de-police/exercice-5-raccourci-clavier.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "changer-de-police/exercice-aligner-du-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "changer-de-police/exercice-2-aligner-du-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "changer-de-police/exercice-saisir-caracteres.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "changer-de-police/exercice-9-effacer-inserer.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "changer-de-police/exercice-10-mise-en-forme.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Options de paragraphe",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "changer-de-couleur/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "changer-de-couleur/exercice-1-changer-de-couleur.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "changer-de-couleur/exercice-2-changer-de-couleur.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "changer-de-couleur/exercice-3-bordures-paragraphes.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "changer-de-couleur/exercice-4-alignement-paragraphes.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "changer-de-couleur/exercice-5-alignement-paragraphes.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "changer-de-couleur/exercice-6-interlinge.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Puces et numéros",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "29-puces-et-numeros/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "29-puces-et-numeros/puce-et-numeros-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "29-puces-et-numeros/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "29-puces-et-numeros/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "29-puces-et-numeros/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "29-puces-et-numeros/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "29-puces-et-numeros/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "29-puces-et-numeros/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "29-puces-et-numeros/exercice-8.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Mise en colonne",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "28-mise-en-colonne/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "28-mise-en-colonne/21-01-mise-en-colonne.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "28-mise-en-colonne/exercice-mise-en-colonne.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "28-mise-en-colonne/exercice-mise-en-colonne-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "28-mise-en-colonne/exercice-mise-en-colonne-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "28-mise-en-colonne/exercice-mise-en-colonne-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "28-mise-en-colonne/exercice-mise-en-colonne-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "28-mise-en-colonne/exercice-mise-en-colonne-6.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Word Art et Lettrine",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "17-word-art/support-word-art.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "17-word-art/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "17-word-art/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "17-word-art/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "17-word-art/exercice-lettrine-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "17-word-art/exercice-lettrine.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Insérer une forme",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "18-inserer-une-forme/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "18-inserer-une-forme/exercice-1-insertion-forme.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "18-inserer-une-forme/exercice-2-insertion-forme.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "18-inserer-une-forme/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "18-inserer-une-forme/exercice-04-insertion-de-formes.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "18-inserer-une-forme/exercice-insertion-de-formes-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "18-inserer-une-forme/exercice-insertion-de-formes-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "18-inserer-une-forme/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "18-inserer-une-forme/exercice-8.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "18-inserer-une-forme/exercice-9.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "18-inserer-une-forme/exercice-10.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Zone de texte",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "26-zone-de-texte/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "26-zone-de-texte/exercice-1-zone-de-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "26-zone-de-texte/exercice-2-zone-de-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "26-zone-de-texte/exercice-3-zone-de-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "26-zone-de-texte/exercice-4-zone-de-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "26-zone-de-texte/exercice-5-zone-de-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "26-zone-de-texte/exercice-6-zone-de-texte.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Impression",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "w10-impression/impression-support.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Sections et sauts de page",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "mise-en-forme/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "mise-en-forme/exercice-1-mise-en-forme-avancee.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "mise-en-forme/exercice-2-mise-forme-avancee.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "mise-en-forme/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "mise-en-forme/exercice-4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Insérer une image",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "inserer-une-image/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "inserer-une-image/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "inserer-une-image/exercice-2-insertion-images.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "inserer-une-image/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "inserer-une-image/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "inserer-une-image/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "inserer-une-image/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "inserer-une-image/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "inserer-une-image/exercice-8.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "inserer-une-image/exercice-9.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 10",
+                  "url": "inserer-une-image/exercice-10.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "En-tête et pied de page",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "en-tete-et-pied-de-page/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "en-tete-et-pied-de-page/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "en-tete-et-pied-de-page/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "en-tete-et-pied-de-page/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "en-tete-et-pied-de-page/exercice-4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Insérer un tableau",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "18-inserer-tableau/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "18-inserer-tableau/exercice-1-creer-un-tableau.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "18-inserer-tableau/exercice-2-creer-un-tableau.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "18-inserer-tableau/exercice-3-creer-un-tableau.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "18-inserer-tableau/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "18-inserer-tableau/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "18-inserer-tableau/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "18-inserer-tableau/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "18-inserer-tableau/exercice-8.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "18-inserer-tableau/exercice-9.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Mise en forme tableau",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "mise-en-forme-d-un-tableau/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "mise-en-forme-d-un-tableau/exercice-1-surligner-du-texte.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "mise-en-forme-d-un-tableau/exercice-tableau-word-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "mise-en-forme-d-un-tableau/exercice-tableau-word-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "mise-en-forme-d-un-tableau/exercice-tableau-word-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "mise-en-forme-d-un-tableau/exercice-tableau-word-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "mise-en-forme-d-un-tableau/exercice-tableau-word-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "mise-en-forme-d-un-tableau/exercice-tableau-word-7.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Tableau avancé",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "tableau-avances-et-trucs/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "tableau-avances-et-trucs/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "tableau-avances-et-trucs/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "tableau-avances-et-trucs/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "tableau-avances-et-trucs/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "tableau-avances-et-trucs/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "tableau-avances-et-trucs/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "tableau-avances-et-trucs/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "tableau-avances-et-trucs/exercice-8.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Avancé",
+          "url": null,
+          "children": [
+            {
+              "title": "Règles et tabulations",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "14-tabulation-simple/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "14-tabulation-simple/exercice-1-tabulation.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "14-tabulation-simple/exercice-2-tabulation.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "14-tabulation-simple/exercice-3-tabulation.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "14-tabulation-simple/exercice-4-tabulation.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "14-tabulation-simple/exercice-5-tabulation.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "14-tabulation-simple/exercice-6-tabulation.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "14-tabulation-simple/exercice-7-tabulation.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Chercher et remplacer",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "remplacer-un-mot/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "remplacer-un-mot/exercie-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "remplacer-un-mot/08-02-recherche.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "remplacer-un-mot/08-03-remplacer.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "remplacer-un-mot/08-03-remplacer-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "remplacer-un-mot/08-03-remplacer-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "remplacer-un-mot/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "remplacer-un-mot/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "remplacer-un-mot/exercice-8.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Format de page",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "format-de-page/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "format-de-page/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "format-de-page/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "format-de-page/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "format-de-page/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "format-de-page/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "format-de-page/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "format-de-page/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "format-de-page/exercice-8.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Affichage",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "aligner-du-texte/support-affichage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "aligner-du-texte/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "aligner-du-texte/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "aligner-du-texte/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "aligner-du-texte/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "aligner-du-texte/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "aligner-du-texte/exercice-6.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Smart Art",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "27-outil-dessin/support-smart-art.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "27-outil-dessin/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "27-outil-dessin/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "27-outil-dessin/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "27-outil-dessin/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "27-outil-dessin/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "27-outil-dessin/exercice-6.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Modèles",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "26-modeles/support-modele.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "26-modeles/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "26-modeles/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "26-modeles/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "26-modeles/exercice-4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Styles",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "27-styles/support-style-de-texte-dans-word.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "27-styles/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "27-styles/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "27-styles/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "27-styles/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "27-styles/exercice-5.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Publipostage",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "24-publipostage/support-publipostage.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "24-publipostage/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "24-publipostage/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "24-publipostage/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "24-publipostage/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "24-publipostage/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "24-publipostage/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "24-publipostage/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "24-publipostage/exercice-8.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Document long",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "document-long/support-document-long.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "document-long/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "document-long/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "document-long/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "document-long/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "document-long/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "document-long/exercice-6.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 7",
+                  "url": "document-long/exercice-7.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 8",
+                  "url": "document-long/exercice-8.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 9",
+                  "url": "document-long/exercice-9.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Lier le document",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "lier-votre-document/support-lier.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "lier-votre-document/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "lier-votre-document/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "lier-votre-document/exercice-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "lier-votre-document/exercice-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 5",
+                  "url": "lier-votre-document/exercice-5.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 6",
+                  "url": "lier-votre-document/exercice-6.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Champs et formulaires",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "champs-et-formulaire/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "champs-et-formulaire/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "champs-et-formulaire/exercice-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "champs-et-formulaire/exercice-3.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Trucs et astuces",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": null,
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1 – Maj/Min",
+                  "url": "31-trucs/exercice-1-convertir-des-majuscules-en-minuscules.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2 – Texte → Tableau",
+                  "url": "31-trucs/exercice-1-convertir-du-texte-en-tableau.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3 – Table des caractères",
+                  "url": "31-trucs/exercice-3-raccourci-table-des-caracteres.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Exercices complets",
+          "url": null,
+          "children": [
+            {
+              "title": "Niveau 1",
+              "url": null,
+              "children": [
+                {
+                  "title": "Présentation",
+                  "url": "exercices-niveau-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Animaux",
+                  "url": "exercices-niveau-1/animaux.html",
+                  "children": []
+                },
+                {
+                  "title": "CB Nettoyage",
+                  "url": "exercices-niveau-1/cb-nettoyage.html",
+                  "children": []
+                },
+                {
+                  "title": "Crédit carte",
+                  "url": "exercices-niveau-1/credit-carte.html",
+                  "children": []
+                },
+                {
+                  "title": "Documentation",
+                  "url": "exercices-niveau-1/documentation.html",
+                  "children": []
+                },
+                {
+                  "title": "Internet",
+                  "url": "exercices-niveau-1/internet.html",
+                  "children": []
+                },
+                {
+                  "title": "Jacques Fox",
+                  "url": "exercices-niveau-1/jacques-fox.html",
+                  "children": []
+                },
+                {
+                  "title": "Lycée",
+                  "url": "exercices-niveau-1/lycee.html",
+                  "children": []
+                },
+                {
+                  "title": "Micro Sud",
+                  "url": "exercices-niveau-1/micro-sud.html",
+                  "children": []
+                },
+                {
+                  "title": "Mont Blanc",
+                  "url": "exercices-niveau-1/mont-blanc.html",
+                  "children": []
+                },
+                {
+                  "title": "Multipro",
+                  "url": "exercices-niveau-1/multipro.html",
+                  "children": []
+                },
+                {
+                  "title": "Pépinière Bessière",
+                  "url": "exercices-niveau-1/pepiniere-bessiere.html",
+                  "children": []
+                },
+                {
+                  "title": "Tortilla",
+                  "url": "exercices-niveau-1/tortilla.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Niveau 2",
+              "url": null,
+              "children": [
+                {
+                  "title": "Présentation",
+                  "url": "exercices-niveau-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Arménie",
+                  "url": "exercices-niveau-2/armenie.html",
+                  "children": []
+                },
+                {
+                  "title": "Inscription",
+                  "url": "exercices-niveau-2/bulletin-d-inscription.html",
+                  "children": []
+                },
+                {
+                  "title": "Carré de couleur",
+                  "url": "exercices-niveau-2/carre-de-couleur.html",
+                  "children": []
+                },
+                {
+                  "title": "Eco-services",
+                  "url": "exercices-niveau-2/eco-services.html",
+                  "children": []
+                },
+                {
+                  "title": "Fenêtres HILL",
+                  "url": "exercices-niveau-2/fenetres-hill.html",
+                  "children": []
+                },
+                {
+                  "title": "Joe Dalton",
+                  "url": "exercices-niveau-2/joe-dalton.html",
+                  "children": []
+                },
+                {
+                  "title": "Menu restaurant",
+                  "url": "exercices-niveau-2/menu-restaurant.html",
+                  "children": []
+                },
+                {
+                  "title": "Nexxus",
+                  "url": "exercices-niveau-2/nexxus.html",
+                  "children": []
+                },
+                {
+                  "title": "Stress",
+                  "url": "exercices-niveau-2/stress.html",
+                  "children": []
+                },
+                {
+                  "title": "Topo randonnées",
+                  "url": "exercices-niveau-2/topo-randonnees.html",
+                  "children": []
+                },
+                {
+                  "title": "Vacances",
+                  "url": "exercices-niveau-2/vacances-a-la-montagne.html",
+                  "children": []
+                },
+                {
+                  "title": "Voyages",
+                  "url": "exercices-niveau-2/voyages.html",
+                  "children": []
+                },
+                {
+                  "title": "Tableaux",
+                  "url": "exercices-niveau-2/tableaux.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Niveau 3",
+              "url": null,
+              "children": [
+                {
+                  "title": "Présentation",
+                  "url": "exercices-niveau-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Lacs Italiens",
+                  "url": "exercices-niveau-3/affichette-post-it-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Affichette Post-It",
+                  "url": "exercices-niveau-3/affichette-post-it.html",
+                  "children": []
+                },
+                {
+                  "title": "Affichette VTT",
+                  "url": "exercices-niveau-3/affichette-vtt.html",
+                  "children": []
+                },
+                {
+                  "title": "Artési",
+                  "url": "exercices-niveau-3/artesi.html",
+                  "children": []
+                },
+                {
+                  "title": "Agro-Alimentaire",
+                  "url": "exercices-niveau-3/agro-alimentaire.html",
+                  "children": []
+                },
+                {
+                  "title": "Association",
+                  "url": "exercices-niveau-3/association.html",
+                  "children": []
+                },
+                {
+                  "title": "Campagne Facebook",
+                  "url": "exercices-niveau-3/campagne-facebook.html",
+                  "children": []
+                },
+                {
+                  "title": "Caisse à roulette",
+                  "url": "exercices-niveau-3/caisse-a-roulette.html",
+                  "children": []
+                },
+                {
+                  "title": "Flyer A5→A4",
+                  "url": "exercices-niveau-3/flyer-a5-a4.html",
+                  "children": []
+                },
+                {
+                  "title": "Flyer Ongles",
+                  "url": "exercices-niveau-3/flyer-ongles.html",
+                  "children": []
+                },
+                {
+                  "title": "Joomla",
+                  "url": "exercices-niveau-3/joomla.html",
+                  "children": []
+                },
+                {
+                  "title": "Journal 4 pages",
+                  "url": "exercices-niveau-3/journal-4-pages.html",
+                  "children": []
+                },
+                {
+                  "title": "Salon international",
+                  "url": "exercices-niveau-3/salon-international.html",
+                  "children": []
+                },
+                {
+                  "title": "Tableau planning",
+                  "url": "exercices-niveau-3/tableau-planning.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Niveau 4",
+              "url": null,
+              "children": [
+                {
+                  "title": "Présentation",
+                  "url": "exercices-niveau-4.html",
+                  "children": []
+                },
+                {
+                  "title": "Étude de cas",
+                  "url": "exercices-niveau-4/etude-de-cas.html",
+                  "children": []
+                },
+                {
+                  "title": "Fiche commune",
+                  "url": "exercices-niveau-4/fiche-commune.html",
+                  "children": []
+                },
+                {
+                  "title": "Gazette du Caroux",
+                  "url": "exercices-niveau-4/gazette-du-caroux.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Évaluation",
+              "url": null,
+              "children": [
+                {
+                  "title": "Quiz – Généralités",
+                  "url": "quizz-generalites.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Préparer l'ASCA",
+          "url": null,
+          "children": [
+            {
+              "title": "Présentation ASCA",
+              "url": "asca.html",
+              "children": []
+            },
+            {
+              "title": "UL11 – Word",
+              "url": null,
+              "children": [
+                {
+                  "title": "Wi-Tool",
+                  "url": "exercices-asca-ul11-word/wi-tool.html",
+                  "children": []
+                },
+                {
+                  "title": "Electra",
+                  "url": "exercices-asca-ul11-word/electra.html",
+                  "children": []
+                },
+                {
+                  "title": "Cité des concerts",
+                  "url": "exercices-asca-ul11-word/cas-cite-des-concerts.html",
+                  "children": []
+                },
+                {
+                  "title": "Union des commerçants",
+                  "url": "exercices-asca-ul11-word/cas-union-des-commercants.html",
+                  "children": []
+                },
+                {
+                  "title": "Novatix",
+                  "url": "exercices-asca-ul11-word/cas-novatix.html",
+                  "children": []
+                },
+                {
+                  "title": "Super Print",
+                  "url": "exercices-asca-ul11-word/cas-super-print.html",
+                  "children": []
+                },
+                {
+                  "title": "Crédit Top",
+                  "url": "exercices-asca-ul11-word/cas-credit-top.html",
+                  "children": []
+                },
+                {
+                  "title": "Logique Bio",
+                  "url": "exercices-asca-ul11-word/cas-logique-bio.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "UL21 – Excel",
+              "url": null,
+              "children": [
+                {
+                  "title": "Enveloppe",
+                  "url": "exercices-asca-ul21-excel/enveloppe.html",
+                  "children": []
+                },
+                {
+                  "title": "Nett Industrie",
+                  "url": "exercices-asca-ul21-excel/nett-industrie.html",
+                  "children": []
+                },
+                {
+                  "title": "Bustop",
+                  "url": "exercices-asca-ul21-excel/bustop.html",
+                  "children": []
+                },
+                {
+                  "title": "Com Un Parfum",
+                  "url": "exercices-asca-ul21-excel/cas-com-un-parfum.html",
+                  "children": []
+                },
+                {
+                  "title": "Vancouver",
+                  "url": "exercices-asca-ul21-excel/cas-vancouver.html",
+                  "children": []
+                },
+                {
+                  "title": "La Suédoise",
+                  "url": "exercices-asca-ul21-excel/cas-la-sue-doise.html",
+                  "children": []
+                },
+                {
+                  "title": "Mosaïque",
+                  "url": "exercices-asca-ul21-excel/cas-mosaique.html",
+                  "children": []
+                },
+                {
+                  "title": "Sud Informatique",
+                  "url": "exercices-asca-ul21-excel/cas-sud-informatique.html",
+                  "children": []
+                },
+                {
+                  "title": "Générale Cosmétiques",
+                  "url": "exercices-asca-ul21-excel/cas-generale-de-cosmetiques.html",
+                  "children": []
+                },
+                {
+                  "title": "Petits Porteurs",
+                  "url": "exercices-asca-ul21-excel/cas-petits-porteurs.html",
+                  "children": []
+                },
+                {
+                  "title": "Centre Format",
+                  "url": "exercices-asca-ul21-excel/cas-centre-format.html",
+                  "children": []
+                },
+                {
+                  "title": "Parcelle",
+                  "url": "exercices-asca-ul21-excel/cas-parcelle.html",
+                  "children": []
+                },
+                {
+                  "title": "Ress Marketing",
+                  "url": "exercices-asca-ul21-excel/cas-ress-marketing.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "UL22 – Excel",
+              "url": null,
+              "children": [
+                {
+                  "title": "Suédoise Sandwicherie",
+                  "url": "ul22-excel/suedoise-sandwicherie-ul22.html",
+                  "children": []
+                },
+                {
+                  "title": "Blue Lagon",
+                  "url": "ul22-excel/blue-lagon.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PowerPoint",
+      "url": "quels-logiciels.html",
+      "children": [
+        {
+          "title": "Présentation",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "quels-logiciels.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Exercices",
+          "url": null,
+          "children": [
+            {
+              "title": "Exercice 1",
+              "url": "exercice-ppt-1.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "exercice-ppt-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "exercice-ppt-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "exercice-ppt-5.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "exercice-ppt-6.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 6",
+              "url": "exercice-ppt-7.html",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Photos",
+      "url": "parcours-photo/01-installer-photofiltre.html",
+      "children": [
+        {
+          "title": "Présentation",
+          "url": null,
+          "children": [
+            {
+              "title": "Support – Installer Photofiltre",
+              "url": "parcours-photo/01-installer-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Support – L'image numérique",
+              "url": "parcours-photo/02-parametrer-photofiltre.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Taille de l'image",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../taille-de-l-image/support.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../taille-de-l-image/exercice-1.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../taille-de-l-image/exercice-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../taille-de-l-image/exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../taille-de-l-image/exercice-4.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "../taille-de-l-image/11-format-web.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Outils et palettes",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../03-les-outils-outils-photofiltre/support.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../03-les-outils-outils-photofiltre/exercice-1-outils-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../03-les-outils-outils-photofiltre/exercice-2-outils-photofiltre.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Rotation et symétrie",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../04-rotation-symetrie/support.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../04-rotation-symetrie/exercice-1-rotation-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../04-rotation-symetrie/exercice-2-rotation-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../04-rotation-symetrie/exercice-3-rotation-symetrie-photofiltre.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Recadrage",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../recadrer-une-photo/suppoet.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../recadrer-une-photo/exercice-1-recadrage-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../recadrer-une-photo/exercice-2-recadrage-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../recadrer-une-photo/exercice-3-recadrage-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../recadrer-une-photo/exercice-4-recadrage-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "../recadrer-une-photo/exercice-5.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 6",
+              "url": "../recadrer-une-photo/exercice-6.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 7",
+              "url": "../recadrer-une-photo/exercice-7.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 8",
+              "url": "../recadrer-une-photo/exercice-8.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Outils trait",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../outils-trait/support.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../outils-trait/exercice-1.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../outils-trait/exercice-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../outils-trait/exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../outils-trait/exercice-4.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Outil remplissage",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../outil-remplissage/support-outil-remplissage-photofiltre.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../outil-remplissage/exercice-1.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../outil-remplissage/exercice-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../outil-remplissage/exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../outil-remplissage/exercice-4.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Ajouter un texte",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../ajouter-un-texte-avec-photofiltre/support.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../ajouter-un-texte-avec-photofiltre/01-ajouter-un-texte.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../ajouter-un-texte-avec-photofiltre/09-a-ajouter-un-texte.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../ajouter-un-texte-avec-photofiltre/exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../ajouter-un-texte-avec-photofiltre/exercice-4.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Sélection géométrique",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../06-selection-geometrique/support.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../06-selection-geometrique/exercice-1-selection-geometrtique.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../06-selection-geometrique/exercice-2-selection-geometrtique.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../06-selection-geometrique/exercice-3-selection-geometrique.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Baguette magique",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../07-baguette-magique/support-baguette-magique.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../07-baguette-magique/exercice-1-baguette-magique.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../07-baguette-magique/exercice-2-baguette-magique.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../07-baguette-magique/exercice-3-baguette-magique.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../07-baguette-magique/exercice-4-baguette-magique.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "../07-baguette-magique/exercice-5-baguette-magique.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Tampon de clonage",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../tampon-de-clonage-photofiltre/support.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../tampon-de-clonage-photofiltre/01-exercice-tampon-de-clonage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../tampon-de-clonage-photofiltre/02-exercice-tampon-de-clonage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../tampon-de-clonage-photofiltre/03-exercice-tampon-de-clonage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../tampon-de-clonage-photofiltre/04-exercice-tampon-de-clonage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "../tampon-de-clonage-photofiltre/05-exercice-tampon-de-clonagee.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 6",
+              "url": "../tampon-de-clonage-photofiltre/06-exercice-tampon-de-clonage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 7",
+              "url": "../tampon-de-clonage-photofiltre/07-exercice-tampon-de-clonage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 8",
+              "url": "../tampon-de-clonage-photofiltre/08-exercice-tampon-de-clonage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 9",
+              "url": "../tampon-de-clonage-photofiltre/09-exercice-tampon-de-clonage.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Calques – Bases",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../calques-les-bases/support-manipulations-basiques-des-calques.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../calques-les-bases/exercice-1.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../calques-les-bases/exercice-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../calques-les-bases/exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../calques-les-bases/exercice-4.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "../calques-les-bases/exercice-5.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 6",
+              "url": "../calques-les-bases/exercice-6.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 7",
+              "url": "../calques-les-bases/exercice-7.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Calques – Avancé",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "../les-calques-avances/les-calques-avances.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 1",
+              "url": "../les-calques-avances/exercice-1.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "../les-calques-avances/exercice-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "../les-calques-avances/exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "../les-calques-avances/exercice-4.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "../les-calques-avances/exercice-5.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 6",
+              "url": "../les-calques-avances/exercice-6-montage-photo.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 7",
+              "url": "../les-calques-avances/exercice-7-montage.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 8",
+              "url": "../les-calques-avances/exercice-8-montage.html",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Power BI",
+      "url": "powerbi.html",
+      "children": [
+        {
+          "title": "Importer",
+          "url": null,
+          "children": [
+            {
+              "title": "Présentation",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "powerbi.html",
+                  "children": []
+                },
+                {
+                  "title": "Installer Power BI",
+                  "url": "a-quoi-ca-sert/support-installer-powerbi.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Importer des données",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "importer-des-donnees/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "importer-des-donnees/exercice-tutore-01.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "importer-des-donnees/exercice-tutore-2.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "importer-des-donnees/exercice-tutore-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 4",
+                  "url": "importer-des-donnees/exercice-tutore-4.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Préparer (Power Query)",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "preparation-power-query/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "preparation-power-query/exercice-1.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Visualiser",
+          "url": null,
+          "children": [
+            {
+              "title": "Types de visualisations",
+              "url": "types-de-visualisations.html",
+              "children": []
+            },
+            {
+              "title": "Barres empilées",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "graphique-barres-empilees/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "graphique-barres-empilees/ex-001.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "graphique-barres-empilees/ex-002.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Histogramme empilé",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "histogramme-empile/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "histogramme-empile/ex-001.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "histogramme-empile/ex-002.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Barres groupées",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "graphique-a-barre-groupee/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "graphique-a-barre-groupee/ex-001.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "graphique-a-barre-groupee/ex-002.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Histogramme groupé",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "histogramme-groupe/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "histogramme-groupe/ex-001.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "histogramme-groupe/ex-002.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Barres 100%",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "graphique-a-barres-100/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "graphique-a-barres-100/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "graphique-a-barres-100/exercice-2.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Histogramme 100%",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "histogramme-100/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "histogramme-100/exercice-1.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Graphique en courbe",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "graphique-en-courbe/support-graphique-en-courbe.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "graphique-en-courbe/ex-001-graphique-en-courbe.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Graphique en secteur",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "graphique-en-secteur/support-graphique-en-secteur.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "graphique-en-secteur/exercice-1.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Tree Map",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "tree-map/support-tree-map.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "tree-map/exercice-1.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Cartes",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "cartes/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "cartes/ex-001.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "cartes/ex-002.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 3",
+                  "url": "cartes/ex-003-carte.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Carte chiffrée",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "carte-chiffree/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "carte-chiffree/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "carte-chiffree/exercice-2.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Segment",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "segment/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "segment/exercice-1.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Matrice",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support",
+                  "url": "matrice/support.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1",
+                  "url": "matrice/exercice-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "matrice/exercice-2.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Modéliser",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "modeliser.html",
+              "children": []
+            },
+            {
+              "title": "Liaisons",
+              "url": null,
+              "children": [
+                {
+                  "title": "Exercice 1",
+                  "url": "liaisons-power-bi-2/exercice-1.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Calculs DAX",
+              "url": null,
+              "children": [
+                {
+                  "title": "SUM",
+                  "url": "calcul-power-bi/exercice-7-sum.html",
+                  "children": []
+                },
+                {
+                  "title": "COUNT",
+                  "url": "calcul-power-bi/exercice-1-count.html",
+                  "children": []
+                },
+                {
+                  "title": "DIVIDE",
+                  "url": "calcul-power-bi/exercice-1-divde.html",
+                  "children": []
+                },
+                {
+                  "title": "IF",
+                  "url": "calcul-power-bi/exercice-1-if.html",
+                  "children": []
+                },
+                {
+                  "title": "SUMX",
+                  "url": "calcul-power-bi/exercice-3-sumx.html",
+                  "children": []
+                },
+                {
+                  "title": "AVERAGE",
+                  "url": "calcul-power-bi/exercice-4-average.html",
+                  "children": []
+                },
+                {
+                  "title": "CALCULATE",
+                  "url": "calcul-power-bi/exercice-5-calculate.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Cas complets",
+              "url": null,
+              "children": [
+                {
+                  "title": "Produits",
+                  "url": "cas-complet/produits.html",
+                  "children": []
+                },
+                {
+                  "title": "Livres",
+                  "url": "cas-complet/livres.html",
+                  "children": []
+                },
+                {
+                  "title": "Course – Visuels simples",
+                  "url": "cas-complet/course-visuels.html",
+                  "children": []
+                },
+                {
+                  "title": "Course – Calculs",
+                  "url": "cas-complet/course-calculs.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Débutant",
+      "url": "debutant.html",
+      "children": []
+    },
+    {
+      "title": "Jeunes",
+      "url": "parcours-b2i-souris.html",
+      "children": []
+    },
+    {
+      "title": "Publisher",
+      "url": "pao.html",
+      "children": [
+        {
+          "title": "Présentation",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "pao.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Exercices",
+          "url": null,
+          "children": [
+            {
+              "title": "Exercice 1",
+              "url": "exercice-1-pao.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 2",
+              "url": "exercice-2-pao.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 3",
+              "url": "publisher-exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 4",
+              "url": "exercice-4-publisher-scribus.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 5",
+              "url": "exercice-4-publisher-scribus-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 6",
+              "url": "exercice-publisher-6.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 7",
+              "url": "exercice-publisher-7.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 8",
+              "url": "exercice-publisher-8.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 9",
+              "url": "exercice-publisher-9.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 10",
+              "url": "exercice-publisher-10.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 11",
+              "url": "exercice-publisher-11.html",
+              "children": []
+            },
+            {
+              "title": "Exercice 12",
+              "url": "exercice-publisher-12.html",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Formation",
+      "url": null,
+      "children": [
+        {
+          "title": "BTS Assistant de Gestion",
+          "url": null,
+          "children": [
+            {
+              "title": "SQL",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support – Les bases",
+                  "url": "les-bases.html",
+                  "children": []
+                },
+                {
+                  "title": "Série A",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Requête A-01",
+                      "url": "exercices-serie-a/requete-sql-01.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-02",
+                      "url": "exercices-serie-a/requete-sql-02.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-03",
+                      "url": "exercices-serie-a/requete-sql-03.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-04",
+                      "url": "exercices-serie-a/requete-sql-04.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-05",
+                      "url": "exercices-serie-a/requete-sql-05.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-06",
+                      "url": "exercices-serie-a/requete-sql-06.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-07",
+                      "url": "exercices-serie-a/requete-sql-07.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-08",
+                      "url": "exercices-serie-a/requete-sql-08.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-09",
+                      "url": "exercices-serie-a/requete-sql-0a-9.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-10",
+                      "url": "exercices-serie-a/requete-sql-a-10.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-11",
+                      "url": "exercices-serie-a/requete-sql-a-11.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-12",
+                      "url": "exercices-serie-a/requete-sql-a-12.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-13",
+                      "url": "exercices-serie-a/requete-sql-a-13.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête A-14",
+                      "url": "exercices-serie-a/requete-sql-a-14.html",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Série B",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Requête B-01",
+                      "url": "exercice-serie-b/requete-sql-b-01.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-02",
+                      "url": "exercice-serie-b/requete-sql-b-02.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-03",
+                      "url": "exercice-serie-b/requete-sql-b-03.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-04",
+                      "url": "exercice-serie-b/requete-sql-b-04.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-05",
+                      "url": "exercice-serie-b/requete-sql-b-05.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-06",
+                      "url": "exercice-serie-b/requete-sql-b-06.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-07",
+                      "url": "exercice-serie-b/requete-sql-b-07.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-08",
+                      "url": "exercice-serie-b/requete-sql-b-08.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-09",
+                      "url": "exercice-serie-b/requete-sql-b-09.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-10",
+                      "url": "exercice-serie-b/requete-sql-b-10.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-11",
+                      "url": "exercice-serie-b/requete-sql-b-11.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-12",
+                      "url": "exercice-serie-b/requete-sql-b-12.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-13",
+                      "url": "exercice-serie-b/requete-sql-b-13.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-14",
+                      "url": "exercice-serie-b/requete-sql-b-14.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-15",
+                      "url": "exercice-serie-b/requete-sql-b-15.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-16",
+                      "url": "exercice-serie-b/requete-sql-b-16.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-17",
+                      "url": "exercice-serie-b/requete-sql-b-17.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-18",
+                      "url": "exercice-serie-b/requete-sql-b-18.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-19",
+                      "url": "exercice-serie-b/requete-sql-b-19.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-20",
+                      "url": "exercice-serie-b/requete-sql-b-20.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-21",
+                      "url": "exercice-serie-b/requete-sql-b-21.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-22",
+                      "url": "exercice-serie-b/requete-sql-b-22.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête B-23",
+                      "url": "exercice-serie-b/requete-sql-b-23.html",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Série C",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Requête C-01",
+                      "url": "exercice-serie-c/requete-sql-c-01.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête C-02",
+                      "url": "exercice-serie-c/requete-sql-c-02.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête C-03",
+                      "url": "exercice-serie-c/requete-sql-c-03.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête C-04",
+                      "url": "exercice-serie-c/requete-sql-c-04.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête C-05",
+                      "url": "exercice-serie-c/requete-sql-c-05.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête C-06",
+                      "url": "exercice-serie-c/requete-sql-c-06.html",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Série D",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Requête D-01",
+                      "url": "exercice-serie-d/requete-sql-d-01.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête D-02",
+                      "url": "exercice-serie-d/requete-sql-d-02.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête D-03",
+                      "url": "exercice-serie-d/requete-sql-d-03.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête D-04",
+                      "url": "exercice-serie-d/requete-sql-d-04.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête D-05",
+                      "url": "exercice-serie-d/requete-sql-d-05.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête D-06",
+                      "url": "exercice-serie-d/requete-sql-d-06.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Requête D-07",
+                      "url": "exercice-serie-d/requete-sql-d-07.html",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Exercices complets",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Exercice 1",
+                      "url": "exercices-complets/exercice-1.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 2",
+                      "url": "exercices-complets/exercice-02.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 3",
+                      "url": "exercices-complets/exercice-3.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 4",
+                      "url": "exercices-complets/execice-complet.html",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "BTS AG",
+              "url": null,
+              "children": [
+                {
+                  "title": "Programme",
+                  "url": "programme-informatique.html",
+                  "children": []
+                },
+                {
+                  "title": "Diagramme évènement–résultat",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Support",
+                      "url": "seance-8-diagramme-de-flux/support.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 1",
+                      "url": "seance-8-diagramme-de-flux/exercice-1.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 2",
+                      "url": "seance-8-diagramme-de-flux/exercice-2.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 3",
+                      "url": "seance-8-diagramme-de-flux/exercice-3.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 4",
+                      "url": "seance-8-diagramme-de-flux/exercice-4.html",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Réseau",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Support",
+                      "url": "seance-10-reseau/support.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Intranet/Extranet",
+                      "url": "seance-10-reseau/support-2.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Adressage IP",
+                      "url": "seance-10-reseau/seance-11-reseau.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Protection réseau",
+                      "url": "seance-10-reseau/seance-15-protection-reseau-et-pc.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Vocabulaire réseau",
+                      "url": "seance-10-reseau/vocabulaire-reseau.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 1 – CI PC",
+                      "url": "seance-10-reseau/exercice-carte-d-identite-pc.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 2 – Montage PC",
+                      "url": "seance-10-reseau/exercice-montage-pc.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 3 – Réseau 01",
+                      "url": "seance-10-reseau/exercice-schema-reseau-01.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 4 – Réseau 02",
+                      "url": "seance-10-reseau/exercice-schema-reseau-02.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 5 – Réseau 03",
+                      "url": "seance-10-reseau/exercice-reseau-03.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 6 – Réseau 04",
+                      "url": "seance-10-reseau/exercice-schema-reseau-04.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 7 – Réseau 05",
+                      "url": "seance-10-reseau/exercice-schema-reseau-05.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 8 – Réseau 06",
+                      "url": "seance-10-reseau/exercice-schema-reseau-07.html",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Divers",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Veille",
+                      "url": "seance-9-veille.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Travail collaboratif",
+                      "url": "09-04.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Les licences",
+                      "url": "seance-13.html",
+                      "children": []
+                    },
+                    {
+                      "title": "GED",
+                      "url": "seance-14-ged.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice GED",
+                      "url": "exercice-1-ged.html",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "XML",
+                  "url": null,
+                  "children": [
+                    {
+                      "title": "Support – Syntaxe",
+                      "url": "seance-16-xml/syntaxe.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Démonstration",
+                      "url": "seance-16-xml/demo-xml.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 01",
+                      "url": "seance-16-xml/exercice-xml-01.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 02",
+                      "url": "seance-16-xml/exercice-xml-02.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 03",
+                      "url": "seance-16-xml/exercice-xml-03.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 04",
+                      "url": "seance-16-xml/exercice-xml-04.html",
+                      "children": []
+                    },
+                    {
+                      "title": "Exercice 05",
+                      "url": "seance-16-xml/exercice-xml-05.html",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MUC",
+          "url": null,
+          "children": [
+            {
+              "title": "Programme",
+              "url": "progression-annuelle-muc.html",
+              "children": []
+            },
+            {
+              "title": "Diagramme de Gantt",
+              "url": "seance-13-diagramme-de-gantt.html",
+              "children": []
+            },
+            {
+              "title": "Exercice Gantt 1",
+              "url": "gantt-exercice-1.html",
+              "children": []
+            },
+            {
+              "title": "Exercice Gantt 2",
+              "url": "gantt-exercice-2.html",
+              "children": []
+            },
+            {
+              "title": "Exercice Gantt 3",
+              "url": "gantt-exercice-3.html",
+              "children": []
+            },
+            {
+              "title": "Exercice Gantt 4",
+              "url": "gantt-exercice-4.html",
+              "children": []
+            },
+            {
+              "title": "Exercice Gantt 5",
+              "url": "gantt-exercice-5.html",
+              "children": []
+            },
+            {
+              "title": "Enquête",
+              "url": "seance-06-muc.html",
+              "children": []
+            },
+            {
+              "title": "HTML / CSS",
+              "url": null,
+              "children": [
+                {
+                  "title": "Support – Bases HTML",
+                  "url": "html-2/html-3.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 1 – HTML",
+                  "url": "html-2/exercice-03-html.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2 – CSS",
+                  "url": "html-2/exercice-02-css.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RPMC",
+          "url": null,
+          "children": [
+            {
+              "title": "Progression pédagogique",
+              "url": "progression-pedagogique-rpmc.html",
+              "children": []
+            },
+            {
+              "title": "CMS",
+              "url": "02-cms.html",
+              "children": []
+            },
+            {
+              "title": "Installer son CMS",
+              "url": "01-installer-son-cms.html",
+              "children": []
+            },
+            {
+              "title": "Analytics & SEO",
+              "url": null,
+              "children": [
+                {
+                  "title": "Google Analytics",
+                  "url": "07-google-analytics.html",
+                  "children": []
+                },
+                {
+                  "title": "Webmasters Tools",
+                  "url": "04-webmasters-tools.html",
+                  "children": []
+                },
+                {
+                  "title": "Google Business",
+                  "url": "08-google-business.html",
+                  "children": []
+                },
+                {
+                  "title": "SEO",
+                  "url": "03-seo.html",
+                  "children": []
+                },
+                {
+                  "title": "Long Tail",
+                  "url": "16-long-tail.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Réseaux sociaux",
+              "url": null,
+              "children": [
+                {
+                  "title": "Introduction",
+                  "url": "10-intro-reseaux-sociaux.html",
+                  "children": []
+                },
+                {
+                  "title": "Facebook (intro)",
+                  "url": "09-facebook.html",
+                  "children": []
+                },
+                {
+                  "title": "Facebook (avancé)",
+                  "url": "30-reseaux-sociaux-facebook.html",
+                  "children": []
+                },
+                {
+                  "title": "Pinterest",
+                  "url": "31-pinterest.html",
+                  "children": []
+                },
+                {
+                  "title": "Tumblr",
+                  "url": "32-tumblr.html",
+                  "children": []
+                },
+                {
+                  "title": "Instagram",
+                  "url": "33-intagram.html",
+                  "children": []
+                },
+                {
+                  "title": "Twitter",
+                  "url": "34-twtitter.html",
+                  "children": []
+                },
+                {
+                  "title": "Répondre à un avis négatif",
+                  "url": "10-repondre-a-un-avis-negatif.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Contenu & E-mailing",
+              "url": null,
+              "children": [
+                {
+                  "title": "Marketing de contenu",
+                  "url": "11-strategies-de-marketing-de-contenu.html",
+                  "children": []
+                },
+                {
+                  "title": "E-mailing",
+                  "url": "05-emailing.html",
+                  "children": []
+                },
+                {
+                  "title": "Production de contenu",
+                  "url": "14-production-contenu.html",
+                  "children": []
+                },
+                {
+                  "title": "Optimisation images",
+                  "url": "15-optimisation-images.html",
+                  "children": []
+                },
+                {
+                  "title": "Audacity",
+                  "url": "18-audacity.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Divers",
+              "url": null,
+              "children": [
+                {
+                  "title": "Veille",
+                  "url": "veille.html",
+                  "children": []
+                },
+                {
+                  "title": "Vocabulaire",
+                  "url": "vocabulaire.html",
+                  "children": []
+                },
+                {
+                  "title": "Sites utiles",
+                  "url": "sites-utiles.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ASCA",
+          "url": null,
+          "children": [
+            {
+              "title": "Présentation ASCA",
+              "url": "asca.html",
+              "children": []
+            },
+            {
+              "title": "UL11 – Word",
+              "url": null,
+              "children": [
+                {
+                  "title": "Wi-Tool",
+                  "url": "exercices-asca-ul11-word/wi-tool.html",
+                  "children": []
+                },
+                {
+                  "title": "Electra",
+                  "url": "exercices-asca-ul11-word/electra.html",
+                  "children": []
+                },
+                {
+                  "title": "Cité des concerts",
+                  "url": "exercices-asca-ul11-word/cas-cite-des-concerts.html",
+                  "children": []
+                },
+                {
+                  "title": "Union des commerçants",
+                  "url": "exercices-asca-ul11-word/cas-union-des-commercants.html",
+                  "children": []
+                },
+                {
+                  "title": "Novatix",
+                  "url": "exercices-asca-ul11-word/cas-novatix.html",
+                  "children": []
+                },
+                {
+                  "title": "Super Print",
+                  "url": "exercices-asca-ul11-word/cas-super-print.html",
+                  "children": []
+                },
+                {
+                  "title": "Crédit Top",
+                  "url": "exercices-asca-ul11-word/cas-credit-top.html",
+                  "children": []
+                },
+                {
+                  "title": "Logique Bio",
+                  "url": "exercices-asca-ul11-word/cas-logique-bio.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "UL21 – Excel",
+              "url": null,
+              "children": [
+                {
+                  "title": "Enveloppe",
+                  "url": "exercices-asca-ul21-excel/enveloppe.html",
+                  "children": []
+                },
+                {
+                  "title": "Nett Industrie",
+                  "url": "exercices-asca-ul21-excel/nett-industrie.html",
+                  "children": []
+                },
+                {
+                  "title": "Bustop",
+                  "url": "exercices-asca-ul21-excel/bustop.html",
+                  "children": []
+                },
+                {
+                  "title": "Com Un Parfum",
+                  "url": "exercices-asca-ul21-excel/cas-com-un-parfum.html",
+                  "children": []
+                },
+                {
+                  "title": "Vancouver",
+                  "url": "exercices-asca-ul21-excel/cas-vancouver.html",
+                  "children": []
+                },
+                {
+                  "title": "La Suédoise",
+                  "url": "exercices-asca-ul21-excel/cas-la-sue-doise.html",
+                  "children": []
+                },
+                {
+                  "title": "Mosaïque",
+                  "url": "exercices-asca-ul21-excel/cas-mosaique.html",
+                  "children": []
+                },
+                {
+                  "title": "Sud Informatique",
+                  "url": "exercices-asca-ul21-excel/cas-sud-informatique.html",
+                  "children": []
+                },
+                {
+                  "title": "Générale Cosmétiques",
+                  "url": "exercices-asca-ul21-excel/cas-generale-de-cosmetiques.html",
+                  "children": []
+                },
+                {
+                  "title": "Petits Porteurs",
+                  "url": "exercices-asca-ul21-excel/cas-petits-porteurs.html",
+                  "children": []
+                },
+                {
+                  "title": "Centre Format",
+                  "url": "exercices-asca-ul21-excel/cas-centre-format.html",
+                  "children": []
+                },
+                {
+                  "title": "Parcelle",
+                  "url": "exercices-asca-ul21-excel/cas-parcelle.html",
+                  "children": []
+                },
+                {
+                  "title": "Ress Marketing",
+                  "url": "exercices-asca-ul21-excel/cas-ress-marketing.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "UL22 – Excel",
+              "url": null,
+              "children": [
+                {
+                  "title": "Suédoise Sandwicherie",
+                  "url": "ul22-excel/suedoise-sandwicherie-ul22.html",
+                  "children": []
+                },
+                {
+                  "title": "Blue Lagon",
+                  "url": "ul22-excel/blue-lagon.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Access",
+          "url": null,
+          "children": [
+            {
+              "title": "Support",
+              "url": "access.html",
+              "children": []
+            },
+            {
+              "title": "État",
+              "url": null,
+              "children": [
+                {
+                  "title": "Exercice 1",
+                  "url": "etat/exercice-1-etat.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Requête",
+              "url": null,
+              "children": [
+                {
+                  "title": "Exercice 1",
+                  "url": "requete/exercice-requete-1.html",
+                  "children": []
+                },
+                {
+                  "title": "Exercice 2",
+                  "url": "requete/exercice-2.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Formulaire",
+              "url": null,
+              "children": [
+                {
+                  "title": "Exercice 1",
+                  "url": "formulaire/exercice-1-formulaire.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quiz",
+      "url": "liste-quizz.html",
+      "children": []
+    },
+    {
+      "title": "École",
+      "url": "gareoult.html",
+      "children": []
+    },
+    {
+      "title": "Jeux de connaissances",
+      "url": "jeux-de-connaissances.html",
+      "children": []
+    },
+    {
+      "title": "Mon espace",
+      "url": "utilisateur.html",
+      "children": []
+    }
+  ]
+}

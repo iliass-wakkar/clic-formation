@@ -1,0 +1,14 @@
+body {
+  background-color: #EDE6DA;
+  font-family: "arial" ;
+  color : #333 ;
+}
+
+.exercice {
+  border-radius : 5px;
+  background-color: #EDE6DA;
+  margin: 5px;
+}
+p {
+  padding : 10px;
+}

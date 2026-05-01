@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+11:06:10	319/319	---M--	302	error ('Found')	text/html	date:Sun,%2026%20Apr%202026%2010:06:11%20GMT	https://www.clic-formation.net/robots.txt		(from )
+11:06:10	319/319	---M--	302	error ('Found')	text/html	date:Sun,%2026%20Apr%202026%2010:06:11%20GMT	https://www.clic-formation.net/	C:/Users/ilias/Desktop/New%20folder%20(4)/office%20web/officeWeb/www.clic-formation.net/index.html	(from )

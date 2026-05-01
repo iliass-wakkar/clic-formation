@@ -1,0 +1,119 @@
+<html>
+
+
+<!-- Mirrored from www.clic-formation.net//images/z1-puzzle/index.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:31 GMT -->
+<head>
+<title>Puzzle</title>
+<script>
+var alea;
+var BonneReponse=new Array(0,1,2,3,4,5,6,7,8)
+var Now=new Array(0,1,2,3,4,5,6,7,8)
+var parti=false;
+var Ntemps = 0;
+function init()
+{
+	if(!parti)
+	{
+		for (i=0;i<6;i++)
+		{
+		alea = Math.round(Math.random()*8)
+		Now[i]=alea
+		document.getElementById(i).src=Now[i]+".jpg"
+		}
+		parti=true
+		document.getElementById('realimg').style.visibility='hidden';
+		document.main.but.value="Arreter la partie"
+		augtemps()
+	}
+	else
+	{
+		for (i=0;i<6;i++)
+		{
+		Now[i]=BonneReponse[i]
+		document.getElementById(i).src=Now[i]+".jpg"
+		}
+		document.getElementById('realimg').style.visibility='visible';
+		stop()
+	}
+}
+
+function augtemps()
+{
+		Ntemps++
+		document.temp.temps.value=Ntemps + " secondes"
+		temtem=setTimeout('augtemps()',1000)	
+}
+
+function stop()
+{
+		parti=false;
+		document.main.but.value="Commencer la partie";
+		clearTimeout(temtem);
+		Ntemps=0
+		document.temp.temps.value=""
+}
+
+
+function changeimg(laquelle)
+{
+	if(parti)
+	{
+		if (Now[laquelle] == 8)
+		{Now[laquelle]=0}
+		else
+		{Now[laquelle]++}
+		document.getElementById(laquelle).src=Now[laquelle]+".jpg"
+		if ((Now[0]==BonneReponse[0])&&(Now[1]==BonneReponse[1])&&(Now[2]==BonneReponse[2])&&(Now[3]==BonneReponse[3])&&(Now[4]==BonneReponse[4])&&(Now[5]==BonneReponse[5])&&(Now[6]==BonneReponse[6])&&(Now[7]==BonneReponse[7])&&(Now[8]==BonneReponse[8]))
+		{
+		document.getElementById('realimg').style.visibility='visible';
+		alert ("Bravo, vous avez résolu le puzzle en : "+document.temp.temps.value);
+		stop()
+		}
+	}
+}
+</script>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" topmargin="10" leftmargin="10">
+<div id="realimg" style="position: absolute; left: 10; top: 10; width: 760; height: 507; visibility: visible">
+<img border="0" src="big.jpg" width="900" height="504">
+</div>
+
+<div id="comm" style="position: absolute; left: 20; top: 520; width: 175; height: 27">
+<form name="main">
+<input name="but" type="button" onclick="init()" value="Commencer la partie">
+</form>
+</div>
+
+<div id="tem" style="position: absolute; left: 20; top: 540; width: 175; height: 27">
+<form name="temp">
+Temps :
+<input name="temps" type="text" readonly>
+</form>
+</div>
+
+<table border="0" width="900" cellspacing="0" cellpadding="0" height="504">
+  <tr>
+    <td width="300" height="168"><img border="0" id=0 src="0.jpg" onmousedown="changeimg(0)" width="300" height="168"></td>
+    <td width="300" height="168"><img border="0" id=1 src="1.jpg" onmousedown="changeimg(1)" width="300" height="168"></td>
+    <td width="300" height="168"><img border="0" id=2 src="2.jpg" onmousedown="changeimg(2)" width="300" height="168"></td>
+  </tr>
+  <tr>
+    <td width="300" height="168"><img border="0" id=3 src="3.jpg" onmousedown="changeimg(3)" width="300" height="168"></td>
+    <td width="300" height="168"><img border="0" id=4 src="4.jpg" onmousedown="changeimg(4)" width="300" height="168"></td>
+    <td width="300" height="168"><img border="0" id=5 src="5.jpg" onmousedown="changeimg(5)" width="300" height="168"></td>
+  </tr>
+    <tr>
+    <td width="300" height="168"><img border="0" id=6 src="6.jpg" onmousedown="changeimg(6)" width="300" height="168"></td>
+    <td width="300" height="168"><img border="0" id=7 src="7.jpg" onmousedown="changeimg(7)" width="300" height="168"></td>
+    <td width="300" height="168"><img border="0" id=8 src="8.jpg" onmousedown="changeimg(8)" width="300" height="168"></td>
+  </tr>
+</table>
+
+<br><br>
+
+</body>
+
+
+<!-- Mirrored from www.clic-formation.net//images/z1-puzzle/index.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:33:33 GMT -->
+</html>

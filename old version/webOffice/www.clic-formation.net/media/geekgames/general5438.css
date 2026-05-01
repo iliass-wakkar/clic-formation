@@ -1,0 +1,93 @@
+/**
+ * @package    pkg_geekgames
+ * @version    1.2.0
+ *
+ * @copyright  Copyright (C) 2015 - 2026 JoomlaGeek. All Rights Reserved.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @author     JoomlaGeek <admin@joomlageek.com>
+ * @link       https://www.joomlageek.com
+ */
+
+:root {
+	--game-color-primary: #386641;
+	--game-color-secondary: #6A994E;
+	--game-color-success: #A7C957;
+	--game-color-error: #BC4749;
+	--game-container-border: #666;
+	--game-container-background: #FFF;
+	--game-item-border: #386641;
+	--game-item-border-hover: #6A994E;
+	--game-item-border-selected: #ad851f;
+	--game-item-border-error: #BC4749;
+	--game-item-background: #F2E8CF;
+	--game-item-background-hover: #dccca0;
+	--game-item-background-selected: #f1d996;
+	--game-item-background-success: #A7C957;
+	--game-item-background-error: #f1d996;
+	--game-item-text: #0a0a0a;
+	--game-item-white: #ffffff;
+	--game-item-text-disabled: #555;
+	--game-item-background-disabled: #F2E8CF;
+	--game-item-text-dragging: #555;
+	--game-item-background-dragging: #eee;
+}
+
+/*message*/
+.game-instructions {
+	width: 100%;
+	clear: both;
+	color: #666;
+	margin-bottom: 25px;
+}
+
+.game-message {
+	width: 100%;
+	font-size: 1.0rem;
+	font-style: italic;
+	color: var(--game-color-success);
+	padding: 10px 0;
+}
+
+
+.game-win-message {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 3px dotted var(--game-color-success);
+}
+
+.game-message.error {
+	color: var(--game-color-error);
+}
+
+/*buttons*/
+.game-buttons {
+	width: 100%;
+}
+.game-btn-primary, .game-btn-secondary {
+	border: none;
+	padding: 5px 10px;
+	border-radius: 6px;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: background 0.2s;
+}
+
+.game-btn-primary {
+	background-color: #ffffff;
+	border: 2px solid #6A994E;
+	color: #353b41;
+}
+.game-btn-primary:hover {
+	border: 2px solid #386641;
+}
+
+.game-btn-secondary {
+	background-color: #ffffff;
+	border: 2px solid #ced4da;
+	color: #353b41;
+}
+.game-btn-secondary:hover {
+	border: 2px solid #575e64;
+}

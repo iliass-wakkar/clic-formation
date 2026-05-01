@@ -1,0 +1,42 @@
+# functionalties of projct
+
+This project is a comprehensive self-learning platform (auto-formation) called **Clic-Formation**, designed to provide structured educational resources for computer literacy, office software, and digital marketing.
+
+### User Interface & Navigation
+*   **Hierarchical Course Navigation:** Organized learning paths for different skill levels (Beginner, Youth, Adult, Vocational).
+*   **Responsive Multi-level Menus:** Optimized for both desktop and mobile devices using a dynamic "Maximenu CK" system.
+*   **Contextual Sidebars:** Category-specific menus (e.g., the RPMC module sidebar) that allow users to navigate through related lessons and sub-topics.
+*   **Integrated Search Engine:** A specialized search tool to help users quickly locate specific exercises or learning modules.
+*   **Interactive Media Galleries:** Uses lightboxes and media managers (MediaBox CK) for viewing screenshots and instructional images without leaving the page.
+
+### Educational Content & Training Modules
+*   **Office Suite Mastery:**
+    *   **Excel (Tableur):** Extensive library of 450+ exercises with solutions, categorized by tags.
+    *   **Word & Publisher:** Dedicated exercises for word processing and desktop publishing (PAO).
+    *   **PowerPoint & Access:** Training for presentation design and database management.
+*   **Fundamental Computer Literacy:**
+    *   **Peripheric Agility:** Specific training tracks for mouse precision (targeted at youths and adult beginners).
+    *   **Keyboard Proficiency:** Practice modules for typing speed, shortcuts, and the use of special characters (accents).
+    *   **System Management:** Guides for Windows OS, including file system navigation and folder organization.
+    *   **Internet Essentials:** Tutorials on web search techniques and electronic messaging (Email).
+*   **Digital Marketing & Web Management (RPMC Track):**
+    *   **CMS Administration:** Comprehensive guides on selecting, installing (via FTP/FileZilla), and managing Content Management Systems like Joomla.
+    *   **SEO Optimization:** Instructional content on semantic HTML, URL rewriting, meta-data management, and netlinking strategies.
+    *   **Analytics & Business Tools:** Integration training for Google Analytics, Webmaster Tools (Search Console), and Google Business Profile.
+*   **Creative Software Training:**
+    *   **Photo Manipulation:** 60 structured exercises for PhotoFiltre.
+    *   **Vector Graphics:** Introductory modules for Inkscape.
+
+### Interactive Assessment & Certification
+*   **Multi-disciplinary Quiz Engine:** A QCM (Multiple Choice Question) system covering office software, general culture, history, geography, and civic education.
+*   **Vocational Track Progression:** Annual progression plans and curricula for specific certifications like BTS Assistant de Gestion, MUC (Management), and ASCA.
+*   **Educational Games:** Knowledge-based interactive games to reinforce learning in a non-formal environment.
+
+### User Management & Support
+*   **Authentication System:** A member login area allowing users to access personalized features like "My Quizzes."
+*   **Feedback & Contribution Loop:** A direct communication channel for users to report bugs or for trainers to propose new educational content.
+
+### System Infrastructure & Content Management
+*   **CMS-Based Architecture:** Built on the Joomla! platform for robust content organization and scalability.
+*   **Visual Layout Engine:** Utilizes Page Builder CK for modular and aesthetic page construction.
+*   **Monetization & Analytics Integration:** Pre-configured slots for Google AdSense and integrated tracking via Google Analytics for traffic analysis.

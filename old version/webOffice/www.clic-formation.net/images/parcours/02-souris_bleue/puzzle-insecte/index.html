@@ -1,0 +1,82 @@
+<html>
+
+<!-- Mirrored from www.clic-formation.net/images/parcours/02-souris_bleue/puzzle-insecte/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:21 GMT -->
+<head>
+<style type="text/css">
+
+.drag{
+position:relative;
+cursor:hand;
+z-index: 100;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Drag and Drop Script: (c) Dynamic Drive (http://www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+var dragobject={
+z: 0, x: 0, y: 0, offsetx : null, offsety : null, targetobj : null, dragapproved : 0,
+initialize:function(){
+document.onmousedown=this.drag
+document.onmouseup=function(){this.dragapproved=0}
+},
+drag:function(e){
+var evtobj=window.event? window.event : e
+this.targetobj=window.event? event.srcElement : e.target
+if (this.targetobj.className=="drag"){
+this.dragapproved=1
+if (isNaN(parseInt(this.targetobj.style.left))){this.targetobj.style.left=0}
+if (isNaN(parseInt(this.targetobj.style.top))){this.targetobj.style.top=0}
+this.offsetx=parseInt(this.targetobj.style.left)
+this.offsety=parseInt(this.targetobj.style.top)
+this.x=evtobj.clientX
+this.y=evtobj.clientY
+if (evtobj.preventDefault)
+evtobj.preventDefault()
+document.onmousemove=dragobject.moveit
+}
+},
+moveit:function(e){
+var evtobj=window.event? window.event : e
+if (this.dragapproved==1){
+this.targetobj.style.left=this.offsetx+evtobj.clientX-this.x+"px"
+this.targetobj.style.top=this.offsety+evtobj.clientY-this.y+"px"
+return false
+}
+}
+}
+
+dragobject.initialize()
+
+</script>
+</head>
+<body>
+
+<img src="1.jpg" class="drag">
+<img src="2.jpg" class="drag">
+<img src="3.jpg" class="drag">
+<img src="4.jpg" class="drag">
+<img src="5.jpg" class="drag">
+<img src="6.jpg" class="drag">
+<img src="7.jpg" class="drag">
+<img src="8.jpg" class="drag"><br>
+<img src="9.jpg" class="drag">
+<img src="10.jpg" class="drag">
+<img src="11.jpg" class="drag">
+<img src="12.jpg" class="drag">
+<img src="13.jpg" class="drag">
+<img src="14.jpg" class="drag">
+<img src="15.jpg" class="drag">
+<img src="16.jpg" class="drag">
+
+</body>
+
+<!-- Mirrored from www.clic-formation.net/images/parcours/02-souris_bleue/puzzle-insecte/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:25 GMT -->
+</html>
+

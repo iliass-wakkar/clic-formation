@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<!-- Mirrored from www.clic-formation.net/images/parcours/03-souris_rouge/clic_precis.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:40 GMT -->
+<head><title>clic rapide</title>
+
+  <script language="JavaScript">
+<!-- Original:  Josh Birk  -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+gamelength=30;
+timerID=null
+var playing=false;
+var numholes=6*10;
+var currentpos=-1;
+function clrholes() {
+for(var k=0;k<document.dmz.elements.length;k++)
+document.dmz.elements[k].checked=false;
+}
+function stoptimer() {
+if(playing)
+clearTimeout(timerID);
+}
+function showtime(remtime) {
+document.cpanel.timeleft.value=remtime;
+if(playing) {
+if(remtime==0) {
+stopgame();
+return;
+}
+else {
+temp=remtime-1;
+timerID=setTimeout("showtime(temp)",1000);
+      }
+   }
+}
+function stopgame() {
+stoptimer();
+playing=false;
+document.cpanel.timeleft.value=0;
+clrholes();
+display("Partie Terminée");
+alert('Partie Terminée.\nVos points sont:  '+totalhits);
+}
+function play() {
+stoptimer();
+if(playing) {
+stopgame();
+return;
+}
+playing=true;
+clrholes();
+totalhits=0;
+document.cpanel.score.value=totalhits;
+display("Jouez");
+launch();
+showtime(gamelength);
+}
+function display(msg) {
+document.cpanel.state.value=msg;
+}
+function launch() {
+var launched=false;
+while(!launched) {
+mynum=random();
+if(mynum!=currentpos) {
+document.dmz.elements[mynum].checked=true;
+currentpos=mynum;
+launched=true;
+      }
+   }
+}
+
+function hithead(id) {
+if(playing==false) {
+clrholes();
+display("Appuyez sur commencer");
+return;
+}
+if(currentpos!=id) {
+totalhits+=-1;
+document.cpanel.score.value=totalhits;
+document.dmz.elements[id].checked=false;
+}
+else {
+totalhits+=1;
+document.cpanel.score.value=totalhits;
+launch();
+document.dmz.elements[id].checked=false;
+   }
+}
+
+function random() {
+return(Math.floor(Math.random()*100%numholes));
+}
+// End -->
+  </script>
+  <style type="text/css">
+<!--
+.Style1 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.Style2 {font-size: 12px}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+-->
+  </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head><body  alink="#000099" link="#000099" vlink="#990099">
+  <p align="center" class="Style1" style="font-family: Verdana;">POUR FINALISER VOTRE NIVEAU 
+  VOUS DEVREZ FAIRE 30 CLICS AU MINIMUM ?<br>
+  Objectif: Acqu&eacute;rir un clic de souris rapide et pr&eacute;cis. </p>
+  <form name="cpanel">
+  <div align="center">
+  <center>
+  <table cellspacing="3">
+    <tbody>
+      <tr>
+        <td><input onClick="play()" value=" Commencer | Arrêter " name="startstop" type="button"></td>
+        <td>
+        <pre>    </pre>
+        </td>
+        <td style="font-family: Verdana;" align="right"><small>Temps:</small></td>
+        <td><input onFocus="this.blur()" size="4" name="timeleft"></td>
+      </tr>
+      <tr>
+        <td><input onFocus="this.blur()" value="Appuyez sur commencer" name="state"></td>
+        <td>
+        <pre>    </pre>
+        </td>
+        <td style="font-family: Verdana;" align="right"><small>Points:</small></td>
+        <td><input onFocus="this.blur()" size="4" name="score"></td>
+      </tr>
+    </tbody>
+  </table>
+  </center>
+  </div>
+</form>
+<form name="dmz">
+  <div align="center">
+  <center>
+  <table cellspacing="3">
+    <tbody>
+      <tr>
+        <td colspan="10">
+        <hr size="1"> </td>
+      </tr>
+      <tr>
+        <td align="center" valign="center"><input onClick="hithead(0)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(1)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(2)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(3)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(4)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(5)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(6)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(7)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(8)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(9)" type="radio"></td>
+      </tr>
+      <tr>
+        <td align="center" valign="center"><input onClick="hithead(10)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(11)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(12)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(13)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(14)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(15)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(16)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(17)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(18)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(19)" type="radio"></td>
+      </tr>
+      <tr>
+        <td align="center" valign="center"><input onClick="hithead(20)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(21)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(22)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(23)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(24)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(25)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(26)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(27)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(28)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(29)" type="radio"></td>
+      </tr>
+      <tr>
+        <td align="center" valign="center"><input onClick="hithead(30)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(31)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(32)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(33)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(34)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(35)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(36)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(37)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(38)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(39)" type="radio"></td>
+      </tr>
+      <tr>
+        <td align="center" valign="center"><input onClick="hithead(40)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(41)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(42)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(43)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(44)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(45)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(46)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(47)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(48)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(49)" type="radio"></td>
+      </tr>
+      <tr>
+        <td align="center" valign="center"><input onClick="hithead(50)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(51)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(52)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(53)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(54)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(55)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(56)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(57)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(58)" type="radio"></td>
+        <td align="center" valign="center"><input onClick="hithead(59)" type="radio"></td>
+      </tr>
+      <tr>
+        <td colspan="10">
+        <hr size="1"> </td>
+      </tr>
+    </tbody>
+  </table>
+  </center>
+  </div>
+</form>
+<div align="center">
+<center>
+<table cellspacing="3">
+  <tbody>
+    <tr>
+      <td><small><code style="font-family: Verdana;"><strong>Instructions:</strong>
+      </code></small>
+      <ol start="1" style="list-style-type: decimal;">
+        <li class="Style2" style="font-family: Verdana;"><small>Cliquer sur le bouton
+pour commencer ou arrêter. </small></li>
+        <li class="Style2" style="font-family: Verdana;"><small>Cliquer sur les points
+que l'ordinateur fait apparaître. </small></li>
+        <li><span class="Style2"><small><span style="font-family: Verdana;">1 point lorsque
+réussi, perdez 1 point lorsque manqué.</span></small></span><br>
+        </li>
+      </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+<p align="center"><font face="arial, helvetica" size="-2">Source : <a href="http://www.vracinformatique.com/">VracInformatique</a></font></p>
+<p><!-- Script Size:  8.18 KB  --></p><center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-1942143999430977";
+//cl_aleou_bannier_bas_468x60, date de création 11/01/08
+google_ad_slot = "2792723400";
+google_ad_width = 468;
+google_ad_height = 60;
+//--></script>
+<script type="text/javascript"
+src="../../../../pagead2.googlesyndication.com/pagead/f.txt">
+</script></center>
+</body>
+<!-- Mirrored from www.clic-formation.net/images/parcours/03-souris_rouge/clic_precis.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:41 GMT -->
+</html>

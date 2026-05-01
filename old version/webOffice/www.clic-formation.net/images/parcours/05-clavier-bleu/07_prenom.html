@@ -1,0 +1,133 @@
+<html>
+
+<!-- Mirrored from www.clic-formation.net/images/parcours/05-clavier-bleu/07_prenom.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:52 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<style type="text/css">
+input[type=text]{
+  border: 2px solid #696B80;
+  border-radius: 4px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #B85E3B;
+  font-size: 18px;
+  border-radius: 4px;
+    color: white;
+  padding: 3px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+</style>
+
+
+<body bgcolor="#EDE6DA" onLoad="init()">
+<script language="JavaScript"><!--
+
+
+function init()
+{
+debut = new Date()
+mots = new  Array ("Gabriel","Patricia","Mélina","Laetitia","Eulalie","Slimane","Adrien","Elisabeth","Franck","Corentin","Axelle","Steven","Farha","Sanéya","Manon","Théo","Quentin","Paul","Mathis","Boudjemas","Stephen","Romain","Julian","Nicolas","Emyline")
+nb_mots = mots.length;
+duree = 180;
+actuel = 0;
+affiche()
+}
+
+function test()
+{ 
+//  actuel = document.c.numero.value
+  aux = document.c.entree.value
+  document.c.entree.value="";
+  if (aux == mots[actuel] ) 
+  {
+  actuel++
+  if (actuel==nb_mots) {
+// lorsqu'on gagne on va cherche l'image gagneX.JPG ou X est tire au sort entre 0 et 6
+// c'est cette ligne qu'il faut modifier pour modifier les images donnees au gagnant
+// les images sont dans le meme dossier
+// on peut mettre une seule image img8src = lenomdufichier 
+
+  img_src = "gagne"+ Math.floor(Math.random() * 7) +".JPG";
+  img_src = "bravo5.html"
+  top.location.href = img_src;
+  }
+  else {
+    window.status="Bien, au suivant. Ne perds pas de temps "
+    affiche ()
+    }
+  }
+  else  
+  {  
+   window.status="Non, il y a une erreur, recommencez!"
+   compteur();
+  }
+}
+
+function compteur()
+{ 
+ temps = new Date()
+ seconds = duree + Math.floor((debut - temps ) / 1000)
+ setTimeout("compteur()", 905)
+ document.c.time.value= seconds
+ if (seconds <0) {alert("Perdu "); init();}
+}
+
+function affiche ()
+{ document.c.numero.value = actuel;
+  document.c.sortie.value = mots[actuel];
+  document.c.entree.value = "";
+  document.c.entree.focus();
+  compteur()
+}
+// --></script>
+
+<form name="c">
+  <table border="0">
+    <tbody>
+      <tr> 
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif">Le 
+          texte a taper </font></td>
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif"> 
+          <input type="text" size="56" name="sortie">
+          </font></td>
+      </tr>
+      <tr> 
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif">Votre 
+          texte </font></td>
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif"> 
+          <input type="text" size="56" name="entree">
+          <input class="btn" type="button" value="OK" onClick="test()">
+          </font></td>
+      </tr>
+      <tr> 
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif">Numero 
+          </font></td>
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif"> 
+          <input type="text" size="3" name="numero">
+          </font></td>
+      </tr>
+      <tr> 
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif">Temps 
+          restant </font></td>
+        <td><font  face="Verdana, Arial, Helvetica, sans-serif"> 
+          <input type="text" size="5" name="time">
+          </font></td>
+      </tr>
+    </tbody>
+  </table>
+  <p><font  face="Verdana, Arial, Helvetica, sans-serif"><br>
+    <input class="btn" type="button" name="New" value="Nouvelle partie" onClick="init()">
+    </font><br>
+  </p>
+</form>
+
+</body>
+
+<!-- Mirrored from www.clic-formation.net/images/parcours/05-clavier-bleu/07_prenom.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2026 11:36:52 GMT -->
+</html>
